@@ -6,10 +6,10 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -162,14 +162,14 @@ R1-3: 220, RN1: 330, RN2: 10k,
 C1: 0.1u, C2-3: 0.01u, 
 IC1: 74LS07, OK1: TLP552,
 MC1: Arduino Micro 5V</text>
-<text x="25" y="36" size="1" layer="25" align="bottom-center">Chief Engineer, Pineapple Computer
+<text x="25" y="32" size="1" layer="25" align="bottom-center">Chief Engineer, Pineapple Computer
 Chief Curator, TEDxSaikai
 Professor, The University of Nagasaki
 https://pineapple.cc
 Email: kanaya@pineapple.cc
 Twitter: @kanaya</text>
 <text x="50.8" y="50.8" size="1" layer="25" align="center">USB</text>
-<text x="25" y="47" size="1.5" layer="25" align="center">Ichi KANAYA, Ph.D.</text>
+<text x="25" y="44" size="2" layer="25" align="center">Ichi KANAYA, Ph.D.</text>
 <rectangle x1="0" y1="0" x2="91" y2="1" layer="41"/>
 <rectangle x1="90" y1="0" x2="91" y2="55" layer="41"/>
 <rectangle x1="0" y1="54" x2="91" y2="55" layer="41"/>
@@ -3346,7 +3346,7 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U$1" library="pineapple" package="PINEAPPLE450" value="PINEAPPLE450" x="25" y="49"/>
+<element name="U$1" library="pineapple" package="PINEAPPLE450" value="PINEAPPLE450" x="25" y="48"/>
 <element name="U$2" library="adafruit" package="ARDUINOMICRO" value="ARDUINOMICRO" x="50.8" y="30.48" rot="R270"/>
 <element name="MIDIOUT" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="DIN5-RA-PTH" package3d_urn="urn:adsk.eagle:package:38294/1" value="DIN5" x="91" y="37.25" smashed="yes" rot="R90">
 <attribute name="NAME" x="85" y="48" size="1" layer="25" font="vector" ratio="20" align="center"/>
@@ -3471,7 +3471,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="22.46" y="11.825" size="1.27" layer="27"/>
 </element>
 <element name="PWM" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X08" package3d_urn="urn:adsk.eagle:package:22409/2" value="" x="39.37" y="36.83" smashed="yes" rot="R90">
-<attribute name="NAME" x="36.83" y="36.83" size="1" layer="25" ratio="10" rot="R90" align="center"/>
+<attribute name="NAME" x="39.37" y="49.53" size="1" layer="25" ratio="10" rot="R90" align="center"/>
 <attribute name="VALUE" x="42.545" y="26.67" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="DC12V" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="POWER_JACK_PTH" package3d_urn="urn:adsk.eagle:package:38231/1" value="POWER_JACK" x="0" y="10" smashed="yes" rot="R270">
