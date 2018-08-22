@@ -23840,7 +23840,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U$2" gate="G$1" pin="GND"/>
 <pinref part="SUPPLY15" gate="GND" pin="GND"/>
 <wire x1="43.18" y1="58.42" x2="40.64" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="58.42" x2="40.64" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="58.42" x2="40.64" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="DC12V" gate="G$1" pin="GND"/>
+<wire x1="40.64" y1="50.8" x2="40.64" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="50.8" x2="22.86" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="DC12V" gate="G$1" pin="GNDBREAK"/>
+<wire x1="20.32" y1="53.34" x2="22.86" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="53.34" x2="22.86" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="50.8" x2="40.64" y2="50.8" width="0.1524" layer="91"/>
+<junction x="22.86" y="50.8"/>
+<junction x="40.64" y="50.8"/>
 </segment>
 </net>
 <net name="MIDIOUT" class="0">
@@ -24409,18 +24418,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="35.56" y1="88.9" x2="35.56" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="VCC-GND-VDD" gate="J$1" pin="3"/>
 <wire x1="35.56" y1="33.02" x2="20.32" y2="33.02" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="DC12V" gate="G$1" pin="GND"/>
-<pinref part="U$2" gate="G$1" pin="SCK"/>
-<wire x1="20.32" y1="50.8" x2="22.86" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="DC12V" gate="G$1" pin="GNDBREAK"/>
-<wire x1="22.86" y1="50.8" x2="43.18" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="53.34" x2="22.86" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="53.34" x2="22.86" y2="50.8" width="0.1524" layer="91"/>
-<junction x="22.86" y="50.8"/>
 </segment>
 </net>
 </nets>
