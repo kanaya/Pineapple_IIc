@@ -24573,7 +24573,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <part name="RST" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="JST-PTH-2" package3d_urn="urn:adsk.eagle:package:38053/1"/>
 <part name="I2C-A" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="I2C-B" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
-<part name="I2C-ENBL2CUT" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="CUT2ENBLI2C" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -24648,7 +24648,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <instance part="RST" gate="G$1" x="15.24" y="35.56" rot="MR180"/>
 <instance part="I2C-A" gate="A" x="91.44" y="30.48" rot="MR270"/>
 <instance part="I2C-B" gate="A" x="114.3" y="50.8" rot="R90"/>
-<instance part="I2C-ENBL2CUT" gate="G$1" x="114.3" y="35.56"/>
+<instance part="CUT2ENBLI2C" gate="G$1" x="114.3" y="35.56"/>
 <instance part="SUPPLY14" gate="GND" x="109.22" y="27.94"/>
 </instances>
 <busses>
@@ -24814,7 +24814,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <wire x1="99.06" y1="40.64" x2="99.06" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="I2C-ENBL2CUT" gate="G$1" pin="2"/>
+<pinref part="CUT2ENBLI2C" gate="G$1" pin="2"/>
 <wire x1="111.76" y1="35.56" x2="109.22" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="SUPPLY14" gate="GND" pin="GND"/>
 <wire x1="109.22" y1="35.56" x2="109.22" y2="30.48" width="0.1524" layer="91"/>
@@ -25456,7 +25456,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <segment>
 <pinref part="I2C-B" gate="A" pin="1"/>
 <wire x1="109.22" y1="48.26" x2="109.22" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="I2C-ENBL2CUT" gate="G$1" pin="1"/>
+<pinref part="CUT2ENBLI2C" gate="G$1" pin="1"/>
 <wire x1="109.22" y1="38.1" x2="111.76" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
