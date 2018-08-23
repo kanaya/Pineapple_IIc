@@ -25742,8 +25742,8 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <part name="SUPPLY23" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="VCC" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 <part name="RST" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="JST-PTH-2" package3d_urn="urn:adsk.eagle:package:38053/1"/>
-<part name="I2C-A" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
-<part name="I2C-B" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
+<part name="&lt;A&gt;" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
+<part name="&lt;B&gt;" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X4" device="" package3d_urn="urn:adsk.eagle:package:22461/2"/>
 <part name="I2C" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="JST-PTH-VERT" package3d_urn="urn:adsk.eagle:package:38102/1"/>
@@ -25818,8 +25818,8 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <instance part="SUPPLY23" gate="G$1" x="48.26" y="157.48"/>
 <instance part="VCC" gate="A" x="12.7" y="91.44" rot="MR0"/>
 <instance part="RST" gate="G$1" x="15.24" y="35.56" rot="MR180"/>
-<instance part="I2C-A" gate="A" x="86.36" y="43.18" rot="MR270"/>
-<instance part="I2C-B" gate="A" x="83.82" y="20.32" rot="R270"/>
+<instance part="&lt;A&gt;" gate="A" x="86.36" y="43.18" rot="MR270"/>
+<instance part="&lt;B&gt;" gate="A" x="83.82" y="20.32" rot="R270"/>
 <instance part="SUPPLY14" gate="GND" x="104.14" y="17.78"/>
 <instance part="JP1" gate="A" x="109.22" y="30.48" rot="R90"/>
 <instance part="I2C" gate="G$1" x="60.96" y="33.02"/>
@@ -25984,7 +25984,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <wire x1="25.4" y1="33.02" x2="25.4" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="I2C-A" gate="A" pin="4"/>
+<pinref part="&lt;A&gt;" gate="A" pin="4"/>
 <wire x1="88.9" y1="45.72" x2="88.9" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="SUPPLY20" gate="GND" pin="GND"/>
 <wire x1="88.9" y1="53.34" x2="93.98" y2="53.34" width="0.1524" layer="91"/>
@@ -26107,7 +26107,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 </segment>
 <segment>
 <pinref part="SUPPLY19" gate="G$1" pin="VCC"/>
-<pinref part="I2C-A" gate="A" pin="1"/>
+<pinref part="&lt;A&gt;" gate="A" pin="1"/>
 <wire x1="81.28" y1="50.8" x2="81.28" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -26210,7 +26210,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <label x="68.58" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="I2C-A" gate="A" pin="2"/>
+<pinref part="&lt;A&gt;" gate="A" pin="2"/>
 <wire x1="78.74" y1="60.96" x2="83.82" y2="58.42" width="0.1524" layer="91" curve="-90"/>
 <wire x1="83.82" y1="58.42" x2="83.82" y2="45.72" width="0.1524" layer="91"/>
 <label x="86.36" y="40.64" size="1.778" layer="95" rot="R90"/>
@@ -26361,7 +26361,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <label x="99.06" y="91.44" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="I2C-A" gate="A" pin="3"/>
+<pinref part="&lt;A&gt;" gate="A" pin="3"/>
 <wire x1="83.82" y1="63.5" x2="86.36" y2="60.96" width="0.1524" layer="91" curve="-90"/>
 <wire x1="86.36" y1="60.96" x2="86.36" y2="45.72" width="0.1524" layer="91"/>
 <label x="88.9" y="40.64" size="1.778" layer="95" rot="R90"/>
@@ -26651,7 +26651,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 </net>
 <net name="I2CENABLE" class="0">
 <segment>
-<pinref part="I2C-B" gate="A" pin="1"/>
+<pinref part="&lt;B&gt;" gate="A" pin="1"/>
 <wire x1="88.9" y1="22.86" x2="88.9" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="38.1" x2="104.14" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="38.1" x2="104.14" y2="35.56" width="0.1524" layer="91"/>
@@ -26685,7 +26685,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 </net>
 <net name="SDA" class="0">
 <segment>
-<pinref part="I2C-B" gate="A" pin="2"/>
+<pinref part="&lt;B&gt;" gate="A" pin="2"/>
 <wire x1="86.36" y1="22.86" x2="86.36" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="I2C" gate="G$1" pin="2"/>
 <wire x1="86.36" y1="33.02" x2="66.04" y2="33.02" width="0.1524" layer="91"/>
@@ -26694,18 +26694,18 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 </net>
 <net name="SCL" class="0">
 <segment>
-<pinref part="I2C-B" gate="A" pin="3"/>
+<pinref part="&lt;B&gt;" gate="A" pin="3"/>
 <wire x1="83.82" y1="22.86" x2="83.82" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="I2C" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="30.48" x2="66.04" y2="30.48" width="0.1524" layer="91"/>
 <label x="73.66" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="VDD" class="0">
+<net name="V" class="0">
 <segment>
 <pinref part="I2C" gate="G$1" pin="3"/>
 <wire x1="66.04" y1="35.56" x2="78.74" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="I2C-B" gate="A" pin="4"/>
+<pinref part="&lt;B&gt;" gate="A" pin="4"/>
 <wire x1="78.74" y1="35.56" x2="81.28" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="35.56" x2="81.28" y2="22.86" width="0.1524" layer="91"/>
 <label x="73.66" y="35.56" size="1.778" layer="95"/>
