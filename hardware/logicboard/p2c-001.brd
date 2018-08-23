@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
@@ -18,8 +18,8 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -158,9 +158,9 @@
 <hole x="88" y="52" drill="2.2"/>
 <hole x="88" y="3" drill="2.2"/>
 <text x="36.83" y="50.8" size="1.27" layer="26" rot="MR0" align="top-left">Pineapple IIc 1.0.0</text>
-<text x="15" y="30" size="1" layer="25">Founder, Pineapple Computer
+<text x="15" y="37" size="1" layer="25" align="top-left">Founder, Pineapple Computer
 Founder, TEDxSaikai
-Professor, University of Nagasaki
+Professor, Univ. of Nagasaki
 https://pineapple.cc
 kanaya@pineapple.cc, @kanaya</text>
 <text x="39.37" y="52.705" size="1" layer="25" rot="R90" align="center">USB&gt;&gt;</text>
