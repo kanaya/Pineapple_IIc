@@ -14,8 +14,9 @@ Install the following components.
 * C2-3
 * MC1
 * Con DC
+* _Short_ CUT2ENBLI2C.
 
-### Pineapple II compatible mode
+### Analog to MIDI (Pineapple II compatible) mode
 
 * R3
 * RN1
@@ -26,7 +27,9 @@ Install the following components.
 * Con Analog
 * Con MIDI OUT
 
-### Pineapple Mini compatible mode
+Do not install R4. The relay is connected to PWM6 (LED7) via R4.
+
+### MIDI to Relay (Pineapple Mini compatible) mode
 
 * R1-2
 * R4-5
@@ -37,14 +40,20 @@ Install the following components.
 * Con MIDI IN
 * Con Relay
 
+### I2C mode
+
+* Con I2C
 
 ### Other optional components
 
-* Con I2C
 * Con PWM
 * Con RST
 * Con Vcc
 
-To use I2C, be aware that Vcc and signal level are set to 5V. Pull-up resistors are not installed. Use level converter to communicate with 3.3V I2C devices.
+To use I2C, be aware that Vcc and signal level are set to 5V. Pull-up resistors are not installed. Use level converter to communicate with 3.3V I2C devices. Do not install LED1 nor SW for using I2C.
 
+## How to connect
 
+### Pineapple II compatible mode
+
+Supply DC12V to DC Jack connector. Plug
