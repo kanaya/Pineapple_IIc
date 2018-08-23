@@ -25033,8 +25033,8 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <part name="U$1" library="pineapple" deviceset="PINEAPPLE450" device=""/>
 <part name="U$2" library="adafruit" deviceset="ARDUINOMICRO" device=""/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="MIDIOUT" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="DIN5" device="" package3d_urn="urn:adsk.eagle:package:38294/1"/>
-<part name="MIDIIN" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="DIN5" device="" package3d_urn="urn:adsk.eagle:package:38294/1"/>
+<part name="MIDI-OUT" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="DIN5" device="" package3d_urn="urn:adsk.eagle:package:38294/1"/>
+<part name="MIDI-IN" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="DIN5" device="" package3d_urn="urn:adsk.eagle:package:38294/1"/>
 <part name="IC1" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*07" device="N" package3d_urn="urn:adsk.eagle:package:2921/1" technology="LS"/>
 <part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0204/5" package3d_urn="urn:adsk.eagle:package:25955/1" value="220"/>
 <part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0204/5" package3d_urn="urn:adsk.eagle:package:25955/1" value="220"/>
@@ -25045,7 +25045,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <part name="OK1" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="6N137" device="" package3d_urn="urn:adsk.eagle:package:21941/1"/>
 <part name="D1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE" device="-1N4148" package3d_urn="urn:adsk.eagle:package:38452/1" value=""/>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
-<part name="ANALOG-PULLDOWN" library="con-ml" library_urn="urn:adsk.eagle:library:164" deviceset="ML14L" device="" package3d_urn="urn:adsk.eagle:package:8677/1"/>
+<part name="ANALOG" library="con-ml" library_urn="urn:adsk.eagle:library:164" deviceset="ML14L" device="" package3d_urn="urn:adsk.eagle:package:8677/1"/>
 <part name="SW" library="switch-dil" library_urn="urn:adsk.eagle:library:375" deviceset="A1353HEX" device="" package3d_urn="urn:adsk.eagle:package:27207/1"/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="B152" package3d_urn="urn:adsk.eagle:package:15803/1"/>
@@ -25087,7 +25087,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <part name="K1" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="G5V1" device="" package3d_urn="urn:adsk.eagle:package:24341/1"/>
 <part name="D2" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE" device="-1N4148" package3d_urn="urn:adsk.eagle:package:38452/1" value=""/>
 <part name="SUPPLY23" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
-<part name="+5V" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
+<part name="VCC" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 <part name="RST" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="JST-PTH-2" package3d_urn="urn:adsk.eagle:package:38053/1"/>
 </parts>
 <sheets>
@@ -25099,8 +25099,8 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <instance part="U$1" gate="G$1" x="187.96" y="7.62"/>
 <instance part="U$2" gate="G$1" x="55.88" y="71.12" rot="R270"/>
 <instance part="SUPPLY1" gate="GND" x="71.12" y="27.94"/>
-<instance part="MIDIOUT" gate="G$1" x="205.74" y="50.8"/>
-<instance part="MIDIIN" gate="G$1" x="205.74" y="76.2"/>
+<instance part="MIDI-OUT" gate="G$1" x="205.74" y="50.8"/>
+<instance part="MIDI-IN" gate="G$1" x="205.74" y="76.2"/>
 <instance part="IC1" gate="A" x="167.64" y="55.88"/>
 <instance part="IC1" gate="B" x="238.76" y="73.66"/>
 <instance part="IC1" gate="C" x="238.76" y="63.5"/>
@@ -25116,7 +25116,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <instance part="OK1" gate="A" x="152.4" y="83.82" rot="MR0"/>
 <instance part="D1" gate="G$1" x="172.72" y="83.82"/>
 <instance part="SUPPLY5" gate="G$1" x="139.7" y="91.44"/>
-<instance part="ANALOG-PULLDOWN" gate="1" x="152.4" y="154.94" rot="R90"/>
+<instance part="ANALOG" gate="1" x="152.4" y="154.94" rot="R90"/>
 <instance part="SW" gate="1" x="114.3" y="40.64"/>
 <instance part="SUPPLY6" gate="GND" x="114.3" y="27.94"/>
 <instance part="LED1" gate="G$1" x="116.84" y="111.76"/>
@@ -25159,7 +25159,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <instance part="K1" gate="2" x="33.02" y="142.24"/>
 <instance part="D2" gate="G$1" x="58.42" y="144.78" rot="R90"/>
 <instance part="SUPPLY23" gate="G$1" x="48.26" y="157.48"/>
-<instance part="+5V" gate="A" x="12.7" y="91.44" rot="MR0"/>
+<instance part="VCC" gate="A" x="12.7" y="91.44" rot="MR0"/>
 <instance part="RST" gate="G$1" x="15.24" y="35.56" rot="MR180"/>
 </instances>
 <busses>
@@ -25215,7 +25215,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <wire x1="71.12" y1="45.72" x2="71.12" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="MIDIOUT" gate="G$1" pin="2"/>
+<pinref part="MIDI-OUT" gate="G$1" pin="2"/>
 <wire x1="205.74" y1="60.96" x2="205.74" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
 <wire x1="205.74" y1="63.5" x2="218.44" y2="63.5" width="0.1524" layer="91"/>
@@ -25313,7 +25313,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <wire x1="55.88" y1="116.84" x2="55.88" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="+5V" gate="A" pin="2"/>
+<pinref part="VCC" gate="A" pin="2"/>
 <wire x1="15.24" y1="91.44" x2="25.4" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="SUPPLY17" gate="GND" pin="GND"/>
 <wire x1="25.4" y1="91.44" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
@@ -25341,7 +25341,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 </net>
 <net name="MIDIOUT+" class="0">
 <segment>
-<pinref part="MIDIOUT" gate="G$1" pin="4"/>
+<pinref part="MIDI-OUT" gate="G$1" pin="4"/>
 <wire x1="213.36" y1="55.88" x2="213.36" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="66.04" x2="190.5" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
@@ -25375,15 +25375,15 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <wire x1="139.7" y1="86.36" x2="142.24" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="ANALOG-PULLDOWN" gate="1" pin="1"/>
+<pinref part="ANALOG" gate="1" pin="1"/>
 <wire x1="160.02" y1="162.56" x2="160.02" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="SUPPLY8" gate="G$1" pin="VCC"/>
 <wire x1="160.02" y1="167.64" x2="160.02" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="ANALOG-PULLDOWN" gate="1" pin="13"/>
+<pinref part="ANALOG" gate="1" pin="13"/>
 <wire x1="144.78" y1="162.56" x2="144.78" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="165.1" x2="157.48" y2="165.1" width="0.1524" layer="91"/>
 <junction x="160.02" y="165.1"/>
-<pinref part="ANALOG-PULLDOWN" gate="1" pin="11"/>
+<pinref part="ANALOG" gate="1" pin="11"/>
 <wire x1="157.48" y1="165.1" x2="154.94" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="165.1" x2="152.4" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="165.1" x2="149.86" y2="165.1" width="0.1524" layer="91"/>
@@ -25391,16 +25391,16 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <wire x1="147.32" y1="165.1" x2="144.78" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="162.56" x2="147.32" y2="165.1" width="0.1524" layer="91"/>
 <junction x="147.32" y="165.1"/>
-<pinref part="ANALOG-PULLDOWN" gate="1" pin="9"/>
+<pinref part="ANALOG" gate="1" pin="9"/>
 <wire x1="149.86" y1="162.56" x2="149.86" y2="165.1" width="0.1524" layer="91"/>
 <junction x="149.86" y="165.1"/>
-<pinref part="ANALOG-PULLDOWN" gate="1" pin="7"/>
+<pinref part="ANALOG" gate="1" pin="7"/>
 <wire x1="152.4" y1="162.56" x2="152.4" y2="165.1" width="0.1524" layer="91"/>
 <junction x="152.4" y="165.1"/>
-<pinref part="ANALOG-PULLDOWN" gate="1" pin="5"/>
+<pinref part="ANALOG" gate="1" pin="5"/>
 <wire x1="154.94" y1="162.56" x2="154.94" y2="165.1" width="0.1524" layer="91"/>
 <junction x="154.94" y="165.1"/>
-<pinref part="ANALOG-PULLDOWN" gate="1" pin="3"/>
+<pinref part="ANALOG" gate="1" pin="3"/>
 <wire x1="157.48" y1="162.56" x2="157.48" y2="165.1" width="0.1524" layer="91"/>
 <junction x="157.48" y="165.1"/>
 </segment>
@@ -25436,20 +25436,20 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <segment>
 <pinref part="SUPPLY16" gate="G$1" pin="VCC"/>
 <wire x1="25.4" y1="96.52" x2="25.4" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="+5V" gate="A" pin="1"/>
+<pinref part="VCC" gate="A" pin="1"/>
 <wire x1="25.4" y1="93.98" x2="15.24" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MIDIOUT-" class="0">
 <segment>
-<pinref part="MIDIOUT" gate="G$1" pin="5"/>
+<pinref part="MIDI-OUT" gate="G$1" pin="5"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="198.12" y1="55.88" x2="190.5" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MIDIIN+" class="0">
 <segment>
-<pinref part="MIDIIN" gate="G$1" pin="4"/>
+<pinref part="MIDI-IN" gate="G$1" pin="4"/>
 <wire x1="213.36" y1="81.28" x2="215.9" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="81.28" x2="215.9" y2="88.9" width="0.1524" layer="91"/>
@@ -25471,7 +25471,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <net name="MIDIIN-" class="0">
 <segment>
 <pinref part="OK1" gate="A" pin="C"/>
-<pinref part="MIDIIN" gate="G$1" pin="5"/>
+<pinref part="MIDI-IN" gate="G$1" pin="5"/>
 <wire x1="165.1" y1="81.28" x2="167.64" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="81.28" x2="198.12" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="81.28" x2="167.64" y2="83.82" width="0.1524" layer="91"/>
@@ -25750,7 +25750,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 </net>
 <net name="ANLG_0" class="0">
 <segment>
-<pinref part="ANALOG-PULLDOWN" gate="1" pin="2"/>
+<pinref part="ANALOG" gate="1" pin="2"/>
 <wire x1="157.48" y1="134.62" x2="160.02" y2="137.16" width="0.1524" layer="91" curve="90"/>
 <wire x1="160.02" y1="137.16" x2="160.02" y2="147.32" width="0.1524" layer="91"/>
 <label x="160.02" y="137.16" size="1.778" layer="95" rot="R90"/>
@@ -25770,7 +25770,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 </net>
 <net name="ANLG_1" class="0">
 <segment>
-<pinref part="ANALOG-PULLDOWN" gate="1" pin="4"/>
+<pinref part="ANALOG" gate="1" pin="4"/>
 <wire x1="154.94" y1="134.62" x2="157.48" y2="137.16" width="0.1524" layer="91" curve="90"/>
 <wire x1="157.48" y1="137.16" x2="157.48" y2="147.32" width="0.1524" layer="91"/>
 <label x="157.48" y="137.16" size="1.778" layer="95" rot="R90"/>
@@ -25790,7 +25790,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 </net>
 <net name="ANLG_2" class="0">
 <segment>
-<pinref part="ANALOG-PULLDOWN" gate="1" pin="6"/>
+<pinref part="ANALOG" gate="1" pin="6"/>
 <wire x1="152.4" y1="134.62" x2="154.94" y2="137.16" width="0.1524" layer="91" curve="90"/>
 <wire x1="154.94" y1="137.16" x2="154.94" y2="147.32" width="0.1524" layer="91"/>
 <label x="154.94" y="137.16" size="1.778" layer="95" rot="R90"/>
@@ -25810,7 +25810,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 </net>
 <net name="ANLG_3" class="0">
 <segment>
-<pinref part="ANALOG-PULLDOWN" gate="1" pin="8"/>
+<pinref part="ANALOG" gate="1" pin="8"/>
 <wire x1="149.86" y1="134.62" x2="152.4" y2="137.16" width="0.1524" layer="91" curve="90"/>
 <wire x1="152.4" y1="137.16" x2="152.4" y2="147.32" width="0.1524" layer="91"/>
 <label x="152.4" y="137.16" size="1.778" layer="95" rot="R90"/>
@@ -25830,7 +25830,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 </net>
 <net name="ANLG_4" class="0">
 <segment>
-<pinref part="ANALOG-PULLDOWN" gate="1" pin="10"/>
+<pinref part="ANALOG" gate="1" pin="10"/>
 <wire x1="147.32" y1="134.62" x2="149.86" y2="137.16" width="0.1524" layer="91" curve="90"/>
 <wire x1="149.86" y1="137.16" x2="149.86" y2="147.32" width="0.1524" layer="91"/>
 <label x="149.86" y="137.16" size="1.778" layer="95" rot="R90"/>
@@ -25850,7 +25850,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 </net>
 <net name="ANLG_5" class="0">
 <segment>
-<pinref part="ANALOG-PULLDOWN" gate="1" pin="12"/>
+<pinref part="ANALOG" gate="1" pin="12"/>
 <wire x1="144.78" y1="134.62" x2="147.32" y2="137.16" width="0.1524" layer="91" curve="90"/>
 <wire x1="147.32" y1="137.16" x2="147.32" y2="147.32" width="0.1524" layer="91"/>
 <label x="147.32" y="137.16" size="1.778" layer="95" rot="R90"/>
@@ -25870,7 +25870,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 </net>
 <net name="ANLG_6" class="0">
 <segment>
-<pinref part="ANALOG-PULLDOWN" gate="1" pin="14"/>
+<pinref part="ANALOG" gate="1" pin="14"/>
 <wire x1="142.24" y1="134.62" x2="144.78" y2="137.16" width="0.1524" layer="91" curve="90"/>
 <wire x1="144.78" y1="137.16" x2="144.78" y2="147.32" width="0.1524" layer="91"/>
 <label x="144.78" y="137.16" size="1.778" layer="95" rot="R90"/>
@@ -25920,7 +25920,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <net name="N$2" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="3V"/>
-<pinref part="+5V" gate="A" pin="3"/>
+<pinref part="VCC" gate="A" pin="3"/>
 <wire x1="43.18" y1="88.9" x2="15.24" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
