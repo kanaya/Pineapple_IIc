@@ -25747,6 +25747,11 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X4" device="" package3d_urn="urn:adsk.eagle:package:22461/2"/>
 <part name="I2C" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="JST-PTH-VERT" package3d_urn="urn:adsk.eagle:package:38102/1"/>
+<part name="MIDI-OUT-ALT" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="JST-PTH" package3d_urn="urn:adsk.eagle:package:38069/1"/>
+<part name="MIDI-IN-ALT" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="JST-PTH-2" package3d_urn="urn:adsk.eagle:package:38053/1"/>
+<part name="SUPPLY24" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="PWR" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1"/>
+<part name="SUPPLY25" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -25757,23 +25762,23 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <instance part="U$1" gate="G$1" x="187.96" y="7.62"/>
 <instance part="U$2" gate="G$1" x="55.88" y="71.12" rot="R270"/>
 <instance part="SUPPLY1" gate="GND" x="71.12" y="17.78"/>
-<instance part="MIDI-OUT" gate="G$1" x="205.74" y="50.8"/>
-<instance part="MIDI-IN" gate="G$1" x="205.74" y="76.2"/>
-<instance part="IC1" gate="A" x="167.64" y="55.88"/>
+<instance part="MIDI-OUT" gate="G$1" x="210.82" y="50.8"/>
+<instance part="MIDI-IN" gate="G$1" x="210.82" y="76.2"/>
+<instance part="IC1" gate="A" x="152.4" y="55.88"/>
 <instance part="IC1" gate="B" x="238.76" y="73.66"/>
 <instance part="IC1" gate="C" x="238.76" y="63.5"/>
 <instance part="IC1" gate="D" x="238.76" y="53.34"/>
 <instance part="IC1" gate="E" x="238.76" y="43.18"/>
 <instance part="IC1" gate="F" x="238.76" y="33.02"/>
-<instance part="R1" gate="G$1" x="185.42" y="88.9"/>
-<instance part="R2" gate="G$1" x="185.42" y="66.04"/>
-<instance part="R3" gate="G$1" x="185.42" y="55.88"/>
-<instance part="SUPPLY2" gate="GND" x="218.44" y="27.94"/>
+<instance part="R1" gate="G$1" x="180.34" y="88.9"/>
+<instance part="R2" gate="G$1" x="170.18" y="66.04"/>
+<instance part="R3" gate="G$1" x="170.18" y="55.88"/>
+<instance part="SUPPLY2" gate="GND" x="223.52" y="27.94"/>
 <instance part="SUPPLY3" gate="G$1" x="25.4" y="68.58"/>
-<instance part="SUPPLY4" gate="G$1" x="177.8" y="71.12"/>
-<instance part="OK1" gate="A" x="152.4" y="83.82" rot="MR0"/>
-<instance part="D1" gate="G$1" x="172.72" y="83.82"/>
-<instance part="SUPPLY5" gate="G$1" x="139.7" y="91.44"/>
+<instance part="SUPPLY4" gate="G$1" x="134.62" y="71.12"/>
+<instance part="OK1" gate="A" x="147.32" y="83.82" rot="MR0"/>
+<instance part="D1" gate="G$1" x="167.64" y="83.82"/>
+<instance part="SUPPLY5" gate="G$1" x="134.62" y="91.44"/>
 <instance part="ANALOG" gate="1" x="152.4" y="154.94" rot="R90"/>
 <instance part="SW1" gate="1" x="134.62" y="33.02"/>
 <instance part="SUPPLY6" gate="GND" x="134.62" y="17.78"/>
@@ -25817,12 +25822,17 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <instance part="D2" gate="G$1" x="58.42" y="144.78" rot="R90"/>
 <instance part="SUPPLY23" gate="G$1" x="48.26" y="157.48"/>
 <instance part="VCC" gate="A" x="12.7" y="91.44" rot="MR0"/>
-<instance part="RST" gate="G$1" x="15.24" y="35.56" rot="MR180"/>
+<instance part="RST" gate="G$1" x="15.24" y="25.4" rot="MR180"/>
 <instance part="&lt;A&gt;" gate="A" x="86.36" y="43.18" rot="MR270"/>
 <instance part="&lt;B&gt;" gate="A" x="83.82" y="20.32" rot="R270"/>
 <instance part="SUPPLY14" gate="GND" x="104.14" y="17.78"/>
 <instance part="JP1" gate="A" x="109.22" y="30.48" rot="R90"/>
 <instance part="I2C" gate="G$1" x="60.96" y="33.02"/>
+<instance part="MIDI-OUT-ALT" gate="J$1" x="190.5" y="43.18" rot="MR90"/>
+<instance part="MIDI-IN-ALT" gate="G$1" x="190.5" y="71.12" rot="MR90"/>
+<instance part="SUPPLY24" gate="GND" x="172.72" y="40.64"/>
+<instance part="PWR" gate="G$1" x="15.24" y="40.64" rot="MR180"/>
+<instance part="SUPPLY25" gate="GND" x="27.94" y="17.78"/>
 </instances>
 <busses>
 <bus name="ANLG:ANLG_0,ANLG_1,ANLG_2,ANLG_3,ANLG_4,ANLG_5,ANLG_6">
@@ -25882,10 +25892,10 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 </segment>
 <segment>
 <pinref part="MIDI-OUT" gate="G$1" pin="2"/>
-<wire x1="205.74" y1="60.96" x2="205.74" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="60.96" x2="210.82" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
-<wire x1="205.74" y1="63.5" x2="218.44" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="63.5" x2="218.44" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="63.5" x2="223.52" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="63.5" x2="223.52" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SW1" gate="1" pin="C"/>
@@ -25980,8 +25990,8 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <segment>
 <pinref part="RST" gate="G$1" pin="2"/>
 <pinref part="SUPPLY13" gate="GND" pin="GND"/>
-<wire x1="22.86" y1="33.02" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="33.02" x2="25.4" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="22.86" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="22.86" x2="25.4" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="&lt;A&gt;" gate="A" pin="4"/>
@@ -25995,35 +26005,57 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <pinref part="SUPPLY14" gate="GND" pin="GND"/>
 <wire x1="104.14" y1="27.94" x2="104.14" y2="20.32" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="MIDI-OUT-ALT" gate="J$1" pin="2"/>
+<wire x1="190.5" y1="50.8" x2="190.5" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="SUPPLY24" gate="GND" pin="GND"/>
+<wire x1="190.5" y1="53.34" x2="172.72" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="53.34" x2="172.72" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="PWR" gate="G$1" pin="2"/>
+<pinref part="SUPPLY25" gate="GND" pin="GND"/>
+<wire x1="22.86" y1="38.1" x2="27.94" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="38.1" x2="27.94" y2="20.32" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="MIDIOUT" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="TX"/>
 <pinref part="IC1" gate="A" pin="I"/>
-<wire x1="68.58" y1="55.88" x2="157.48" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="55.88" x2="142.24" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MIDIOUTC" class="0">
 <segment>
 <pinref part="IC1" gate="A" pin="O"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="180.34" y1="55.88" x2="177.8" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="55.88" x2="162.56" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MIDIOUT+" class="0">
 <segment>
 <pinref part="MIDI-OUT" gate="G$1" pin="4"/>
-<wire x1="213.36" y1="55.88" x2="213.36" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="66.04" x2="190.5" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="55.88" x2="218.44" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="66.04" x2="187.96" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="MIDI-OUT-ALT" gate="J$1" pin="1"/>
+<wire x1="187.96" y1="66.04" x2="175.26" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="50.8" x2="187.96" y2="66.04" width="0.1524" layer="91"/>
+<junction x="187.96" y="66.04"/>
 </segment>
 </net>
 <net name="VIN" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="9V"/>
-<wire x1="43.18" y1="55.88" x2="22.86" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="55.88" x2="27.94" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="55.88" x2="22.86" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="55.88" x2="20.32" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="DC12V" gate="G$1" pin="PWR"/>
+<pinref part="PWR" gate="G$1" pin="1"/>
+<wire x1="22.86" y1="40.64" x2="27.94" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="40.64" x2="27.94" y2="55.88" width="0.1524" layer="91"/>
+<junction x="27.94" y="55.88"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -26035,15 +26067,15 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 </segment>
 <segment>
 <pinref part="SUPPLY4" gate="G$1" pin="VCC"/>
-<wire x1="177.8" y1="68.58" x2="177.8" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="68.58" x2="134.62" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="177.8" y1="66.04" x2="180.34" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="66.04" x2="165.1" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY5" gate="G$1" pin="VCC"/>
-<wire x1="139.7" y1="88.9" x2="139.7" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="88.9" x2="134.62" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="OK1" gate="A" pin="VE"/>
-<wire x1="139.7" y1="86.36" x2="142.24" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="86.36" x2="137.16" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="ANALOG" gate="1" pin="1"/>
@@ -26115,46 +26147,58 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <segment>
 <pinref part="MIDI-OUT" gate="G$1" pin="5"/>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="198.12" y1="55.88" x2="190.5" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="55.88" x2="193.04" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="MIDI-OUT-ALT" gate="J$1" pin="3"/>
+<wire x1="193.04" y1="55.88" x2="175.26" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="50.8" x2="193.04" y2="55.88" width="0.1524" layer="91"/>
+<junction x="193.04" y="55.88"/>
 </segment>
 </net>
 <net name="MIDIIN+" class="0">
 <segment>
 <pinref part="MIDI-IN" gate="G$1" pin="4"/>
-<wire x1="213.36" y1="81.28" x2="215.9" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="81.28" x2="220.98" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="215.9" y1="81.28" x2="215.9" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="88.9" x2="190.5" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="81.28" x2="220.98" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="88.9" x2="190.5" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="MIDI-IN-ALT" gate="G$1" pin="1"/>
+<wire x1="190.5" y1="88.9" x2="185.42" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="78.74" x2="190.5" y2="88.9" width="0.1524" layer="91"/>
+<junction x="190.5" y="88.9"/>
 </segment>
 </net>
 <net name="MIDIINA" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="OK1" gate="A" pin="A"/>
-<wire x1="180.34" y1="88.9" x2="177.8" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="88.9" x2="172.72" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="177.8" y1="88.9" x2="165.1" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="83.82" x2="177.8" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="83.82" x2="177.8" y2="88.9" width="0.1524" layer="91"/>
-<junction x="177.8" y="88.9"/>
+<wire x1="172.72" y1="88.9" x2="160.02" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="83.82" x2="172.72" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="83.82" x2="172.72" y2="88.9" width="0.1524" layer="91"/>
+<junction x="172.72" y="88.9"/>
 </segment>
 </net>
 <net name="MIDIIN-" class="0">
 <segment>
 <pinref part="OK1" gate="A" pin="C"/>
 <pinref part="MIDI-IN" gate="G$1" pin="5"/>
-<wire x1="165.1" y1="81.28" x2="167.64" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="81.28" x2="198.12" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="81.28" x2="167.64" y2="83.82" width="0.1524" layer="91"/>
-<junction x="167.64" y="81.28"/>
+<wire x1="160.02" y1="81.28" x2="162.56" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="81.28" x2="193.04" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="81.28" x2="203.2" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="81.28" x2="162.56" y2="83.82" width="0.1524" layer="91"/>
+<junction x="162.56" y="81.28"/>
 <pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="167.64" y1="83.82" x2="170.18" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="83.82" x2="165.1" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="MIDI-IN-ALT" gate="G$1" pin="2"/>
+<wire x1="193.04" y1="78.74" x2="193.04" y2="81.28" width="0.1524" layer="91"/>
+<junction x="193.04" y="81.28"/>
 </segment>
 </net>
 <net name="MIDIIN" class="0">
 <segment>
 <pinref part="OK1" gate="A" pin="VO"/>
-<wire x1="142.24" y1="83.82" x2="124.46" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="83.82" x2="124.46" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="RX"/>
 <wire x1="124.46" y1="83.82" x2="124.46" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="58.42" x2="68.58" y2="58.42" width="0.1524" layer="91"/>
@@ -26632,9 +26676,9 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <segment>
 <pinref part="U$2" gate="G$1" pin="R@1"/>
 <wire x1="43.18" y1="60.96" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="60.96" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="60.96" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="RST" gate="G$1" pin="1"/>
-<wire x1="25.4" y1="35.56" x2="22.86" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="25.4" x2="22.86" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SW0" class="0">
