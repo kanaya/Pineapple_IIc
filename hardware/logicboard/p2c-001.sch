@@ -26213,7 +26213,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <pinref part="&lt;A&gt;" gate="A" pin="2"/>
 <wire x1="78.74" y1="60.96" x2="83.82" y2="58.42" width="0.1524" layer="91" curve="-90"/>
 <wire x1="83.82" y1="58.42" x2="83.82" y2="45.72" width="0.1524" layer="91"/>
-<label x="86.36" y="40.64" size="1.778" layer="95" rot="R90"/>
+<label x="86.36" y="50.8" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <wire x1="114.3" y1="60.96" x2="116.84" y2="58.42" width="0.1524" layer="91" curve="-90"/>
@@ -26364,7 +26364,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <pinref part="&lt;A&gt;" gate="A" pin="3"/>
 <wire x1="83.82" y1="63.5" x2="86.36" y2="60.96" width="0.1524" layer="91" curve="-90"/>
 <wire x1="86.36" y1="60.96" x2="86.36" y2="45.72" width="0.1524" layer="91"/>
-<label x="88.9" y="40.64" size="1.778" layer="95" rot="R90"/>
+<label x="88.9" y="50.8" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="PWM_2" class="0">
