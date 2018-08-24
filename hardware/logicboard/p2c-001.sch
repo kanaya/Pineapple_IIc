@@ -30648,7 +30648,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <wire x1="40.64" y1="134.62" x2="22.86" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="RST" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="R@1"/>
 <wire x1="43.18" y1="60.96" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
@@ -30690,7 +30690,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <label x="127" y="43.18" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="RLYDRV" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="129.54" x2="68.58" y2="129.54" width="0.1524" layer="91"/>
