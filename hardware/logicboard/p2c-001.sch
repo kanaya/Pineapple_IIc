@@ -28552,7 +28552,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="SUPPLY11" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY12" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
+<part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S-COPPER" value="OSHW-LOGOS-COPPER"/>
 <part name="RELAY" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="JST-PTH" package3d_urn="urn:adsk.eagle:package:38069/1"/>
 <part name="SUPPLY13" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -28627,13 +28627,13 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <instance part="SUPPLY8" gate="G$1" x="160.02" y="170.18"/>
 <instance part="RN2" gate="1" x="165.1" y="104.14"/>
 <instance part="SUPPLY9" gate="GND" x="157.48" y="99.06"/>
-<instance part="C1" gate="G$1" x="215.9" y="147.32"/>
-<instance part="C2" gate="G$1" x="223.52" y="147.32"/>
-<instance part="C3" gate="G$1" x="231.14" y="147.32"/>
-<instance part="SUPPLY10" gate="G$1" x="231.14" y="157.48"/>
-<instance part="SUPPLY11" gate="GND" x="215.9" y="134.62"/>
+<instance part="C1" gate="G$1" x="226.06" y="91.44"/>
+<instance part="C2" gate="G$1" x="233.68" y="91.44"/>
+<instance part="C3" gate="G$1" x="241.3" y="91.44"/>
+<instance part="SUPPLY10" gate="G$1" x="241.3" y="101.6"/>
+<instance part="SUPPLY11" gate="GND" x="226.06" y="78.74"/>
 <instance part="SUPPLY12" gate="GND" x="226.06" y="27.94"/>
-<instance part="LOGO1" gate="G$1" x="144.78" y="12.7"/>
+<instance part="LOGO1" gate="G$1" x="241.3" y="165.1"/>
 <instance part="RELAY" gate="J$1" x="15.24" y="137.16" rot="MR180"/>
 <instance part="SUPPLY13" gate="GND" x="25.4" y="17.78"/>
 <instance part="SUPPLY15" gate="GND" x="40.64" y="17.78"/>
@@ -28644,7 +28644,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <instance part="DC12V" gate="G$1" x="17.78" y="48.26"/>
 <instance part="SUPPLY19" gate="G$1" x="81.28" y="53.34"/>
 <instance part="SUPPLY20" gate="GND" x="93.98" y="17.78"/>
-<instance part="U$3" gate="G$1" x="116.84" y="5.08"/>
+<instance part="U$3" gate="G$1" x="132.08" y="5.08"/>
 <instance part="R4" gate="G$1" x="63.5" y="129.54"/>
 <instance part="T1" gate="G$1" x="50.8" y="129.54" rot="MR0"/>
 <instance part="R5" gate="G$1" x="55.88" y="121.92" rot="R90"/>
@@ -28666,7 +28666,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <instance part="SUPPLY24" gate="GND" x="172.72" y="40.64"/>
 <instance part="PWR" gate="G$1" x="15.24" y="40.64" rot="MR180"/>
 <instance part="SUPPLY25" gate="GND" x="27.94" y="17.78"/>
-<instance part="U$4" gate="G$1" x="149.86" y="25.4"/>
+<instance part="U$4" gate="G$1" x="147.32" y="5.08"/>
 </instances>
 <busses>
 <bus name="ANLG:ANLG_0,ANLG_1,ANLG_2,ANLG_3,ANLG_4,ANLG_5,ANLG_6">
@@ -28751,16 +28751,16 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="SUPPLY11" gate="GND" pin="GND"/>
-<wire x1="215.9" y1="142.24" x2="215.9" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="86.36" x2="226.06" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="215.9" y1="139.7" x2="215.9" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="142.24" x2="223.52" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="139.7" x2="215.9" y2="139.7" width="0.1524" layer="91"/>
-<junction x="215.9" y="139.7"/>
+<wire x1="226.06" y1="83.82" x2="226.06" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="86.36" x2="233.68" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="83.82" x2="226.06" y2="83.82" width="0.1524" layer="91"/>
+<junction x="226.06" y="83.82"/>
 <pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="231.14" y1="142.24" x2="231.14" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="139.7" x2="223.52" y2="139.7" width="0.1524" layer="91"/>
-<junction x="223.52" y="139.7"/>
+<wire x1="241.3" y1="86.36" x2="241.3" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="83.82" x2="233.68" y2="83.82" width="0.1524" layer="91"/>
+<junction x="233.68" y="83.82"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="B" pin="I"/>
@@ -28944,16 +28944,16 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <segment>
 <pinref part="SUPPLY10" gate="G$1" pin="VCC"/>
 <pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="231.14" y1="154.94" x2="231.14" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="152.4" x2="231.14" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="152.4" x2="223.52" y2="152.4" width="0.1524" layer="91"/>
-<junction x="231.14" y="152.4"/>
+<wire x1="241.3" y1="99.06" x2="241.3" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="96.52" x2="241.3" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="96.52" x2="233.68" y2="96.52" width="0.1524" layer="91"/>
+<junction x="241.3" y="96.52"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="223.52" y1="152.4" x2="223.52" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="152.4" x2="215.9" y2="152.4" width="0.1524" layer="91"/>
-<junction x="223.52" y="152.4"/>
+<wire x1="233.68" y1="96.52" x2="233.68" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="96.52" x2="226.06" y2="96.52" width="0.1524" layer="91"/>
+<junction x="233.68" y="96.52"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="215.9" y1="152.4" x2="215.9" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="96.52" x2="226.06" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="K1" gate="1" pin="1"/>
