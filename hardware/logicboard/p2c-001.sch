@@ -192,7 +192,7 @@ DIN A4, landscape with location and doc. field</description>
 </library>
 <library name="pineapple">
 <packages>
-<package name="PINEAPPLE450">
+<package name="PINEAPPLE450_SILK">
 <rectangle x1="-5.7023" y1="0.0127" x2="-5.5753" y2="0.0381" layer="21"/>
 <rectangle x1="-4.3561" y1="0.0127" x2="-4.2291" y2="0.0381" layer="21"/>
 <rectangle x1="-3.6703" y1="0.0127" x2="-3.5433" y2="0.0381" layer="21"/>
@@ -3411,12 +3411,12 @@ DIN A4, landscape with location and doc. field</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PINEAPPLE450">
+<deviceset name="PINEAPPLE450_SILK">
 <gates>
 <gate name="G$1" symbol="PINEAPPLE1200" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="PINEAPPLE450">
+<device name="" package="PINEAPPLE450_SILK">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -23297,8 +23297,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </library>
 <library name="kanaya">
 <packages>
-<package name="KANAYA">
-<polygon width="0" layer="1">
+<package name="KANAYA_SILK">
+<polygon width="0" layer="21">
 <vertex x="-4.956296875" y="3.166209375"/>
 <vertex x="-5.064109375" y="3.095215625"/>
 <vertex x="-5.14825" y="3.018959375"/>
@@ -23384,7 +23384,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="-4.956296875" y="3.203021875"/>
 <vertex x="-4.956296875" y="3.184615625"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="-6.21845" y="2.145978125"/>
 <vertex x="-6.13693125" y="2.243265625"/>
 <vertex x="-6.083025" y="2.306371875"/>
@@ -23528,7 +23528,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="-7.2492" y="2.145978125"/>
 <vertex x="-6.733825" y="2.145978125"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="-9.158203125" y="1.84095"/>
 <vertex x="-9.00043125" y="1.76995625"/>
 <vertex x="-8.87421875" y="1.704215625"/>
@@ -23568,7 +23568,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="-9.18975" y="1.81465625"/>
 <vertex x="-9.173978125" y="1.827803125"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="-7.007290625" y="0.47888125"/>
 <vertex x="-6.8653" y="0.733934375"/>
 <vertex x="-6.745659375" y="0.97585"/>
@@ -23596,7 +23596,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="-6.97048125" y="0.452584375"/>
 <vertex x="-6.9888875" y="0.46573125"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="-0.812165625" y="3.4344125"/>
 <vertex x="-0.754315625" y="3.355528125"/>
 <vertex x="-0.714878125" y="3.30688125"/>
@@ -23630,7 +23630,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="-1.20001875" y="3.923496875"/>
 <vertex x="-1.004121875" y="3.69473125"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="-3.9465" y="3.4817375"/>
 <vertex x="-3.7755875" y="3.600065625"/>
 <vertex x="-3.632284375" y="3.71445"/>
@@ -23676,7 +23676,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="-4.148975" y="3.34895625"/>
 <vertex x="-4.0543125" y="3.40811875"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="-1.574725" y="2.924290625"/>
 <vertex x="-1.70619375" y="3.0242125"/>
 <vertex x="-1.8061125" y="3.109671875"/>
@@ -23794,7 +23794,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="-1.10930625" y="2.614015625"/>
 <vertex x="-1.33544375" y="2.7454875"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="-3.3364625" y="0.494671875"/>
 <vertex x="-3.3364625" y="1.180959375"/>
 <vertex x="-3.3364625" y="1.86724375"/>
@@ -23894,7 +23894,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="-2.50025625" y="0.494671875"/>
 <vertex x="-2.918359375" y="0.494671875"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="0.2239125" y="2.556171875"/>
 <vertex x="0.313325" y="2.537765625"/>
 <vertex x="0.41325" y="2.523303125"/>
@@ -23938,7 +23938,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0.2607375" y="2.351075"/>
 <vertex x="0.242325" y="2.453621875"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="10.000365625" y="4.44413125"/>
 <vertex x="10.000365625" y="4.457278125"/>
 <vertex x="9.996421875" y="4.469109375"/>
@@ -24041,7 +24041,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="9.991165625" y="4.396803125"/>
 <vertex x="10.000365625" y="4.4178375"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="8.4437375" y="2.082859375"/>
 <vertex x="8.470021875" y="2.303734375"/>
 <vertex x="8.48579375" y="2.45624375"/>
@@ -24117,7 +24117,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="8.859246875" y="2.082859375"/>
 <vertex x="8.65149375" y="2.082859375"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="8.32803125" y="0.7628625"/>
 <vertex x="8.322778125" y="0.731303125"/>
 <vertex x="8.317528125" y="0.69974375"/>
@@ -24147,7 +24147,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="8.529934375" y="0.744428125"/>
 <vertex x="8.440865625" y="0.752125"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="6.9712375" y="3.960303125"/>
 <vertex x="6.9712375" y="3.62373125"/>
 <vertex x="6.9712375" y="3.287159375"/>
@@ -24241,7 +24241,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="6.44009375" y="3.960303125"/>
 <vertex x="6.705665625" y="3.960303125"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="7.023825" y="0.883809375"/>
 <vertex x="7.04485625" y="0.799671875"/>
 <vertex x="7.0632625" y="0.745771875"/>
@@ -24295,7 +24295,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="6.993578125" y="0.99951875"/>
 <vertex x="7.005415625" y="0.9548125"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="6.0719625" y="1.078403125"/>
 <vertex x="6.0719625" y="1.704215625"/>
 <vertex x="6.0719625" y="2.33003125"/>
@@ -25471,12 +25471,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="KANAYA">
+<deviceset name="KANAYA_SILK">
 <gates>
 <gate name="G$1" symbol="KANAYA" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="KANAYA">
+<device name="" package="KANAYA_SILK">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -25672,9 +25672,9 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="pineapple_card_qr">
+<library name="pineapplecardqr">
 <packages>
-<package name="CARD_QR">
+<package name="PINEAPPLECARDQR_SILK">
 <rectangle x1="-0.0254" y1="-0.0254" x2="3.175" y2="0.0254" layer="21"/>
 <rectangle x1="3.6322" y1="-0.0254" x2="4.0894" y2="0.0254" layer="21"/>
 <rectangle x1="5.9182" y1="-0.0254" x2="6.8326" y2="0.0254" layer="21"/>
@@ -27082,7 +27082,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 </package>
 </packages>
 <symbols>
-<symbol name="CARD_QR">
+<symbol name="PINEAPPLECARDQR">
 <rectangle x1="-0.0254" y1="-0.0254" x2="3.175" y2="0.0254" layer="94"/>
 <rectangle x1="3.6322" y1="-0.0254" x2="4.0894" y2="0.0254" layer="94"/>
 <rectangle x1="5.9182" y1="-0.0254" x2="6.8326" y2="0.0254" layer="94"/>
@@ -28490,12 +28490,12 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CARD_QR">
+<deviceset name="PINEAPPLECARDQR_SILK">
 <gates>
-<gate name="G$1" symbol="CARD_QR" x="0" y="0"/>
+<gate name="G$1" symbol="PINEAPPLECARDQR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="CARD_QR">
+<device name="" package="PINEAPPLECARDQR_SILK">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -28516,7 +28516,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 </classes>
 <parts>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
-<part name="U$1" library="pineapple" deviceset="PINEAPPLE450" device=""/>
+<part name="U$1" library="pineapple" deviceset="PINEAPPLE450_SILK" device=""/>
 <part name="U$2" library="adafruit" deviceset="ARDUINOMICRO" device=""/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="MIDI-OUT" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="DIN5" device="" package3d_urn="urn:adsk.eagle:package:38294/1"/>
@@ -28563,7 +28563,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <part name="DC12V" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="POWER_JACK" device="" package3d_urn="urn:adsk.eagle:package:38231/1"/>
 <part name="SUPPLY19" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="SUPPLY20" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="U$3" library="kanaya" deviceset="KANAYA" device=""/>
+<part name="U$3" library="kanaya" deviceset="KANAYA_SILK" device=""/>
 <part name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0204/5" package3d_urn="urn:adsk.eagle:package:25955/1" value="10k"/>
 <part name="T1" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="2SC1815" device="" package3d_urn="urn:adsk.eagle:package:29929/2"/>
 <part name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0204/5" package3d_urn="urn:adsk.eagle:package:25955/1" value="10k"/>
@@ -28584,7 +28584,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <part name="SUPPLY24" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="PWR" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1"/>
 <part name="SUPPLY25" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="U$4" library="pineapple_card_qr" deviceset="CARD_QR" device=""/>
+<part name="U$4" library="pineapplecardqr" deviceset="PINEAPPLECARDQR_SILK" device=""/>
 </parts>
 <sheets>
 <sheet>
