@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -205,14 +205,15 @@ IC2: PCA9517ADP</text>
 <text x="23.32" y="4" size="1" layer="25" align="center">G</text>
 <text x="19.32" y="4" size="1" layer="25" align="center">D</text>
 <text x="17.32" y="4" size="1" layer="25" align="center">C</text>
-<text x="25.4" y="48.26" size="1" layer="26" rot="MR0" align="top-left">MC1: Arduino
-Micro 5V
+<text x="24.13" y="48.26" size="1" layer="26" rot="MR0" align="top-left">MC1: Arduino Micro 5V
 SW1: Comp. HEX
 Con Analog: MIL 14p
 Con DC: DC Jack
+Con GND: Pin 2x4p
 Con I2C: PH 4p
-Con MIDI: DIN 5p
+Con MIDI: DIN 5p/PH 5p
 Con PWM: Pin 8p
+Con PWR: Pin 2p
 Con Relay: PH 3p
 Con RST: PH 2p
 Con Vcc: Pin 3p
@@ -225,7 +226,7 @@ Short JP1 1, 3, 5</text>
 <text x="72.39" y="54.61" size="1" layer="25" align="top-center">D10</text>
 <text x="74.93" y="54.61" size="1" layer="25" align="top-center">D11</text>
 <text x="77.47" y="54.61" size="1" layer="25" align="top-center">D13</text>
-<text x="3.81" y="49.53" size="1" layer="25" align="center">Nrm.Op.</text>
+<text x="1" y="46.5" size="1" layer="25" align="center-left">N.O.</text>
 <text x="60.96" y="25.4" size="1" layer="25" rot="R90" align="center">Pineapple IIc 1.0.0</text>
 <circle x="3" y="52" radius="1.75" width="0.2" layer="41"/>
 <circle x="3" y="3" radius="1.75" width="0.2" layer="41"/>
@@ -238,6 +239,12 @@ Short JP1 1, 3, 5</text>
 <text x="50.8" y="42" size="1" layer="25" align="bottom-center">How to make</text>
 <rectangle x1="37.211" y1="29.21" x2="37.719" y2="48.26" layer="22"/>
 <rectangle x1="79.756" y1="49.53" x2="80.264" y2="50.8" layer="21"/>
+<text x="1" y="44.5" size="1" layer="25" align="center-left">Com.</text>
+<text x="1" y="42.5" size="1" layer="25" align="center-left">N.C.</text>
+<text x="53.8" y="22" size="1" layer="26" rot="MR0" align="center">V</text>
+<text x="51.8" y="22" size="1" layer="26" rot="MR0" align="center">G</text>
+<text x="49.8" y="22" size="1" layer="26" rot="MR0" align="center">8</text>
+<text x="47.8" y="22" size="1" layer="26" rot="MR0" align="center">12</text>
 </plain>
 <libraries>
 <library name="pineapple">
@@ -6495,10 +6502,12 @@ design rules under a new name.</description>
 <attribute name="SKU" value="PRT-09914" x="50.8" y="49" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="52.07" y="51.73" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0"/>
 </element>
-<element name="&lt;A&gt;" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X04" package3d_urn="urn:adsk.eagle:package:22407/2" value="" x="20.32" y="13.97" smashed="yes" rot="R180">
+<element name="A" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X04" package3d_urn="urn:adsk.eagle:package:22407/2" value="" x="20.32" y="13.97" smashed="yes" rot="R180">
+<attribute name="NAME" x="13.97" y="15.24" size="1" layer="25" ratio="10" rot="R270" align="center"/>
 <attribute name="VALUE" x="25.4" y="17.145" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="&lt;B&gt;" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X04" package3d_urn="urn:adsk.eagle:package:22407/2" value="" x="20.32" y="6.35" smashed="yes">
+<element name="B" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X04" package3d_urn="urn:adsk.eagle:package:22407/2" value="" x="20.32" y="6.35" smashed="yes">
+<attribute name="NAME" x="13.97" y="5.08" size="1" layer="25" ratio="10" rot="R90" align="center"/>
 <attribute name="VALUE" x="15.24" y="3.175" size="1.27" layer="27"/>
 </element>
 <element name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X04" package3d_urn="urn:adsk.eagle:package:22461/2" value="" x="31.75" y="16.51" smashed="yes">
@@ -6506,7 +6515,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="29.21" y="12.065" size="1.27" layer="27"/>
 </element>
 <element name="I2C" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="JST-4-PTH-VERT" package3d_urn="urn:adsk.eagle:package:38102/1" value="" x="20.32" y="2.5" smashed="yes">
-<attribute name="NAME" x="14" y="2.5" size="1" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
+<attribute name="NAME" x="14" y="2.5" size="1" layer="25" font="vector" ratio="20" align="center"/>
 <attribute name="PROD_ID" value="CONN-13251" x="20.32" y="2.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="18.669" y="-0.802" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
@@ -6561,7 +6570,7 @@ design rules under a new name.</description>
 <contactref element="T1" pad="E"/>
 <contactref element="R5" pad="1"/>
 <contactref element="RST" pad="2"/>
-<contactref element="&lt;A&gt;" pad="4"/>
+<contactref element="A" pad="4"/>
 <contactref element="JP1" pad="1"/>
 <contactref element="I2C" pad="4"/>
 <contactref element="PWR" pad="2"/>
@@ -6777,7 +6786,7 @@ design rules under a new name.</description>
 <contactref element="C1" pad="1"/>
 <contactref element="K1" pad="2"/>
 <contactref element="D2" pad="C"/>
-<contactref element="&lt;A&gt;" pad="1"/>
+<contactref element="A" pad="1"/>
 <contactref element="MONITOR" pad="1"/>
 <contactref element="VCC" pad="1"/>
 <wire x1="63.627" y1="26.67" x2="63.627" y2="25.527" width="0.127" layer="16"/>
@@ -7116,7 +7125,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="SW_0">
 <contactref element="U$2" pad="P$11"/>
-<contactref element="&lt;A&gt;" pad="2"/>
+<contactref element="A" pad="2"/>
 <contactref element="JP1" pad="4"/>
 <wire x1="24.1935" y1="16.5735" x2="21.717" y2="14.097" width="0.127" layer="16"/>
 <wire x1="29.337" y1="16.5735" x2="24.1935" y2="16.5735" width="0.127" layer="16"/>
@@ -7337,7 +7346,7 @@ design rules under a new name.</description>
 <signal name="PWM_0">
 <contactref element="L1" pad="A"/>
 <contactref element="U$2" pad="P$10"/>
-<contactref element="&lt;A&gt;" pad="3"/>
+<contactref element="A" pad="3"/>
 <contactref element="PWM" pad="1"/>
 <wire x1="62.103" y1="50.1015" x2="62.103" y2="52.0065" width="0.127" layer="1"/>
 <wire x1="60.579" y1="48.5775" x2="62.103" y2="50.1015" width="0.127" layer="1"/>
@@ -7741,7 +7750,7 @@ design rules under a new name.</description>
 <wire x1="28.0035" y1="8.9535" x2="27.94" y2="8.89" width="0.127" layer="16"/>
 </signal>
 <signal name="I2CENABLE">
-<contactref element="&lt;B&gt;" pad="1"/>
+<contactref element="B" pad="1"/>
 <contactref element="JP1" pad="2"/>
 <wire x1="20.0025" y1="9.906" x2="16.5735" y2="6.477" width="0.127" layer="1"/>
 <wire x1="22.479" y1="9.906" x2="20.0025" y2="9.906" width="0.127" layer="16"/>
@@ -7771,7 +7780,7 @@ design rules under a new name.</description>
 <wire x1="35.433" y1="15.24" x2="35.56" y2="15.24" width="0.127" layer="1"/>
 </signal>
 <signal name="SDA">
-<contactref element="&lt;B&gt;" pad="2"/>
+<contactref element="B" pad="2"/>
 <contactref element="I2C" pad="2"/>
 <wire x1="19.05" y1="2.286" x2="19.05" y2="6.2865" width="0.127" layer="1"/>
 <wire x1="19.2405" y1="2.0955" x2="19.05" y2="2.286" width="0.127" layer="1"/>
@@ -7779,7 +7788,7 @@ design rules under a new name.</description>
 <wire x1="19.2405" y1="2.0955" x2="19.32" y2="1.95" width="0.127" layer="1"/>
 </signal>
 <signal name="SCL">
-<contactref element="&lt;B&gt;" pad="3"/>
+<contactref element="B" pad="3"/>
 <contactref element="I2C" pad="1"/>
 <wire x1="17.3355" y1="2.0955" x2="21.5265" y2="6.2865" width="0.127" layer="16"/>
 <wire x1="21.5265" y1="6.2865" x2="21.59" y2="6.35" width="0.127" layer="16"/>
@@ -7787,7 +7796,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="V">
 <contactref element="I2C" pad="3"/>
-<contactref element="&lt;B&gt;" pad="4"/>
+<contactref element="B" pad="4"/>
 <wire x1="24.003" y1="4.7625" x2="24.003" y2="6.2865" width="0.127" layer="1"/>
 <wire x1="21.336" y1="2.0955" x2="24.003" y2="4.7625" width="0.127" layer="1"/>
 <wire x1="24.003" y1="6.2865" x2="24.13" y2="6.35" width="0.127" layer="1"/>
