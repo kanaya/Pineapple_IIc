@@ -31901,6 +31901,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="DIGITAL" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_09" device="" package3d_urn="urn:adsk.eagle:package:38153/1"/>
 <part name="XOUT" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_05" device="" package3d_urn="urn:adsk.eagle:package:38104/1"/>
 <part name="U$3" library="pineapple" deviceset="KANAYA768_SILK" device=""/>
+<part name="RCV" library="SparkFun-LED" deviceset="LED" device="-3MM-NO_SILK"/>
 </parts>
 <sheets>
 <sheet>
@@ -31985,6 +31986,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="DIGITAL" gate="G$1" x="121.92" y="81.28" rot="R180"/>
 <instance part="XOUT" gate="G$1" x="236.22" y="111.76" rot="MR180"/>
 <instance part="U$3" gate="G$1" x="187.96" y="5.08"/>
+<instance part="RCV" gate="G$1" x="142.24" y="99.06" rot="R90"/>
 </instances>
 <busses>
 <bus name="ANLG:ANLG_0,ANLG_1,ANLG_2,ANLG_3,ANLG_4,ANLG_5,ANLG_6">
@@ -32405,12 +32407,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="MIDIIN" class="0">
 <segment>
 <pinref part="OK1" gate="A" pin="VO"/>
-<wire x1="139.7" y1="83.82" x2="124.46" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="83.82" x2="132.08" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="RX"/>
-<wire x1="124.46" y1="83.82" x2="124.46" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="53.34" x2="73.66" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="83.82" x2="132.08" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="53.34" x2="73.66" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="53.34" x2="73.66" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="58.42" x2="68.58" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="99.06" x2="132.08" y2="83.82" width="0.1524" layer="91"/>
+<junction x="132.08" y="83.82"/>
+<pinref part="RCV" gate="G$1" pin="A"/>
+<wire x1="139.7" y1="99.06" x2="132.08" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SW_3" class="0">
@@ -33047,6 +33053,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="243.84" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="RN1" gate="1" pin="9"/>
+<wire x1="152.4" y1="104.14" x2="152.4" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="RCV" gate="G$1" pin="C"/>
+<wire x1="152.4" y1="99.06" x2="147.32" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
@@ -33054,13 +33068,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <approved hash="113,1,130.071,89.431,FRAME1,,,,,"/>
 <approved hash="113,1,150.84,154.94,ANALOG,,,,,"/>
 <approved hash="113,1,134.597,27.94,SW1,,,,,"/>
-<approved hash="113,1,117.162,110.49,L1,,,,,"/>
-<approved hash="113,1,122.242,118.11,L2,,,,,"/>
-<approved hash="113,1,127.322,110.49,L3,,,,,"/>
-<approved hash="113,1,132.402,118.11,L4,,,,,"/>
-<approved hash="113,1,137.482,110.49,L5,,,,,"/>
-<approved hash="113,1,142.562,118.11,L6,,,,,"/>
-<approved hash="113,1,147.642,110.49,L7,,,,,"/>
+<approved hash="113,1,114.785,110.49,L1,,,,,"/>
+<approved hash="113,1,119.865,118.11,L2,,,,,"/>
+<approved hash="113,1,124.945,110.49,L3,,,,,"/>
+<approved hash="113,1,130.025,118.11,L4,,,,,"/>
+<approved hash="113,1,135.105,110.49,L5,,,,,"/>
+<approved hash="113,1,140.185,118.11,L6,,,,,"/>
+<approved hash="113,1,145.265,110.49,L7,,,,,"/>
 <approved hash="113,1,19.6427,135.727,RELAY,,,,,"/>
 <approved hash="113,1,19.6427,20.1574,RST,,,,,"/>
 <approved hash="113,1,83.5939,40.4029,A,,,,,"/>
@@ -33073,6 +33087,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <approved hash="113,1,19.6427,90.0074,VCC,,,,,"/>
 <approved hash="113,1,114.977,79.8474,DIGITAL,,,,,"/>
 <approved hash="113,1,240.623,110.327,XOUT,,,,,"/>
+<approved hash="113,1,143.51,97.0051,RCV,,,,,"/>
 </errors>
 </schematic>
 </drawing>
