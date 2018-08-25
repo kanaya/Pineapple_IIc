@@ -29656,7 +29656,6 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <part name="GND" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04X2" device="" package3d_urn="urn:adsk.eagle:package:38103/1"/>
 <part name="VCC" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="" package3d_urn="urn:adsk.eagle:package:38063/1"/>
 <part name="DIGITAL" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_09" device="" package3d_urn="urn:adsk.eagle:package:38153/1"/>
-<part name="SUPPLY25" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -29741,7 +29740,6 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <instance part="GND" gate="G$1" x="236.22" y="91.44"/>
 <instance part="VCC" gate="J$1" x="15.24" y="91.44" rot="MR180"/>
 <instance part="DIGITAL" gate="G$1" x="121.92" y="81.28" rot="R180"/>
-<instance part="SUPPLY25" gate="GND" x="208.28" y="99.06"/>
 </instances>
 <busses>
 <bus name="ANLG:ANLG_0,ANLG_1,ANLG_2,ANLG_3,ANLG_4,ANLG_5,ANLG_6">
@@ -29964,12 +29962,6 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <pinref part="SUPPLY18" gate="GND" pin="GND"/>
 <wire x1="111.76" y1="88.9" x2="104.14" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="88.9" x2="104.14" y2="68.58" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="RN2" gate="1" pin="9"/>
-<pinref part="SUPPLY25" gate="GND" pin="GND"/>
-<wire x1="205.74" y1="104.14" x2="208.28" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="104.14" x2="208.28" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MIDIOUT" class="0">
