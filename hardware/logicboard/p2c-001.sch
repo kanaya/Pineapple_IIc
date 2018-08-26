@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -31405,6 +31405,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="VDD2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 <part name="POGOPIN" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
 <part name="5V" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1"/>
+<part name="SUPPLY26" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
+<part name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0204/5" package3d_urn="urn:adsk.eagle:package:25955/1" value="6.8k"/>
+<part name="R7" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0204/5" package3d_urn="urn:adsk.eagle:package:25955/1" value="6.8k"/>
 </parts>
 <sheets>
 <sheet>
@@ -31493,6 +31496,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="VDD2" gate="G$1" x="76.2" y="38.1"/>
 <instance part="POGOPIN" gate="G$1" x="236.22" y="127"/>
 <instance part="5V" gate="G$1" x="10.16" y="93.98" rot="MR180"/>
+<instance part="SUPPLY26" gate="G$1" x="43.18" y="127"/>
+<instance part="R6" gate="G$1" x="40.64" y="114.3" rot="R90"/>
+<instance part="R7" gate="G$1" x="43.18" y="114.3" rot="R90"/>
 </instances>
 <busses>
 <bus name="ANLG:ANLG_0,ANLG_1,ANLG_2,ANLG_3,ANLG_4,ANLG_5,ANLG_6">
@@ -31859,6 +31865,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="LIGHTDRIVE" gate="G$1" pin="1"/>
 <wire x1="20.32" y1="40.64" x2="17.78" y2="40.64" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="40.64" y1="119.38" x2="40.64" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="121.92" x2="43.18" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="43.18" y1="121.92" x2="43.18" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="SUPPLY26" gate="G$1" pin="VCC"/>
+<wire x1="43.18" y1="121.92" x2="43.18" y2="124.46" width="0.1524" layer="91"/>
+<junction x="43.18" y="121.92"/>
+</segment>
 </net>
 <net name="MIDIOUT-" class="0">
 <segment>
@@ -32010,6 +32026,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="83.82" y1="58.42" x2="83.82" y2="40.64" width="0.1524" layer="91"/>
 <label x="83.82" y="48.26" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<wire x1="43.18" y1="101.6" x2="40.64" y2="104.14" width="0.1524" layer="91" curve="-90"/>
+<wire x1="40.64" y1="104.14" x2="40.64" y2="109.22" width="0.1524" layer="91"/>
+<label x="40.64" y="109.22" size="1.778" layer="95" rot="R90"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+</segment>
 </net>
 <net name="LED1K" class="0">
 <segment>
@@ -32152,6 +32174,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="96.52" y1="68.58" x2="99.06" y2="71.12" width="0.1524" layer="91" curve="-90"/>
 <wire x1="99.06" y1="71.12" x2="111.76" y2="71.12" width="0.1524" layer="91"/>
 <label x="99.06" y="71.12" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="45.72" y1="104.14" x2="43.18" y2="106.68" width="0.1524" layer="91" curve="-90"/>
+<wire x1="43.18" y1="106.68" x2="43.18" y2="109.22" width="0.1524" layer="91"/>
+<label x="43.18" y="109.22" size="1.778" layer="95" rot="R90"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="PWM_2" class="0">
