@@ -31390,7 +31390,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X4" device="" package3d_urn="urn:adsk.eagle:package:22461/2"/>
 <part name="U$4" library="pineapple" deviceset="CARDQRCODE450_SILK" device=""/>
 <part name="SUPPLY24" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="ALT-MIDI" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_05" device="JST" package3d_urn="urn:adsk.eagle:package:38120/1"/>
+<part name="MIDI" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_05" device="JST" package3d_urn="urn:adsk.eagle:package:38120/1"/>
 <part name="SUPPLY28" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="GND" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04X2" device="" package3d_urn="urn:adsk.eagle:package:38103/1"/>
 <part name="DIGITAL" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_09" device="" package3d_urn="urn:adsk.eagle:package:38153/1"/>
@@ -31481,7 +31481,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="JP1" gate="A" x="109.22" y="27.94" rot="R90"/>
 <instance part="U$4" gate="G$1" x="241.3" y="149.86"/>
 <instance part="SUPPLY24" gate="GND" x="182.88" y="27.94"/>
-<instance part="ALT-MIDI" gate="G$1" x="193.04" y="43.18" rot="R90"/>
+<instance part="MIDI" gate="G$1" x="193.04" y="43.18" rot="R90"/>
 <instance part="SUPPLY28" gate="GND" x="7.62" y="149.86"/>
 <instance part="GND" gate="G$1" x="17.78" y="162.56"/>
 <instance part="DIGITAL" gate="G$1" x="121.92" y="81.28" rot="R180"/>
@@ -31621,7 +31621,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="104.14" y1="25.4" x2="104.14" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="ALT-MIDI" gate="G$1" pin="2"/>
+<pinref part="MIDI" gate="G$1" pin="2"/>
 <wire x1="195.58" y1="50.8" x2="195.58" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="SUPPLY24" gate="GND" pin="GND"/>
 <wire x1="195.58" y1="53.34" x2="182.88" y2="53.34" width="0.1524" layer="91"/>
@@ -31751,7 +31751,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="MIDI-OUT" gate="G$1" pin="4"/>
 <wire x1="218.44" y1="55.88" x2="218.44" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="66.04" x2="198.12" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="ALT-MIDI" gate="G$1" pin="1"/>
+<pinref part="MIDI" gate="G$1" pin="1"/>
 <wire x1="198.12" y1="50.8" x2="198.12" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="185.42" y1="66.04" x2="198.12" y2="66.04" width="0.1524" layer="91"/>
@@ -31880,7 +31880,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="193.04" y1="55.88" x2="185.42" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="ALT-MIDI" gate="G$1" pin="3"/>
+<pinref part="MIDI" gate="G$1" pin="3"/>
 <wire x1="193.04" y1="50.8" x2="193.04" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="MIDI-OUT" gate="G$1" pin="5"/>
 <wire x1="203.2" y1="55.88" x2="193.04" y2="55.88" width="0.1524" layer="91"/>
@@ -31895,7 +31895,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="223.52" y1="81.28" x2="223.52" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="88.9" x2="190.5" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="88.9" x2="185.42" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="ALT-MIDI" gate="G$1" pin="4"/>
+<pinref part="MIDI" gate="G$1" pin="4"/>
 <wire x1="190.5" y1="50.8" x2="190.5" y2="88.9" width="0.1524" layer="91"/>
 <junction x="190.5" y="88.9"/>
 </segment>
@@ -31922,7 +31922,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="162.56" y="81.28"/>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="162.56" y1="83.82" x2="165.1" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="ALT-MIDI" gate="G$1" pin="5"/>
+<pinref part="MIDI" gate="G$1" pin="5"/>
 <wire x1="187.96" y1="50.8" x2="187.96" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="MIDI-IN" gate="G$1" pin="5"/>
 <wire x1="203.2" y1="81.28" x2="187.96" y2="81.28" width="0.1524" layer="91"/>
