@@ -172,7 +172,7 @@ kanaya@pineapple.cc, @kanaya</text>
 <rectangle x1="90" y1="0" x2="91" y2="55" layer="42"/>
 <rectangle x1="0" y1="54" x2="91" y2="55" layer="42"/>
 <rectangle x1="0" y1="0" x2="1" y2="55" layer="42"/>
-<text x="10.16" y="54.5" size="0.8" layer="25" align="top-center">G</text>
+<text x="10.16" y="54.5" size="0.8" layer="25" align="top-center">GND</text>
 <text x="36.83" y="48.26" size="0.8" layer="26" rot="MR0" align="top-left">R1-3: 220
 R4-5: 10k
 RN1: 330
@@ -230,7 +230,7 @@ Con XOUT: Pin 5p</text>
 <text x="1" y="44.5" size="0.8" layer="25" align="center-left">Com.</text>
 <text x="1" y="42.5" size="0.8" layer="25" align="center-left">N.C.</text>
 <text x="48.26" y="7.62" size="0.8" layer="25" align="center">MC1</text>
-<text x="80.01" y="0.5" size="0.8" layer="25" align="bottom-center">G</text>
+<text x="80.01" y="0.5" size="0.8" layer="25" align="bottom-center">GND</text>
 <text x="59.69" y="0.5" size="0.8" layer="25" align="bottom-center">G</text>
 <text x="57.15" y="0.5" size="0.8" layer="25" align="bottom-center">A0</text>
 <text x="54.61" y="0.5" size="0.8" layer="25" align="bottom-center">A1</text>
