@@ -30486,6 +30486,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="3.429" y1="-4.699" x2="4.191" y2="-2.921" layer="51"/>
 <rectangle x1="3.429" y1="-5.461" x2="4.191" y2="-4.699" layer="21"/>
 </package>
+<package name="1X01" urn="urn:adsk.eagle:footprint:22382/1" library_version="3">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<pad name="1" x="0" y="0" drill="1.016" shape="octagon"/>
+<text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="1X04" urn="urn:adsk.eagle:package:22407/2" type="model" library_version="3">
@@ -30510,6 +30525,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <description>PIN HEADER</description>
 <packageinstances>
 <packageinstance name="2X04/90"/>
+</packageinstances>
+</package3d>
+<package3d name="1X01" urn="urn:adsk.eagle:package:22485/2" type="model" library_version="3">
+<description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="1X01"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -30541,6 +30562,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="6" x="5.08" y="0" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
 <pin name="7" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="8" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+</symbol>
+<symbol name="PINHD1" urn="urn:adsk.eagle:symbol:22381/1" library_version="3">
+<wire x1="-6.35" y1="-2.54" x2="1.27" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="-6.35" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="2.54" x2="-6.35" y2="-2.54" width="0.4064" layer="94"/>
+<text x="-6.35" y="3.175" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -30617,6 +30647,25 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:22465/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PINHD-1X1" urn="urn:adsk.eagle:component:22540/2" prefix="JP" uservalue="yes" library_version="3">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="PINHD1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1X01">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:22485/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -31344,7 +31393,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="ALT-MIDI" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_05" device="JST" package3d_urn="urn:adsk.eagle:package:38120/1"/>
 <part name="SUPPLY28" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="GND" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04X2" device="" package3d_urn="urn:adsk.eagle:package:38103/1"/>
-<part name="VCC" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="" package3d_urn="urn:adsk.eagle:package:38063/1"/>
 <part name="DIGITAL" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_09" device="" package3d_urn="urn:adsk.eagle:package:38153/1"/>
 <part name="XOUT" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_05" device="" package3d_urn="urn:adsk.eagle:package:38104/1"/>
 <part name="U$3" library="pineapple" deviceset="KANAYA768_SILK" device=""/>
@@ -31355,6 +31403,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY25" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="VDD1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 <part name="VDD2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
+<part name="POGOPIN" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
+<part name="5V" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -31431,7 +31481,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="ALT-MIDI" gate="G$1" x="193.04" y="43.18" rot="R90"/>
 <instance part="SUPPLY28" gate="GND" x="7.62" y="149.86"/>
 <instance part="GND" gate="G$1" x="17.78" y="162.56"/>
-<instance part="VCC" gate="J$1" x="10.16" y="91.44" rot="MR180"/>
 <instance part="DIGITAL" gate="G$1" x="121.92" y="81.28" rot="R180"/>
 <instance part="XOUT" gate="G$1" x="236.22" y="111.76" rot="MR180"/>
 <instance part="U$3" gate="G$1" x="187.96" y="5.08"/>
@@ -31442,6 +31491,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="SUPPLY25" gate="GND" x="60.96" y="15.24"/>
 <instance part="VDD1" gate="G$1" x="22.86" y="93.98"/>
 <instance part="VDD2" gate="G$1" x="76.2" y="38.1"/>
+<instance part="POGOPIN" gate="G$1" x="236.22" y="127"/>
+<instance part="5V" gate="G$1" x="10.16" y="93.98" rot="MR180"/>
 </instances>
 <busses>
 <bus name="ANLG:ANLG_0,ANLG_1,ANLG_2,ANLG_3,ANLG_4,ANLG_5,ANLG_6">
@@ -31549,7 +31600,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="17.78" y1="91.44" x2="20.32" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="SUPPLY17" gate="GND" pin="GND"/>
 <wire x1="20.32" y1="91.44" x2="20.32" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="VCC" gate="J$1" pin="2"/>
+<pinref part="5V" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="A" gate="A" pin="4"/>
@@ -31795,7 +31846,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="SUPPLY16" gate="G$1" pin="VCC"/>
 <wire x1="20.32" y1="96.52" x2="20.32" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="93.98" x2="17.78" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="VCC" gate="J$1" pin="1"/>
+<pinref part="5V" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="SUPPLY19" gate="G$1" pin="VCC"/>
@@ -32443,11 +32494,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="U$2" gate="G$1" pin="3V"/>
 <wire x1="43.18" y1="88.9" x2="22.86" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="VCC" gate="J$1" pin="3"/>
 <pinref part="VDD1" gate="G$1" pin="VDD"/>
-<wire x1="22.86" y1="88.9" x2="17.78" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="91.44" x2="22.86" y2="88.9" width="0.1524" layer="91"/>
-<junction x="22.86" y="88.9"/>
 </segment>
 </net>
 <net name="N$1" class="0">
