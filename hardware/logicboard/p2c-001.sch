@@ -31489,7 +31489,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="U$3" gate="G$1" x="187.96" y="5.08"/>
 <instance part="RCV" gate="G$1" x="144.78" y="99.06" rot="R90"/>
 <instance part="LIGHTDRIVE" gate="G$1" x="12.7" y="35.56" rot="MR180"/>
-<instance part="SUPPLY12" gate="G$1" x="20.32" y="45.72"/>
+<instance part="SUPPLY12" gate="G$1" x="22.86" y="45.72"/>
 <instance part="I2C" gate="G$1" x="50.8" y="25.4" rot="MR180"/>
 <instance part="SUPPLY25" gate="GND" x="60.96" y="15.24"/>
 <instance part="VDD1" gate="G$1" x="22.86" y="93.98"/>
@@ -31670,10 +31670,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="104.14" y1="88.9" x2="104.14" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="LIGHTDRIVE" gate="G$1" pin="2"/>
 <pinref part="SUPPLY13" gate="GND" pin="GND"/>
-<wire x1="17.78" y1="38.1" x2="20.32" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="38.1" x2="20.32" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="40.64" x2="20.32" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="LIGHTDRIVE" gate="G$1" pin="1"/>
+<wire x1="20.32" y1="40.64" x2="17.78" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="GND"/>
@@ -31860,12 +31860,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="81.28" y1="45.72" x2="81.28" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SUPPLY12" gate="G$1" pin="VCC"/>
-<wire x1="20.32" y1="43.18" x2="20.32" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="LIGHTDRIVE" gate="G$1" pin="1"/>
-<wire x1="20.32" y1="40.64" x2="17.78" y2="40.64" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="40.64" y1="119.38" x2="40.64" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="121.92" x2="43.18" y2="121.92" width="0.1524" layer="91"/>
@@ -31874,6 +31868,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="SUPPLY26" gate="G$1" pin="VCC"/>
 <wire x1="43.18" y1="121.92" x2="43.18" y2="124.46" width="0.1524" layer="91"/>
 <junction x="43.18" y="121.92"/>
+</segment>
+<segment>
+<pinref part="SUPPLY12" gate="G$1" pin="VCC"/>
+<wire x1="22.86" y1="43.18" x2="22.86" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="LIGHTDRIVE" gate="G$1" pin="2"/>
+<wire x1="22.86" y1="38.1" x2="17.78" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MIDIOUT-" class="0">
