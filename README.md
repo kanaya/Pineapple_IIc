@@ -8,21 +8,83 @@ Pineapple IIc is a _card_ version of MIDI-computer _Pineapple II._ It can conver
 
 ### Basics
 
-* Install all components except for RN2.
-* Install RN2 if _pull-down_ resistors are required.
-* _Short_ 3 leftmost JP1 pins vertically. (Leave the rightmost pins open.)
+Install the following components.
 
-### Relay mode
+| Component   | Value             | Note                              |
+|-------------|-------------------|-----------------------------------|
+| MC1         | Arduino Micro 5V  | Using pin sockets is recommended. |
+| IC1         | 74LS07            |                                   |
+| OK1         | TLP552            |                                   |
+| D1          | 1N4148            |                                   |
+| R1-3        | 220               |                                   |
+| RN1         | 330               |                                   |
+| RN2         | 10k               | To _pull-down_ sensor inputs.     |
+| C1          | 0.1u              |                                   |
+| C2-3        | 0.01u             |                                   |
+| L1-7        | Vf=2.2 If=20m     |                                   |
+| L8 (RCV)    | Vf=2.2 If=20m     |                                   |
+| SW1         | HEX Complementary |                                   |
+| JP1         | Pinhead 2x4p      | Short 1-4, 2-5, 3-7               |
+| Con. Analog | ML 14p            |                                   |
+| Con. DC     | DC Jack           |                                   |
+| Con. MIDI   | DIN 5p            | Use PH 5p for panel mounted cons. |
 
-* _Short_ the rightmost JP1 pins vertically.
+### To use relay
 
-### I2C mode
+| Component   | Value             | Note                              |
+|-------------|-------------------|-----------------------------------|
+| T1          | 2SC1815           |                                   |
+| D2          | 1N4148            |                                   |
+| R4-5        | 10k               |                                   |
+| K1          | G5V-1             |                                   |
+| Con. Relay  | PH 3p             |                                   |
 
-* _Open_ 3 leftmost JP1 pins.
+### To use I2C
 
-### Alternative connectors
+| Component   | Value             | Note                              |
+|-------------|-------------------|-----------------------------------|
+| IC2         | PCA9517ADP        | Use two 4p pinheads.              |
+| RN6-7       | 6.8k              |                                   |
+| Con. I2C    | SH 5p             | D7 operates at 5V.                |
 
-If you want to use panel-mounted MIDI connectors and/or DC jack, use MIDI-IN-ALT, MIDI-OUT-ALT, PWR instead of MIDI-IN, MIDI-OUT, DC12V respectively.
+### To use RST
+
+| Component   | Value             | Note                              |
+|-------------|-------------------|-----------------------------------|
+| Con. RST    | PH 2p             |                                   |
+
+### To use LIGHTDRIVE
+
+| Component   | Value             | Note                              |
+|-------------|-------------------|-----------------------------------|
+| Con. LD     | Pinhead 7p        |                                   |
+
+| Lightdrive | Meaning | Arduino Pin |
+|------------|---------|-------------|
+| 1          | GND     |             |
+| 2          | Vcc     |             |
+| 3          | GSCLCK  | D5          |
+| 4          | BLANK   | D8          |
+| 5          | XLAT    | D12         |
+| 6          | SCLCK   | SCLK        |
+| 7          | SIN     | MOSI        |
+
+### To use DIGITAL extension
+
+### To use XOUT
+
+### To directly input 5V
+
+### To directly input 12V
+
+
+
+### To stack multiple cards
+
+To stack multiple cards, you can do one of the following options.
+
+* Use spacer. _Pineapple IIc_ has four M2 holes at each corners ((3, 3), (88, 3) (88, 52), (3, 52) mm).
+* Use pinheads of GND (bottom left), Vin (bottom right), _Pogo_ (top right), and Vcc (top left).
 
 ## How to connect
 
@@ -49,4 +111,3 @@ Supply DC12V to DC Jack connector.
 | D11PWM        | PWM5       |                                   |
 | D12/A11       | SW3        |                                   |
 | D13PWM        | PWM6/Relay | 4-8, close to use relay           |
-
