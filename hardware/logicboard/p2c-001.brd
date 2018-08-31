@@ -218,7 +218,7 @@ Pogo: Pin 1p</text>
 <text x="74.93" y="0.5" size="0.8" layer="25" align="bottom-center">D11</text>
 <text x="77.47" y="0.5" size="0.8" layer="25" align="bottom-center">D13</text>
 <text x="1" y="46.5" size="0.8" layer="25" align="center-left">N.O.</text>
-<text x="36.83" y="50.8" size="1" layer="26" rot="MR0" align="top-left">Pineapple IIc 1.1.0</text>
+<text x="36.83" y="50.8" size="1" layer="26" rot="MR0" align="top-left">Pineapple IIc 1.2.0</text>
 <circle x="3" y="52" radius="1.75" width="0.2" layer="41"/>
 <circle x="3" y="3" radius="1.75" width="0.2" layer="41"/>
 <circle x="88" y="3" radius="1.75" width="0.2" layer="41"/>
