@@ -5423,6 +5423,61 @@ DIN A4, landscape with location and doc. field</description>
 <rectangle x1="-0.2413" y1="5.6769" x2="0.6731" y2="5.7023" layer="21"/>
 <rectangle x1="2.5019" y1="5.6769" x2="5.7023" y2="5.7023" layer="21"/>
 </package>
+<package name="HELP_P2C">
+<wire x1="0" y1="9" x2="1" y2="10" width="0.127" layer="21"/>
+<wire x1="1" y1="10" x2="4" y2="10" width="0.127" layer="21"/>
+<wire x1="4" y1="10" x2="4" y2="8" width="0.127" layer="21"/>
+<wire x1="4" y1="8" x2="1" y2="8" width="0.127" layer="21"/>
+<wire x1="1" y1="8" x2="0" y2="9" width="0.127" layer="21"/>
+<wire x1="0" y1="3" x2="1" y2="4" width="0.127" layer="21"/>
+<wire x1="1" y1="4" x2="4" y2="4" width="0.127" layer="21"/>
+<wire x1="4" y1="4" x2="4" y2="2" width="0.127" layer="21"/>
+<wire x1="4" y1="2" x2="1" y2="2" width="0.127" layer="21"/>
+<wire x1="1" y1="2" x2="0" y2="3" width="0.127" layer="21"/>
+<wire x1="-5" y1="8" x2="-4" y2="8" width="0.127" layer="21"/>
+<wire x1="-4" y1="8" x2="-3" y2="8" width="0.127" layer="21"/>
+<wire x1="-3" y1="8" x2="-3" y2="4" width="0.127" layer="21"/>
+<wire x1="-3" y1="4" x2="-4" y2="4" width="0.127" layer="21"/>
+<wire x1="-4" y1="4" x2="-5" y2="4" width="0.127" layer="21"/>
+<wire x1="-5" y1="4" x2="-5" y2="8" width="0.127" layer="21"/>
+<wire x1="0" y1="9" x2="-4" y2="9" width="0.127" layer="21"/>
+<wire x1="-4" y1="9" x2="-4" y2="8" width="0.127" layer="21"/>
+<wire x1="0" y1="3" x2="-4" y2="3" width="0.127" layer="21"/>
+<wire x1="-4" y1="3" x2="-4" y2="4" width="0.127" layer="21"/>
+<text x="3" y="9" size="1" layer="21" align="center">1</text>
+<text x="-4" y="6" size="1" layer="21" rot="R90" align="center">VR</text>
+<wire x1="0" y1="-3" x2="1" y2="-2" width="0.127" layer="21"/>
+<wire x1="1" y1="-2" x2="4" y2="-2" width="0.127" layer="21"/>
+<wire x1="4" y1="-2" x2="4" y2="-4" width="0.127" layer="21"/>
+<wire x1="4" y1="-4" x2="1" y2="-4" width="0.127" layer="21"/>
+<wire x1="1" y1="-4" x2="0" y2="-3" width="0.127" layer="21"/>
+<wire x1="0" y1="-9" x2="1" y2="-8" width="0.127" layer="21"/>
+<wire x1="1" y1="-8" x2="4" y2="-8" width="0.127" layer="21"/>
+<wire x1="4" y1="-8" x2="4" y2="-10" width="0.127" layer="21"/>
+<wire x1="4" y1="-10" x2="1" y2="-10" width="0.127" layer="21"/>
+<wire x1="1" y1="-10" x2="0" y2="-9" width="0.127" layer="21"/>
+<text x="-4" y="-9" size="1" layer="21" rot="R90" align="center">VV</text>
+<wire x1="-5" y1="-7" x2="-4" y2="-7" width="0.127" layer="21"/>
+<wire x1="-4" y1="-7" x2="-3" y2="-7" width="0.127" layer="21"/>
+<wire x1="-3" y1="-7" x2="-3" y2="-9" width="0.127" layer="21"/>
+<wire x1="-3" y1="-9" x2="-3" y2="-11" width="0.127" layer="21"/>
+<wire x1="-3" y1="-11" x2="-4" y2="-11" width="0.127" layer="21"/>
+<wire x1="-4" y1="-11" x2="-5" y2="-11" width="0.127" layer="21"/>
+<wire x1="-5" y1="-11" x2="-5" y2="-7" width="0.127" layer="21"/>
+<wire x1="0" y1="-3" x2="-4" y2="-3" width="0.127" layer="21"/>
+<wire x1="-4" y1="-3" x2="-4" y2="-7" width="0.127" layer="21"/>
+<wire x1="0" y1="-9" x2="-3" y2="-9" width="0.127" layer="21"/>
+<wire x1="-4" y1="-11" x2="-4" y2="-15" width="0.127" layer="21"/>
+<wire x1="-5" y1="-15" x2="-3" y2="-15" width="0.127" layer="21"/>
+<wire x1="-4.5" y1="-15.5" x2="-3.5" y2="-15.5" width="0.127" layer="21"/>
+<wire x1="-4.25" y1="-16" x2="-3.75" y2="-16" width="0.127" layer="21"/>
+<text x="0" y="1" size="0.8" layer="21" align="center">*Install pull-down resistors</text>
+<text x="-3" y="-6" size="1" layer="21" align="center-left">Vcc</text>
+<text x="-3" y="-12" size="1" layer="21" align="center-left">GND</text>
+<text x="3" y="-3" size="1" layer="21" align="center">1</text>
+<text x="3" y="3" size="1" layer="21" align="center">3</text>
+<text x="3" y="-9" size="1" layer="21" align="center">3</text>
+</package>
 </packages>
 <symbols>
 <symbol name="PINEAPPLE1200">
@@ -12145,6 +12200,9 @@ DIN A4, landscape with location and doc. field</description>
 <rectangle x1="-0.2413" y1="5.6769" x2="0.6731" y2="5.7023" layer="94"/>
 <rectangle x1="2.5019" y1="5.6769" x2="5.7023" y2="5.7023" layer="94"/>
 </symbol>
+<symbol name="HELP_P2C">
+<text x="0" y="0" size="1.27" layer="94">Help for Pineapple IIc</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="PINEAPPLE450_SILK">
@@ -12177,6 +12235,18 @@ DIN A4, landscape with location and doc. field</description>
 </gates>
 <devices>
 <device name="" package="CARDQRCODE450_SILK">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HELP_P2C">
+<gates>
+<gate name="G$1" symbol="HELP_P2C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HELP_P2C">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -31409,6 +31479,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="PWR2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="JST-PTH-2" package3d_urn="urn:adsk.eagle:package:38053/1"/>
 <part name="SUPPLY27" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="VDD3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
+<part name="U$5" library="pineapple" deviceset="HELP_P2C" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -31501,6 +31572,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="PWR2" gate="G$1" x="10.16" y="71.12" rot="MR180"/>
 <instance part="SUPPLY27" gate="GND" x="20.32" y="63.5"/>
 <instance part="VDD3" gate="G$1" x="109.22" y="96.52"/>
+<instance part="U$5" gate="G$1" x="233.68" y="139.7"/>
 </instances>
 <busses>
 <bus name="ANLG:ANLG_0,ANLG_1,ANLG_2,ANLG_3,ANLG_4,ANLG_5,ANLG_6">
