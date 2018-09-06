@@ -1620,6 +1620,11 @@ design rules under a new name.</description>
 <vertex x="93" y="57"/>
 <vertex x="-2" y="57"/>
 </polygon>
+<contactref element="PWR1" pad="2"/>
+<contactref element="DIGITAL" pad="2"/>
+<contactref element="LIGHTDRIVE" pad="2"/>
+<wire x1="11.43" y1="3" x2="80.01" y2="3" width="0" layer="19" extent="1-1"/>
+<wire x1="11.43" y1="51.26" x2="11.43" y2="3" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
