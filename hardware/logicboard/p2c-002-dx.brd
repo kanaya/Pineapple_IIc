@@ -184,25 +184,7 @@
 <circle x="3" y="52" radius="1.75" width="0.2" layer="42"/>
 <circle x="3" y="3" radius="1.75" width="0.2" layer="42"/>
 <text x="80.01" y="0.5" size="0.8" layer="25" align="bottom-center">GND</text>
-<text x="59.69" y="0.5" size="0.8" layer="25" align="bottom-center">G</text>
-<text x="57.15" y="0.5" size="0.8" layer="25" align="bottom-center">A0</text>
-<text x="54.61" y="0.5" size="0.8" layer="25" align="bottom-center">A1</text>
-<text x="52.07" y="0.5" size="0.8" layer="25" align="bottom-center">A2</text>
-<text x="49.53" y="0.5" size="0.8" layer="25" align="bottom-center">A3</text>
-<text x="46.99" y="0.5" size="0.8" layer="25" align="bottom-center">A4</text>
-<text x="44.45" y="0.5" size="0.8" layer="25" align="bottom-center">A5</text>
-<text x="41.91" y="0.5" size="0.8" layer="25" align="bottom-center">A6</text>
-<text x="39.37" y="0.5" size="0.8" layer="25" align="bottom-center">NC</text>
 <text x="90" y="48" size="0.8" layer="26" rot="MR0" align="center-left">91x55mm</text>
-<text x="90.5" y="29.5" size="0.8" layer="26" rot="MR0" align="center-left">4</text>
-<text x="90.5" y="27.5" size="0.8" layer="26" rot="MR0" align="center-left">5</text>
-<text x="90.5" y="25.5" size="0.8" layer="26" rot="MR0" align="center-left">3</text>
-<text x="90.5" y="23.5" size="0.8" layer="26" rot="MR0" align="center-left">4</text>
-<text x="90.5" y="31.5" size="0.8" layer="26" rot="MR0" align="center-left">5</text>
-<wire x1="89.5" y1="23" x2="89.5" y2="28" width="0.2" layer="22"/>
-<wire x1="89.5" y1="29" x2="89.5" y2="32" width="0.2" layer="22"/>
-<text x="89" y="25.5" size="0.8" layer="26" rot="MR0" align="center-left">OUT</text>
-<text x="89" y="30.5" size="0.8" layer="26" rot="MR0" align="center-left">IN</text>
 <text x="8.89" y="0.5" size="0.8" layer="25" align="bottom-center">Vcc</text>
 <text x="11.43" y="0.5" size="0.8" layer="25" align="bottom-center">GND</text>
 <text x="21.59" y="0.5" size="0.8" layer="25" align="bottom-center">SC</text>
@@ -214,7 +196,6 @@
 <circle x="82.55" y="51.26" radius="1" width="0.2" layer="41"/>
 <text x="16.51" y="0.5" size="0.8" layer="26" rot="MR0" align="bottom-center">LIGHTDRIVE</text>
 <text x="72.39" y="0.5" size="0.8" layer="26" rot="MR0" align="bottom-center">DIGITAL</text>
-<text x="49.53" y="0.5" size="0.8" layer="26" rot="MR0" align="bottom-center">ANALOG</text>
 </plain>
 <libraries>
 <library name="pineapple">
@@ -1210,60 +1191,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
-<package name="1X05" urn="urn:adsk.eagle:footprint:37722/1" library_version="1">
-<description>&lt;h3&gt;Plated Through Hole - 5 Pin&lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:5&lt;/li&gt;
-&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;CONN_05&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="6.985" y1="1.27" x2="8.255" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="8.255" y1="1.27" x2="8.89" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="8.89" y1="-0.635" x2="8.255" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="8.89" y1="0.635" x2="9.525" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="9.525" y1="1.27" x2="10.795" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="10.795" y1="1.27" x2="11.43" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="11.43" y1="-0.635" x2="10.795" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="10.795" y1="-1.27" x2="9.525" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="9.525" y1="-1.27" x2="8.89" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="0.635" x2="4.445" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="4.445" y1="1.27" x2="5.715" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="5.715" y1="1.27" x2="6.35" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="6.35" y1="-0.635" x2="5.715" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="5.715" y1="-1.27" x2="4.445" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="4.445" y1="-1.27" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="6.985" y1="1.27" x2="6.35" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="6.35" y1="-0.635" x2="6.985" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="8.255" y1="-1.27" x2="6.985" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="11.43" y1="0.635" x2="11.43" y2="-0.635" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="3" x="5.08" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="4" x="7.62" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="5" x="10.16" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<rectangle x1="9.906" y1="-0.254" x2="10.414" y2="0.254" layer="51"/>
-<rectangle x1="7.366" y1="-0.254" x2="7.874" y2="0.254" layer="51"/>
-<rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
-<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-<text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-</package>
 <package name="1X07" urn="urn:adsk.eagle:footprint:37753/1" library_version="1">
 <description>&lt;h3&gt;Plated Through Hole -7 Pin&lt;/h3&gt;
 &lt;p&gt;Specifications:
@@ -1391,19 +1318,6 @@ CONN_09
 </description>
 <packageinstances>
 <packageinstance name="1X09"/>
-</packageinstances>
-</package3d>
-<package3d name="1X05" urn="urn:adsk.eagle:package:38104/1" type="box" library_version="1">
-<description>Plated Through Hole - 5 Pin
-Specifications:
-Pin count:5
-Pin pitch:0.1"
-
-Example device(s):
-CONN_05
-</description>
-<packageinstances>
-<packageinstance name="1X05"/>
 </packageinstances>
 </package3d>
 <package3d name="1X07" urn="urn:adsk.eagle:package:38129/1" type="box" library_version="1">
@@ -2808,51 +2722,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package3d>
 </packages3d>
 </library>
-<library name="SparkFun-LED">
-<description>&lt;h3&gt;SparkFun LEDs&lt;/h3&gt;
-This library contains discrete LEDs for illumination or indication, but no displays.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="LED_3MM-NS">
-<description>&lt;h3&gt;LED 3MM PTH- No Silk&lt;/h3&gt;
-
-3 mm, round, no silk outline of package
-
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
-&lt;li&gt;Pin pitch: 0.1inch&lt;/li&gt;
-&lt;li&gt;Diameter: 3mm&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;LED&lt;/li&gt;&lt;/ul&gt;</description>
-<wire x1="1.5748" y1="-1.27" x2="1.5748" y2="1.27" width="0.254" layer="51"/>
-<wire x1="0" y1="2.032" x2="1.561" y2="1.3009" width="0.254" layer="51" curve="-50.193108" cap="flat"/>
-<wire x1="-1.7929" y1="0.9562" x2="0" y2="2.032" width="0.254" layer="51" curve="-61.926949" cap="flat"/>
-<wire x1="0" y1="-2.032" x2="1.5512" y2="-1.3126" width="0.254" layer="51" curve="49.763022" cap="flat"/>
-<wire x1="-1.7643" y1="-1.0082" x2="0" y2="-2.032" width="0.254" layer="51" curve="60.255215" cap="flat"/>
-<wire x1="-2.032" y1="0" x2="-1.7891" y2="0.9634" width="0.254" layer="51" curve="-28.301701" cap="flat"/>
-<wire x1="-2.032" y1="0" x2="-1.7306" y2="-1.065" width="0.254" layer="51" curve="31.60822" cap="flat"/>
-<wire x1="1.5748" y1="1.2954" x2="1.5748" y2="0.7874" width="0.254" layer="51"/>
-<wire x1="1.5748" y1="-1.2954" x2="1.5748" y2="-0.8382" width="0.254" layer="51"/>
-<pad name="A" x="-1.27" y="0" drill="0.8128"/>
-<pad name="K" x="1.27" y="0" drill="0.8128"/>
-<text x="0" y="2.286" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.286" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="1.8923" y1="1.2954" x2="1.8923" y2="0.7874" width="0.254" layer="21"/>
-<wire x1="1.8923" y1="-1.2954" x2="1.8923" y2="-0.8382" width="0.254" layer="21"/>
-</package>
-</packages>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3047,7 +2916,7 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U$1" library="pineapple" package="PINEAPPLE450_SILK" value="PINEAPPLE450_SILK" x="25" y="49"/>
+<element name="U$1" library="pineapple" package="PINEAPPLE450_SILK" value="PINEAPPLE450_SILK" x="45.5" y="50"/>
 <element name="IC1" library="74xx-us" library_urn="urn:adsk.eagle:library:88" package="DIL14" package3d_urn="urn:adsk.eagle:package:2921/1" value="74LS07N" x="63.5" y="36.83" smashed="yes" rot="R270">
 <attribute name="NAME" x="63.5" y="43.18" size="0.8" layer="25" ratio="10" align="center"/>
 <attribute name="VALUE" x="62.865" y="43.561" size="1.27" layer="27" ratio="10" rot="R270"/>
@@ -3089,22 +2958,14 @@ design rules under a new name.</description>
 <attribute name="NAME" x="59.69" y="26.67" size="0.8" layer="25" ratio="10" align="center-right"/>
 <attribute name="VALUE" x="61.722" y="24.003" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-S_COPPER" value="OSHW-LOGOS-COPPER" x="48.26" y="45.5"/>
-<element name="MIDI" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="JST-5-PTH" package3d_urn="urn:adsk.eagle:package:38120/1" value="" x="85" y="27.5" smashed="yes" rot="MR90">
-<attribute name="NAME" x="83" y="27.5" size="0.8" layer="26" font="vector" ratio="20" rot="MR90" align="center"/>
-<attribute name="SF_ID" value="PRT-09917" x="85" y="27.5" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="VALUE" x="87.413" y="25.849" size="0.6096" layer="28" font="vector" ratio="20" rot="MR90"/>
+<element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-S_COPPER" value="OSHW-LOGOS-COPPER" x="45.5" y="3"/>
+<element name="MIDI" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="JST-5-PTH" package3d_urn="urn:adsk.eagle:package:38120/1" value="" x="85" y="27.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="83" y="27.5" size="0.8" layer="25" font="vector" ratio="20" rot="R270" align="center"/>
+<attribute name="SF_ID" value="PRT-09917" x="85" y="27.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="87.413" y="29.151" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="DIGITAL" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X09" package3d_urn="urn:adsk.eagle:package:38153/1" value="" x="82.55" y="3" smashed="yes" rot="R180">
 <attribute name="VALUE" x="83.82" y="5.032" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
-</element>
-<element name="XOUT" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X05" package3d_urn="urn:adsk.eagle:package:38104/1" value="" x="82.55" y="6.35" smashed="yes" rot="R180">
-<attribute name="NAME" x="69.85" y="6.35" size="0.8" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
-<attribute name="VALUE" x="83.058" y="8.001" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
-</element>
-<element name="RCV" library="SparkFun-LED" package="LED_3MM-NS" value="" x="80.01" y="52.07" smashed="yes" rot="R270">
-<attribute name="NAME" x="80.01" y="49.53" size="0.8" layer="25" font="vector" ratio="20" align="center"/>
-<attribute name="VALUE" x="77.724" y="52.07" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="LIGHTDRIVE" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X07" package3d_urn="urn:adsk.eagle:package:38129/1" value="" x="8.89" y="3" smashed="yes">
 <attribute name="VALUE" x="7.62" y="0.968" size="0.6096" layer="27" font="vector" ratio="20"/>
@@ -3123,10 +2984,6 @@ design rules under a new name.</description>
 <contactref element="C1" pad="2"/>
 <contactref element="C3" pad="2"/>
 <contactref element="C2" pad="2"/>
-<contactref element="MIDI" pad="2"/>
-<contactref element="DIGITAL" pad="2"/>
-<contactref element="PWR1" pad="2"/>
-<contactref element="LIGHTDRIVE" pad="2"/>
 <polygon width="0.254" layer="1">
 <vertex x="-1" y="-1"/>
 <vertex x="92" y="-1"/>
@@ -3139,13 +2996,11 @@ design rules under a new name.</description>
 <vertex x="93" y="57"/>
 <vertex x="-2" y="57"/>
 </polygon>
-<wire x1="64.77" y1="26.67" x2="85" y2="25.5" width="0" layer="19" extent="1-1"/>
-<wire x1="59.69" y1="29.21" x2="64.77" y2="26.67" width="0" layer="19" extent="1-1"/>
-<wire x1="64.77" y1="16.51" x2="64.77" y2="26.67" width="0" layer="19" extent="1-1"/>
-<wire x1="80.01" y1="3" x2="64.77" y2="16.51" width="0" layer="19" extent="1-1"/>
-<wire x1="10.16" y1="45.72" x2="59.69" y2="29.21" width="0" layer="19" extent="1-1"/>
-<wire x1="11.43" y1="51.26" x2="10.16" y2="45.72" width="0" layer="19" extent="1-1"/>
-<wire x1="11.43" y1="3" x2="10.16" y2="45.72" width="0" layer="19" extent="1-1"/>
+<contactref element="IC1" pad="3"/>
+<contactref element="IC1" pad="13"/>
+<contactref element="IC1" pad="11"/>
+<contactref element="IC1" pad="9"/>
+<contactref element="IC1" pad="5"/>
 </signal>
 <signal name="VCC">
 <contactref element="IC1" pad="14"/>
@@ -3154,26 +3009,11 @@ design rules under a new name.</description>
 <contactref element="C2" pad="1"/>
 <contactref element="C3" pad="1"/>
 <contactref element="C1" pad="1"/>
-<contactref element="LIGHTDRIVE" pad="1"/>
 <wire x1="62.23" y1="26.67" x2="67.31" y2="44.45" width="0" layer="19" extent="1-1"/>
 <wire x1="60.96" y1="21.59" x2="62.23" y2="26.67" width="0" layer="19" extent="1-1"/>
 <wire x1="62.23" y1="16.51" x2="60.96" y2="21.59" width="0" layer="19" extent="1-1"/>
 <wire x1="67.31" y1="11.43" x2="62.23" y2="16.51" width="0" layer="19" extent="1-1"/>
 <wire x1="10.16" y1="43.18" x2="62.23" y2="26.67" width="0" layer="19" extent="1-1"/>
-<wire x1="8.89" y1="3" x2="10.16" y2="43.18" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="MIDIOUT">
-<contactref element="IC1" pad="1"/>
-<contactref element="IC1" pad="3"/>
-<contactref element="IC1" pad="13"/>
-<contactref element="IC1" pad="11"/>
-<contactref element="IC1" pad="9"/>
-<contactref element="IC1" pad="5"/>
-<wire x1="67.31" y1="36.83" x2="67.31" y2="41.91" width="0" layer="19" extent="1-1"/>
-<wire x1="67.31" y1="31.75" x2="67.31" y2="36.83" width="0" layer="19" extent="1-1"/>
-<wire x1="59.69" y1="44.45" x2="67.31" y2="41.91" width="0" layer="19" extent="1-1"/>
-<wire x1="59.69" y1="39.37" x2="59.69" y2="44.45" width="0" layer="19" extent="1-1"/>
-<wire x1="59.69" y1="34.29" x2="59.69" y2="39.37" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MIDIOUTC">
 <contactref element="IC1" pad="2"/>
@@ -3181,22 +3021,13 @@ design rules under a new name.</description>
 <wire x1="60.96" y1="24.13" x2="59.69" y2="41.91" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MIDIOUT+">
-<contactref element="MIDI" pad="1"/>
 <contactref element="R2" pad="2"/>
-<wire x1="66.04" y1="21.59" x2="85" y2="23.5" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="VIN">
-<contactref element="PWR1" pad="1"/>
 </signal>
 <signal name="MIDIOUT-">
 <contactref element="R1" pad="2"/>
-<contactref element="MIDI" pad="3"/>
-<wire x1="66.04" y1="24.13" x2="85" y2="27.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MIDIIN+">
 <contactref element="R3" pad="2"/>
-<contactref element="MIDI" pad="4"/>
-<wire x1="66.04" y1="19.05" x2="85" y2="29.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MIDIINA">
 <contactref element="R3" pad="1"/>
@@ -3208,80 +3039,10 @@ design rules under a new name.</description>
 <signal name="MIDIIN-">
 <contactref element="OK1" pad="3"/>
 <contactref element="D1" pad="A"/>
-<contactref element="MIDI" pad="5"/>
-<wire x1="69.85" y1="25.4" x2="85" y2="31.5" width="0" layer="19" extent="1-1"/>
 <wire x1="59.69" y1="8.89" x2="69.85" y2="25.4" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="MIDIIN">
-<contactref element="OK1" pad="6"/>
-<contactref element="RCV" pad="A"/>
-<wire x1="67.31" y1="8.89" x2="80.01" y2="53.34" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="SW_3">
-<contactref element="LIGHTDRIVE" pad="5"/>
-</signal>
-<signal name="SW_2">
-<contactref element="LIGHTDRIVE" pad="4"/>
-</signal>
-<signal name="PWM_6">
-<contactref element="DIGITAL" pad="3"/>
-</signal>
-<signal name="PWM_5">
-<contactref element="DIGITAL" pad="4"/>
-</signal>
-<signal name="PWM_4">
-<contactref element="DIGITAL" pad="5"/>
-</signal>
-<signal name="PWM_3">
-<contactref element="DIGITAL" pad="6"/>
-</signal>
-<signal name="PWM_0">
-<contactref element="DIGITAL" pad="9"/>
-</signal>
-<signal name="PWM_2">
-<contactref element="DIGITAL" pad="7"/>
-</signal>
-<signal name="PWM_1">
-<contactref element="LIGHTDRIVE" pad="3"/>
-<contactref element="DIGITAL" pad="8"/>
-<wire x1="13.97" y1="3" x2="64.77" y2="3" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="VDD">
-<contactref element="DIGITAL" pad="1"/>
-</signal>
 <signal name="N$1">
-<contactref element="RCV" pad="K"/>
-</signal>
-<signal name="X1">
-<contactref element="XOUT" pad="1"/>
-<contactref element="IC1" pad="4"/>
-<wire x1="82.55" y1="6.35" x2="59.69" y2="36.83" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="X2">
-<contactref element="XOUT" pad="2"/>
-<contactref element="IC1" pad="6"/>
-<wire x1="80.01" y1="6.35" x2="59.69" y2="31.75" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="X3">
-<contactref element="XOUT" pad="3"/>
-<contactref element="IC1" pad="8"/>
-<wire x1="77.47" y1="6.35" x2="67.31" y2="29.21" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="X4">
-<contactref element="XOUT" pad="4"/>
-<contactref element="IC1" pad="10"/>
-<wire x1="74.93" y1="6.35" x2="67.31" y2="34.29" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="X5">
-<contactref element="XOUT" pad="5"/>
-<contactref element="IC1" pad="12"/>
-<wire x1="72.39" y1="6.35" x2="67.31" y2="39.37" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="MOSI">
-<contactref element="LIGHTDRIVE" pad="7"/>
-</signal>
-<signal name="SCLK">
-<contactref element="LIGHTDRIVE" pad="6"/>
+<contactref element="IC1" pad="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
