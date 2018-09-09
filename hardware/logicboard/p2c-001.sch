@@ -31489,6 +31489,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <class number="0" name="default" width="0.1524" drill="0.3048">
 <clearance class="0" value="0.1524"/>
 </class>
+<class number="1" name="ground" width="0.1524" drill="0.3048">
+<clearance class="1" value="0.1524"/>
+</class>
+<class number="2" name="power1" width="0.3048" drill="0.3048">
+<clearance class="2" value="0.1524"/>
+</class>
+<class number="3" name="power2" width="0.6096" drill="0.3048">
+<clearance class="3" value="0.1524"/>
+</class>
 </classes>
 <parts>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
@@ -31719,7 +31728,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </bus>
 </busses>
 <nets>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <pinref part="MIDI-OUT" gate="G$1" pin="2"/>
 <wire x1="210.82" y1="60.96" x2="210.82" y2="63.5" width="0.1524" layer="91"/>
@@ -31929,7 +31938,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="185.42" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="VIN" class="0">
+<net name="VIN" class="3">
 <segment>
 <pinref part="U$2" gate="G$1" pin="9V"/>
 <wire x1="43.18" y1="55.88" x2="38.1" y2="55.88" width="0.1524" layer="91"/>
@@ -31947,7 +31956,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="22.86" y="71.12"/>
 </segment>
 </net>
-<net name="VCC" class="0">
+<net name="VCC" class="2">
 <segment>
 <pinref part="U$2" gate="G$1" pin="5V"/>
 <wire x1="43.18" y1="63.5" x2="25.4" y2="63.5" width="0.1524" layer="91"/>
