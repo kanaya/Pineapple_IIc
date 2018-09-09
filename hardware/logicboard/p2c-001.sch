@@ -31652,7 +31652,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="JP1" gate="A" x="109.22" y="27.94" rot="R90"/>
 <instance part="U$4" gate="G$1" x="241.3" y="149.86"/>
 <instance part="SUPPLY24" gate="GND" x="203.2" y="27.94"/>
-<instance part="MIDI" gate="G$1" x="193.04" y="30.48" rot="R90"/>
+<instance part="MIDI" gate="G$1" x="193.04" y="27.94" rot="R90"/>
 <instance part="SUPPLY28" gate="GND" x="180.34" y="144.78"/>
 <instance part="GND" gate="G$1" x="190.5" y="157.48"/>
 <instance part="DIGITAL" gate="G$1" x="127" y="114.3" rot="R180"/>
@@ -31791,7 +31791,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="MIDI" gate="G$1" pin="2"/>
-<wire x1="195.58" y1="38.1" x2="195.58" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="35.56" x2="195.58" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="SUPPLY24" gate="GND" pin="GND"/>
 <wire x1="195.58" y1="40.64" x2="203.2" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="40.64" x2="203.2" y2="30.48" width="0.1524" layer="91"/>
@@ -31931,7 +31931,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="218.44" y1="55.88" x2="218.44" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="66.04" x2="198.12" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="MIDI" gate="G$1" pin="1"/>
-<wire x1="198.12" y1="38.1" x2="198.12" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="35.56" x2="198.12" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="185.42" y1="66.04" x2="198.12" y2="66.04" width="0.1524" layer="91"/>
 <junction x="198.12" y="66.04"/>
@@ -32056,7 +32056,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="193.04" y1="55.88" x2="185.42" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="MIDI" gate="G$1" pin="3"/>
-<wire x1="193.04" y1="38.1" x2="193.04" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="35.56" x2="193.04" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="MIDI-OUT" gate="G$1" pin="5"/>
 <wire x1="203.2" y1="55.88" x2="193.04" y2="55.88" width="0.1524" layer="91"/>
 <junction x="193.04" y="55.88"/>
@@ -32072,7 +32072,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="223.52" y1="88.9" x2="190.5" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="88.9" x2="185.42" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="MIDI" gate="G$1" pin="4"/>
-<wire x1="190.5" y1="38.1" x2="190.5" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="35.56" x2="190.5" y2="88.9" width="0.1524" layer="91"/>
 <junction x="190.5" y="88.9"/>
 <label x="185.42" y="88.9" size="1.778" layer="95"/>
 </segment>
@@ -32100,7 +32100,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="162.56" y1="83.82" x2="165.1" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="MIDI" gate="G$1" pin="5"/>
-<wire x1="187.96" y1="38.1" x2="187.96" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="35.56" x2="187.96" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="MIDI-IN" gate="G$1" pin="5"/>
 <wire x1="203.2" y1="81.28" x2="187.96" y2="81.28" width="0.1524" layer="91"/>
 <junction x="187.96" y="81.28"/>
@@ -32252,15 +32252,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="DIGITAL" gate="G$1" pin="3"/>
-<wire x1="96.52" y1="116.84" x2="99.06" y2="119.38" width="0.1524" layer="91" curve="-90"/>
 <wire x1="99.06" y1="119.38" x2="111.76" y2="119.38" width="0.1524" layer="91"/>
-<label x="99.06" y="119.38" size="1.778" layer="95"/>
 <wire x1="111.76" y1="119.38" x2="116.84" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="33.02" x2="111.76" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="63.5" x2="111.76" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="38.1" x2="111.76" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="116.84" x2="99.06" y2="119.38" width="0.1524" layer="91" curve="-90"/>
+<label x="99.06" y="119.38" size="1.778" layer="95"/>
 <pinref part="JP1" gate="A" pin="8"/>
-<wire x1="111.76" y1="35.56" x2="111.76" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="119.38" x2="111.76" y2="33.02" width="0.1524" layer="91"/>
 <junction x="111.76" y="119.38"/>
 <label x="111.76" y="38.1" size="1.778" layer="95" rot="R90"/>
@@ -32817,29 +32813,32 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </sheet>
 </sheets>
 <errors>
+<approved hash="101,1,10.16,167.64,NC,1,,,,"/>
 <approved hash="113,1,130.071,89.431,FRAME1,,,,,"/>
-<approved hash="113,1,150.84,154.94,ANALOG,,,,,"/>
-<approved hash="113,1,134.597,27.94,SW1,,,,,"/>
-<approved hash="113,1,114.785,110.49,L1,,,,,"/>
-<approved hash="113,1,119.865,118.11,L2,,,,,"/>
-<approved hash="113,1,124.945,110.49,L3,,,,,"/>
-<approved hash="113,1,130.025,118.11,L4,,,,,"/>
-<approved hash="113,1,135.105,110.49,L5,,,,,"/>
-<approved hash="113,1,140.185,118.11,L6,,,,,"/>
-<approved hash="113,1,145.265,110.49,L7,,,,,"/>
-<approved hash="113,1,19.6427,135.727,RELAY,,,,,"/>
-<approved hash="113,1,65.3627,37.9374,RST,,,,,"/>
+<approved hash="113,1,163.54,154.94,ANALOG,,,,,"/>
+<approved hash="113,1,129.517,27.94,SW1,,,,,"/>
+<approved hash="113,1,140.185,110.49,L1,,,,,"/>
+<approved hash="113,1,145.265,118.11,L2,,,,,"/>
+<approved hash="113,1,150.345,110.49,L3,,,,,"/>
+<approved hash="113,1,155.425,118.11,L4,,,,,"/>
+<approved hash="113,1,160.505,110.49,L5,,,,,"/>
+<approved hash="113,1,165.585,118.11,L6,,,,,"/>
+<approved hash="113,1,170.665,110.49,L7,,,,,"/>
+<approved hash="113,1,14.5627,145.887,RELAY,,,,,"/>
+<approved hash="113,1,55.2027,37.9374,RST,,,,,"/>
 <approved hash="113,1,83.5939,40.4029,A,,,,,"/>
 <approved hash="113,1,86.5861,17.5429,B,,,,,"/>
 <approved hash="113,1,106.454,29.1677,JP1,,,,,"/>
-<approved hash="113,1,191.607,47.5827,ALT-MIDI,,,,,"/>
-<approved hash="113,1,17.78,165.263,GND,,,,,"/>
-<approved hash="113,1,14.5627,90.0074,VCC,,,,,"/>
-<approved hash="113,1,114.977,79.8474,DIGITAL,,,,,"/>
-<approved hash="113,1,240.623,110.327,XOUT,,,,,"/>
-<approved hash="113,1,146.05,97.0051,RCV,,,,,"/>
+<approved hash="113,1,191.607,32.3427,MIDI,,,,,"/>
+<approved hash="113,1,190.5,160.183,GND,,,,,"/>
+<approved hash="113,1,120.057,112.867,DIGITAL,,,,,"/>
+<approved hash="113,1,240.623,95.0874,XOUT,,,,,"/>
+<approved hash="113,1,171.45,94.4651,RCV,,,,,"/>
 <approved hash="113,1,14.5627,31.5874,LIGHTDRIVE,,,,,"/>
 <approved hash="113,1,55.2027,23.9674,I2C,,,,,"/>
+<approved hash="113,1,10.3971,169.136,NC,,,,,"/>
+<approved hash="113,1,14.5627,81.1174,PWR1,,,,,"/>
+<approved hash="113,1,14.5627,68.4174,PWR2,,,,,"/>
 </errors>
 </schematic>
 </drawing>

@@ -24,7 +24,7 @@ Install the following components.
 | L1-7        | Vf=2.2 If=20m     |                                   |
 | L8 (RCV)    | Vf=2.2 If=20m     |                                   |
 | SW1         | HEX Complementary |                                   |
-| JP1         | Pinhead 2x4p      | Short 1-4, 2-5, 3-7               |
+| JP1         | Pinhead 2x4p      | Short 1-4, 2-5, 3-7.              |
 | Con. Analog | ML 14p            |                                   |
 | Con. DC     | DC Jack           |                                   |
 | Con. MIDI   | DIN 5p            | Use PH 5p for panel mounted cons. |
@@ -111,3 +111,4 @@ Supply DC12V to DC Jack connector.
 | D11PWM        | PWM5       |                                   |
 | D12/A11       | SW3        |                                   |
 | D13PWM        | PWM6/Relay | 4-8, close to use relay           |
+| A0-5          | A0-5       |                                   |
