@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -31563,7 +31563,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY25" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="VDD1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 <part name="VDD2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
-<part name="POGOPIN" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
+<part name="NC" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
 <part name="PWR1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1"/>
 <part name="SUPPLY26" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="R7" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0204/5" package3d_urn="urn:adsk.eagle:package:25955/1" value="6.8k"/>
@@ -31656,7 +31656,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="SUPPLY25" gate="GND" x="60.96" y="15.24"/>
 <instance part="VDD1" gate="G$1" x="22.86" y="93.98"/>
 <instance part="VDD2" gate="G$1" x="76.2" y="38.1"/>
-<instance part="POGOPIN" gate="G$1" x="12.7" y="167.64"/>
+<instance part="NC" gate="G$1" x="12.7" y="167.64"/>
 <instance part="PWR1" gate="G$1" x="10.16" y="83.82" rot="MR180"/>
 <instance part="SUPPLY26" gate="G$1" x="60.96" y="129.54"/>
 <instance part="R7" gate="G$1" x="53.34" y="114.3" rot="R90"/>
