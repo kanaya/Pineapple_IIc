@@ -2,7 +2,7 @@
 
 ## Overview
 
-Pineapple IIc is a _card_ version of MIDI-computer _Pineapple II._ It can convert 7 analog voltage levels (0-5V) to MIDI Note On/Off signals.
+Pineapple IIc is a _business card_ version of MIDI-computer _Pineapple II._ It can convert 7 analog voltage levels (0-5V) to MIDI Note On/Off signals.
 
 ## How to build
 
@@ -18,18 +18,20 @@ Install the following components.
 | D1          | 1N4148            |                                   |
 | R1-3        | 220               |                                   |
 | RN1         | 330               |                                   |
-| RN2         | 10k               | To _pull-down_ sensor inputs.     |
+| RN2         | 10k               | Using pin sockets is recommended. |
 | C1          | 0.1u              |                                   |
 | C2-3        | 0.01u             |                                   |
 | L1-7        | Vf=2.2 If=20m     |                                   |
 | L8 (RCV)    | Vf=2.2 If=20m     |                                   |
 | SW1         | HEX Complementary |                                   |
-| JP1         | Pinhead 2x4p      | Short 1-4, 2-5, 3-7.              |
+| JP1         | Pinhead 2x4p      | Bridge 1-4, 2-5, 3-7.             |
 | Con. Analog | ML 14p            |                                   |
 | Con. DC     | DC Jack           |                                   |
-| Con. MIDI   | DIN 5p            | Use PH 5p for panel mounted cons. |
+| Con. MIDI   | DIN 5p            |                                   |
 
 ### To use relay
+
+Install the following components as well as _Basic_ components.
 
 | Component   | Value             | Note                              |
 |-------------|-------------------|-----------------------------------|
@@ -39,6 +41,8 @@ Install the following components.
 | K1          | G5V-1             |                                   |
 | Con. Relay  | PH 3p             |                                   |
 
+Also you need to bridge 4-8 pins of JP1.
+
 ### To use I2C
 
 | Component   | Value             | Note                              |
@@ -46,6 +50,8 @@ Install the following components.
 | IC2         | PCA9517ADP        | Use two 4p pinheads.              |
 | RN6-7       | 6.8k              |                                   |
 | Con. I2C    | SH 5p             | D7 operates at 5V.                |
+
+You need to un-bridge 1-5, 2-6, 3-7 of JP1. (D2/SDA and D7 are connected to SW1, and D3PWM/SCL is connected to PWM0 via JP1.)
 
 ### To use RST
 
@@ -59,15 +65,19 @@ Install the following components.
 |-------------|-------------------|-----------------------------------|
 | Con. LD     | Pinhead 7p        |                                   |
 
-| Lightdrive | Meaning | Arduino Pin |
-|------------|---------|-------------|
-| 1          | GND     |             |
-| 2          | Vcc     |             |
-| 3          | GSCLCK  | D5          |
-| 4          | BLANK   | D8          |
-| 5          | XLAT    | D12         |
-| 6          | SCLCK   | SCLK        |
-| 7          | SIN     | MOSI        |
+The LIGHTDRIVE pinouts are:
+
+| Lightdrive | Meaning | Arduino Pin | (Future extension) |
+|------------|---------|-------------|--------------------|
+| 1          | GND     |             | GND                |
+| 2          | Vcc     |             | Vcc                |
+| 3          | GSCLCK  | D5PWM       | GSCLCK/D7          |
+| 4          | BLANK   | D8          | BLANK/SCL          |
+| 5          | XLAT    | D12         | XLAT/SDA           |
+| 6          | SCLCK   | SCLK        | SCLCK              |
+| 7          | SIN     | MOSI        | SIN                |
+
+D8, D12 are connected to SW1.
 
 ### To use DIGITAL extension
 
