@@ -109,16 +109,26 @@ Supply DC12V to DC Jack connector.
 |---------------|------------|-----------------------------------|
 | RX            | MIDI IN    |                                   |
 | TX            | MIDI OUT   |                                   |
-| D2/SDA        | SW0/SDA    | 1-5, open to use I2C              |
-| D3PWM/SCL     | PWM0/SCL   | 2-6, open to use I2C              |
+| D2/SDA        | SW0/SDA    | 3-4, open to use I2C              |
+| D3PWM/SCL     | PWM0/SCL   |                                   |
 | D4/A6         | A6         |                                   |
 | D5PWM         | PWM1       |                                   |
 | D6PWM/A7      | PWM2       |                                   |
-| D7            | SW1        | 3-7, open to use D7 independently |
+| D7            | SW1        | 5-6, open to use D7 independently |
 | D8/A8         | SW2        |                                   |
 | D9PWM/A9      | PWM3       |                                   |
 | D10PWM/A10    | PWM4       |                                   |
 | D11PWM        | PWM5       |                                   |
 | D12/A11       | SW3        |                                   |
-| D13PWM        | PWM6/Relay | 4-8, close to use relay           |
+| D13PWM        | PWM6/Relay | 7-8, close to use relay           |
 | A0-5          | A0-5       |                                   |
+
+
+## JP1 Pinout
+
+| JP1 | Signal                 | JP1 | Signal |
+|-----|------------------------|-----|--------|
+| 1   | Level Converter Enable | 2   | GND    |
+| 3   | D2SDA (SW0/SDA)        | 4   | SW0    |
+| 5   | D7 (SW1)               | 6   | SW1    |
+| 7   | D13PWM (PWM6/Relay)    | 8   | Relay  |
