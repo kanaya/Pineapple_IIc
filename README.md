@@ -4,13 +4,13 @@
 
 Pineapple IIc is a _business card_ version of MIDI-computer _Pineapple II._ It can convert 7 analog voltage levels (0-5V) to MIDI Note On/Off signals.
 
-## How to build
+## How to set up (Hardware)
 
 ### Basics
 
 Install the following components.
 
-| Component   | Value             | Note                              |
+| Name        | Component         | Note                              |
 |-------------|-------------------|-----------------------------------|
 | MC1         | Arduino Micro 5V  | Using pin sockets is recommended. |
 | IC1         | 74LS07            |                                   |
@@ -29,11 +29,38 @@ Install the following components.
 | Con. DC     | DC Jack           |                                   |
 | Con. MIDI   | DIN 5p            |                                   |
 
+### Non-basic usage
+
+You can drive a relay, I2C devices, and TLC5940 PWM driver by installing some other components on Pineapple IIc. Also you can replace some connectors so that you can use panel mounted connectors and install Pineapple IIc board in a case. For more detail, please read _Extending Pineapple IIc_.
+
+
+## How to set up (Software)
+
+Install _Pineapple IIc Basic_ to run Pineapple IIc in _Basic_ mode.
+
+
+## How to connect
+
+### DC
+
+Supply DC12V to DC Jack connector.
+
+### Sensors
+
+To be written.
+
+### MIDI
+
+To be written.
+
+
+## Extending Pineapple IIc
+
 ### To use relay
 
 Install the following components as well as _Basic_ components.
 
-| Component   | Value             | Note                              |
+| Name        | Component         | Note                              |
 |-------------|-------------------|-----------------------------------|
 | T1          | 2SC1815           |                                   |
 | D2          | 1N4148            |                                   |
@@ -45,23 +72,23 @@ Also you need to bridge 4-8 pins of JP1.
 
 ### To use I2C
 
-| Component   | Value             | Note                              |
+| Name        | Component         | Note                              |
 |-------------|-------------------|-----------------------------------|
-| IC2         | PCA9517ADP        | Use two 4p pinheads.              |
-| RN6-7       | 6.8k              |                                   |
+| IC2         | PCA9517ADP        | Put A-side up, B-side down.       |
+| R6-7        | 6.8k              |                                   |
 | Con. I2C    | SH 5p             | D7 operates at 5V.                |
 
 You need to un-bridge 1-5, 2-6, 3-7 of JP1. (D2/SDA and D7 are connected to SW1, and D3PWM/SCL is connected to PWM0 via JP1.)
 
 ### To use RST
 
-| Component   | Value             | Note                              |
-|-------------|-------------------|-----------------------------------|
-| Con. RST    | PH 2p             |                                   |
+| Name            | Component     | Note                              |
+|-----------------|---------------|-----------------------------------|
+| Con. RST (Back) | PH 2p         |                                   |
 
 ### To use LIGHTDRIVE
 
-| Component   | Value             | Note                              |
+| Name        | Component         | Note                              |
 |-------------|-------------------|-----------------------------------|
 | Con. LD     | Pinhead 7p        |                                   |
 
@@ -77,7 +104,22 @@ The LIGHTDRIVE pinouts are:
 | 6          | SCLCK   | SCLK        | SCLCK              |
 | 7          | SIN     | MOSI        | SIN                |
 
-D8, D12 are connected to SW1.
+D8, D12 are also connected to SW1.
+
+
+### To use extra GND pins
+
+| Name            | Component   | Note                              |
+|-----------------|-------------|-----------------------------------|
+| Con. GND (back) | Pinhead 2x3 |                                   |
+
+
+### To use panel-mounted MIDI connector
+
+| Name             | Component  | Note                              |
+|------------------|------------|-----------------------------------|
+| Con. MIDI (back) | PH 5p      |                                   |
+
 
 ### To use DIGITAL extension
 
@@ -96,14 +138,10 @@ To stack multiple cards, you can do one of the following options.
 * Use spacer. _Pineapple IIc_ has four M2 holes at each corners ((3, 3), (88, 3) (88, 52), (3, 52) mm).
 * Use pinheads of GND (bottom left), Vin (bottom right), _Pogo_ (top right), and Vcc (top left).
 
-## How to connect
 
-### Pineapple II compatible mode
+## Technical notes
 
-Supply DC12V to DC Jack connector.
-
-
-## Arduino Pinout
+### Arduino Pinout
 
 | Arduino Micro | Signal     | JP1                               |
 |---------------|------------|-----------------------------------|
@@ -124,7 +162,7 @@ Supply DC12V to DC Jack connector.
 | A0-5          | A0-5       |                                   |
 
 
-## JP1 Pinout
+### JP1 Pinout
 
 | JP1 | Signal                 | JP1 | Signal |
 |-----|------------------------|-----|--------|
