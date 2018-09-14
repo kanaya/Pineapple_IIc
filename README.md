@@ -96,8 +96,8 @@ The LIGHTDRIVE pinouts are:
 
 | Lightdrive | Meaning | Arduino Pin | (Future extension) |
 |------------|---------|-------------|--------------------|
-| 1          | GND     |             | GND                |
-| 2          | Vcc     |             | Vcc                |
+| 1          | Vcc     |             | Vcc                |
+| 2          | GND     |             | GND                |
 | 3          | GSCLCK  | D5PWM       | GSCLCK/D7          |
 | 4          | BLANK   | D8          | BLANK/SCL          |
 | 5          | XLAT    | D12         | XLAT/SDA           |

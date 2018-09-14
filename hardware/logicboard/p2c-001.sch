@@ -31489,13 +31489,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <class number="0" name="default" width="0.1524" drill="0.3048">
 <clearance class="0" value="0.1524"/>
 </class>
-<class number="1" name="ground" width="0.1524" drill="0.3048">
+<class number="1" name="ground" width="0.3048" drill="0.3048">
 <clearance class="1" value="0.1524"/>
 </class>
 <class number="2" name="power1" width="0.3048" drill="0.3048">
 <clearance class="2" value="0.1524"/>
 </class>
-<class number="3" name="power2" width="0.6096" drill="0.3048">
+<class number="3" name="power2" width="0.3048" drill="0.3048">
 <clearance class="3" value="0.1524"/>
 </class>
 </classes>
