@@ -24,7 +24,7 @@ Install the following components.
 | L1-7        | Vf=2.2 If=20m     |                                   |
 | L8 (RCV)    | Vf=2.2 If=20m     |                                   |
 | SW1         | HEX Complementary |                                   |
-| JP1         | Pinhead 2x4p      | Bridge 1-4, 2-5, 3-7.             |
+| JP1         | Pinhead 2x4p      | Bridge 1-2, 3-4, 5-6.             |
 | Con. Analog | ML 14p            |                                   |
 | Con. DC     | DC Jack           |                                   |
 | Con. MIDI   | DIN 5p            |                                   |
