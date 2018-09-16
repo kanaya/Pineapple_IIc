@@ -1,8 +1,8 @@
 # Pineapple IIc
 
-## Overview
+## Congratulations!
 
-Pineapple IIc is a _business card_ version of MIDI-computer _Pineapple II._ It can convert 7 analog voltage levels (0-5V) to MIDI Note On/Off signals.
+You’ve got the latest version of Pineapple Computer named _Pineapple IIc._ But what is Pineapple Computer? Well, it is a MIDI computer that can covert analog signals to MIDI (digital) signal. Now you may want to ask, I guess, what is it for? The Pineapple Computer is an artist-friendly super-easy-to-use computer! You plug power, sensor, MIDI instrument, and boom! Everything is set up.
 
 ## How to set up (Hardware)
 
@@ -24,7 +24,7 @@ Install the following components.
 | L1-7        | Vf=2.2 If=20m     |                                   |
 | L8 (RCV)    | Vf=2.2 If=20m     |                                   |
 | SW1         | HEX Complementary |                                   |
-| JP1         | Pinhead 2x4p      | Bridge 1-2, 3-4, 5-6.             |
+| JP1         | Pinhead 2x4p      | **Bridge 1-2, 3-4, 5-6.**         |
 | Con. Analog | ML 14p            |                                   |
 | Con. DC     | DC Jack           |                                   |
 | Con. MIDI   | DIN 5p            |                                   |
@@ -33,26 +33,17 @@ Install the following components.
 
 You can drive a relay, I2C devices, and TLC5940 PWM driver by installing some other components on Pineapple IIc. Also you can replace some connectors so that you can use panel mounted connectors and install Pineapple IIc board in a case. For more detail, please read _Extending Pineapple IIc_.
 
-
 ## How to set up (Software)
 
-Install _Pineapple IIc Basic_ to run Pineapple IIc in _Basic_ mode.
+Install _Pineapple IIc Basic_ sketch to run Pineapple IIc in _Basic_ mode.
 
+## How to play
 
-## How to connect
+Connect the following plugs.
 
-### DC
-
-Supply DC12V to DC Jack connector.
-
-### Sensors
-
-To be written.
-
-### MIDI
-
-To be written.
-
+* DC---Supply DC 12V to DC Jack connector.
+* MIDI---Connect Pineapple IIc's MIDI OUT and your instrument's MIDI IN.
+* Sensors---To be written.
 
 ## Extending Pineapple IIc
 
@@ -68,19 +59,23 @@ Install the following components as well as _Basic_ components.
 | K1          | G5V-1             |                                   |
 | Con. Relay  | PH 3p             |                                   |
 
-Also you need to bridge 4-8 pins of JP1.
+Also you need to **bridge 7-8 of JP1.**
 
 ### To use I2C
+
+Install the following components as well as _Basic_ components.
 
 | Name        | Component         | Note                              |
 |-------------|-------------------|-----------------------------------|
 | IC2         | PCA9517ADP        | Put A-side up, B-side down.       |
 | R6-7        | 6.8k              |                                   |
-| Con. I2C    | SH 5p             | D7 operates at 5V.                |
+| Con. I2C    | SH 5p             | D7 operates at **5V.**            |
 
-You need to un-bridge 1-5, 2-6, 3-7 of JP1. (D2/SDA and D7 are connected to SW1, and D3PWM/SCL is connected to PWM0 via JP1.)
+You need to **un-bridge 1-5, 2-6, 3-7 of JP1.** (D2/SDA and D7 are connected to SW1, and D3PWM/SCL is connected to PWM0 via JP1.)
 
 ### To use RST
+
+Install the following components at back side as well as _Basic_ components.
 
 | Name            | Component     | Note                              |
 |-----------------|---------------|-----------------------------------|
@@ -88,56 +83,84 @@ You need to un-bridge 1-5, 2-6, 3-7 of JP1. (D2/SDA and D7 are connected to SW1,
 
 ### To use LIGHTDRIVE
 
+Install the following components as well as _Basic_ components **except for SW1.** Since Arduino's D8 and D12 pins share SW1 connections and LIGHTDRIVE pins, you need to remove SW1.
+
 | Name        | Component         | Note                              |
 |-------------|-------------------|-----------------------------------|
 | Con. LD     | Pinhead 7p        |                                   |
 
 The LIGHTDRIVE pinouts are:
 
-| Lightdrive | Meaning | Arduino Pin | (Future extension) |
-|------------|---------|-------------|--------------------|
-| 1          | Vcc     |             | Vcc                |
-| 2          | GND     |             | GND                |
-| 3          | GSCLCK  | D5PWM       | GSCLCK/D7          |
-| 4          | BLANK   | D8          | BLANK/SCL          |
-| 5          | XLAT    | D12         | XLAT/SDA           |
-| 6          | SCLCK   | SCLK        | SCLCK              |
-| 7          | SIN     | MOSI        | SIN                |
-
-D8, D12 are also connected to SW1.
-
+| Lightdrive | Meaning | Arduino Pin |
+|------------|---------|-------------|
+| 1          | Vcc     |             |
+| 2          | GND     |             |
+| 3          | GSCLCK  | D5PWM       |
+| 4          | BLANK   | D8          |
+| 5          | XLAT    | D12         |
+| 6          | SCLCK   | SCLK        |
+| 7          | SIN     | MOSI        |
 
 ### To use extra GND pins
+
+Install the following components at back side as well as _Basic_ components.
 
 | Name            | Component   | Note                              |
 |-----------------|-------------|-----------------------------------|
 | Con. GND (back) | Pinhead 2x3 |                                   |
 
-
 ### To use panel-mounted MIDI connector
+
+Install the following components at back side as well as _Basic_ components.
 
 | Name             | Component  | Note                              |
 |------------------|------------|-----------------------------------|
 | Con. MIDI (back) | PH 5p      |                                   |
 
+### To use panel-mounted DC Jack
 
-### To use DIGITAL extension
+Install the following components at back side as well as _Basic_ components.
+
+| Name             | Component  | Note                              |
+|------------------|------------|-----------------------------------|
+| Con. PWR2 (back) | PH 2p      |                                   |
+
+### To directly supply 5V
+
+Install the following components as well as _Basic_ components.
+
+| Name             | Component  | Note                              |
+|------------------|------------|-----------------------------------|
+| Con. PWR1        | Pinhead 2p |                                   |
+
+Then feed +5V directly to PWR1.
 
 ### To use XOUT
 
-### To directly input 5V
+XOUT is designed for extra MIDI OUT capability. It is a direct output of Open Collector so that you may want to install 220-ohm resistor for use as MIDI OUT.
 
-### To directly input 12V
+Install the following components as well as _Basic_ components.
 
+| Name             | Component  | Note                              |
+|------------------|------------|-----------------------------------|
+| Con. XOUT        | Pinhead 5p |                                   |
 
+### To use DIGITAL extension
+
+You can hook L1-L7 driver pins by using DIGITAL pins. It also provides +3.3V DC.
+
+Install the following components as well as _Basic_ components.
+
+| Name             | Component  | Note                              |
+|------------------|------------|-----------------------------------|
+| Con. DIGITL      | Pinhead 9p |                                   |
 
 ### To stack multiple cards
 
 To stack multiple cards, you can do one of the following options.
 
 * Use spacer. _Pineapple IIc_ has four M2 holes at each corners ((3, 3), (88, 3) (88, 52), (3, 52) mm).
-* Use pinheads of GND (bottom left), Vin (bottom right), _Pogo_ (top right), and Vcc (top left).
-
+* Use pinheads of Vcc (bottom left), 3V3 (bottom right), _Pogo_ (top right), Vcc (top left) and perhaps GND (next to the Vcc at top left).
 
 ## Technical notes
 
@@ -160,7 +183,6 @@ To stack multiple cards, you can do one of the following options.
 | D12/A11       | SW3        |                                   |
 | D13PWM        | PWM6/Relay | 7-8, close to use relay           |
 | A0-5          | A0-5       |                                   |
-
 
 ### JP1 Pinout
 
