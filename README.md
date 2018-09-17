@@ -119,21 +119,12 @@ Install the following components at back side as well as _Basic_ components.
 
 ### To use panel-mounted DC Jack
 
-Install the following components at back side as well as _Basic_ components.
-
-| Name             | Component  | Note                              |
-|------------------|------------|-----------------------------------|
-| Con. PWR2 (back) | PH 2p      |                                   |
-
-### To directly supply 5V
-
-Install the following components as well as _Basic_ components.
+Install one of the following components as well as _Basic_ components.
 
 | Name             | Component  | Note                              |
 |------------------|------------|-----------------------------------|
 | Con. PWR1        | Pinhead 2p |                                   |
-
-Then feed +5V directly to PWR1.
+| Con. PWR2 (back) | PH 2p      |                                   |
 
 ### To use XOUT
 
