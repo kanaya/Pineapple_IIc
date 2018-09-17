@@ -105,9 +105,9 @@ The LIGHTDRIVE pinouts are:
 
 Install the following components at back side as well as _Basic_ components.
 
-| Name            | Component   | Note                              |
-|-----------------|-------------|-----------------------------------|
-| Con. GND (back) | Pinhead 2x3 |                                   |
+| Name            | Component    | Note                              |
+|-----------------|--------------|-----------------------------------|
+| Con. GND (back) | Pinhead 2x3p |                                   |
 
 ### To use panel-mounted MIDI connector
 
