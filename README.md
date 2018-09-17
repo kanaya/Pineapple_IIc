@@ -51,13 +51,13 @@ Connect the following plugs.
 
 Install the following components as well as _Basic_ components.
 
-| Name        | Component         | Note                              |
-|-------------|-------------------|-----------------------------------|
-| T1          | 2SC1815           |                                   |
-| D2          | 1N4148            |                                   |
-| R4-5        | 10k               |                                   |
-| K1          | G5V-1 DC5V        |                                   |
-| Con. Relay  | PH 3p             |                                   |
+| Item        | Name | Spec.      | # |  Note |
+|-------------|------|------------|---|-------|
+| Transistor  | T1   | 2SC1815    | 1 |       |
+| Diode       | D2   | 1N4148     | 1 |       |
+| Resistor    | R4-5 | 10k        | 2 |       |
+| Relay       | K1   | G5V-1 DC5V | 1 |       |
+| Con.        | Relay | PH 3p     | 1 |       |
 
 Also you need to **bridge 7-8 of JP1.**
 
@@ -65,11 +65,11 @@ Also you need to **bridge 7-8 of JP1.**
 
 Install the following components as well as _Basic_ components.
 
-| Name        | Component         | Note                              |
-|-------------|-------------------|-----------------------------------|
-| IC2         | PCA9517ADP        | Put A-side up, B-side down.       |
-| R6-7        | 6.8k              |                                   |
-| Con. I2C    | SH 5p             | D7 operates at **5V.**            |
+| Item                   | Name | Spec.      | # |  Note                       |
+|------------------------|------|------------|---|-----------------------------|
+| Signal level converter | IC2  | PCA9517ADP | 1 | Put A-side up, B-side down. |
+| Resistor               | R6-7 | 6.8k       | 2 |                             |
+| Con.                   | I2C  | SH 5p      | 1 | D7 operates at **5V.**      |
 
 You need to **un-bridge 1-5, 2-6, 3-7 of JP1.** (D2/SDA and D7 are connected to SW1, and D3PWM/SCL is connected to PWM0 via JP1.)
 
@@ -77,17 +77,17 @@ You need to **un-bridge 1-5, 2-6, 3-7 of JP1.** (D2/SDA and D7 are connected to 
 
 Install the following components at back side as well as _Basic_ components.
 
-| Name            | Component     | Note                              |
-|-----------------|---------------|-----------------------------------|
-| Con. RST (Back) | PH 2p         |                                   |
+| Item | Name       | Spec.   | # |  Note |
+|------|------------|---------|---|-------|
+| Con. | RST (Back) | PH 2p   | 1 |       |
 
 ### To use LIGHTDRIVE
 
 Install the following components as well as _Basic_ components **except for SW1.** Since Arduino's D8 and D12 pins share SW1 connections and LIGHTDRIVE pins, you need to remove SW1.
 
-| Name        | Component         | Note                              |
-|-------------|-------------------|-----------------------------------|
-| Con. LD     | Pinhead 7p        |                                   |
+| Item | Name       | Spec.      | # |  Note |
+|------|------------|------------|---|-------|
+| Con. | LIGHTDRIVE | Pinhead 7p | 1 |       |
 
 The LIGHTDRIVE pinouts are:
 
@@ -105,26 +105,26 @@ The LIGHTDRIVE pinouts are:
 
 Install the following components at back side as well as _Basic_ components.
 
-| Name            | Component    | Note                              |
-|-----------------|--------------|-----------------------------------|
-| Con. GND (back) | Pinhead 2x3p |                                   |
+| Item | Name       | Spec.        | # |  Note |
+|------|------------|--------------|---|-------|
+| Con. | GND (back) | Pinhead 2x3p | 1 |       |
 
 ### To use panel-mounted MIDI connector
 
 Install the following components at back side as well as _Basic_ components.
 
-| Name             | Component  | Note                              |
-|------------------|------------|-----------------------------------|
-| Con. MIDI (back) | PH 5p      |                                   |
+| Item | Name        | Spec.        | # |  Note |
+|------|-------------|--------------|---|-------|
+| Con. | MIDI (back) | PH 5p        | 1 |       |
 
 ### To use panel-mounted DC Jack
 
 Install one of the following components as well as _Basic_ components.
 
-| Name             | Component  | Note                              |
-|------------------|------------|-----------------------------------|
-| Con. PWR1        | Pinhead 2p |                                   |
-| Con. PWR2 (back) | PH 2p      |                                   |
+| Item | Name        | Spec.      | # |  Note |
+|------|-------------|------------|---|-------|
+| Con. | PWR1        | Pinhead 2p | 1 |       |
+| Con. | PWR2 (back) | PH 2p      | 1 |       |
 
 ### To use XOUT
 
@@ -132,9 +132,9 @@ XOUT is designed for extra MIDI OUT capability. It is a direct output of Open Co
 
 Install the following components as well as _Basic_ components.
 
-| Name             | Component  | Note                              |
-|------------------|------------|-----------------------------------|
-| Con. XOUT        | Pinhead 5p |                                   |
+| Item | Name | Spec.      | # |  Note |
+|------|------|------------|---|-------|
+| Con. | XOUT | Pinhead 5p | 1 |       |
 
 ### To use DIGITAL extension
 
@@ -142,9 +142,9 @@ You can hook L1-L7 driver pins by using DIGITAL pins. It also provides +3.3V DC.
 
 Install the following components as well as _Basic_ components.
 
-| Name             | Component  | Note                              |
-|------------------|------------|-----------------------------------|
-| Con. DIGITL      | Pinhead 9p |                                   |
+| Item | Name   | Spec.      | # |  Note |
+|------|--------|------------|---|-------|
+| Con. | DIGITL | Pinhead 9p | 1 |       |
 
 ### To stack multiple cards
 
