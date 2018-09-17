@@ -56,7 +56,7 @@ Install the following components as well as _Basic_ components.
 | T1          | 2SC1815           |                                   |
 | D2          | 1N4148            |                                   |
 | R4-5        | 10k               |                                   |
-| K1          | G5V-1             |                                   |
+| K1          | G5V-1 DC5V        |                                   |
 | Con. Relay  | PH 3p             |                                   |
 
 Also you need to **bridge 7-8 of JP1.**
