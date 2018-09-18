@@ -24,7 +24,7 @@ Install the following components.
 | L1-7        | Vf=2.2 If=20m     |                                   |
 | L8 (RCV)    | Vf=2.2 If=20m     |                                   |
 | SW1         | HEX Complementary |                                   |
-| JP1         | Pinhead 2x4p      | **Bridge 1-2, 3-4, 5-6.**         |
+| JP1         | Pinheader 2x4p    | **Bridge 1-2, 3-4, 5-6.**         |
 | Con. Analog | ML 14p            |                                   |
 | Con. DC     | DC Jack           |                                   |
 | Con. MIDI   | DIN 5p            |                                   |
@@ -85,9 +85,9 @@ Install the following components at back side as well as _Basic_ components.
 
 Install the following components as well as _Basic_ components **except for SW1.** Since Arduino's D8 and D12 pins share SW1 connections and LIGHTDRIVE pins, you need to remove SW1.
 
-| Item | Name       | Spec.      | # |  Note |
-|------|------------|------------|---|-------|
-| Con. | LIGHTDRIVE | Pinhead 7p | 1 |       |
+| Item | Name       | Spec.        | # |  Note |
+|------|------------|--------------|---|-------|
+| Con. | LIGHTDRIVE | Pinheader 7p | 1 |       |
 
 The LIGHTDRIVE pinouts are:
 
@@ -105,9 +105,9 @@ The LIGHTDRIVE pinouts are:
 
 Install the following components at back side as well as _Basic_ components.
 
-| Item | Name       | Spec.        | # |  Note |
-|------|------------|--------------|---|-------|
-| Con. | GND (back) | Pinhead 2x3p | 1 |       |
+| Item | Name       | Spec.                 | # |  Note |
+|------|------------|-----------------------|---|-------|
+| Con. | GND (back) | Pinheader/socket 2x3p | 1 |       |
 
 ### To use panel-mounted MIDI connector
 
@@ -123,7 +123,7 @@ Install one of the following components as well as _Basic_ components.
 
 | Item | Name        | Spec.      | # |  Note |
 |------|-------------|------------|---|-------|
-| Con. | PWR1        | Pinhead 2p | 1 |       |
+| Con. | PWR1        | Pinheader 2p | 1 |       |
 | Con. | PWR2 (back) | PH 2p      | 1 |       |
 
 ### To use XOUT
@@ -132,9 +132,9 @@ XOUT is designed for extra MIDI OUT capability. It is a direct output of Open Co
 
 Install the following components as well as _Basic_ components.
 
-| Item | Name | Spec.      | # |  Note |
-|------|------|------------|---|-------|
-| Con. | XOUT | Pinhead 5p | 1 |       |
+| Item | Name | Spec.        | # |  Note |
+|------|------|--------------|---|-------|
+| Con. | XOUT | Pinheader 5p | 1 |       |
 
 ### To use DIGITAL extension
 
@@ -142,16 +142,16 @@ You can hook L1-L7 driver pins by using DIGITAL pins. It also provides +3.3V DC.
 
 Install the following components as well as _Basic_ components.
 
-| Item | Name   | Spec.      | # |  Note |
-|------|--------|------------|---|-------|
-| Con. | DIGITL | Pinhead 9p | 1 |       |
+| Item | Name   | Spec.        | # |  Note |
+|------|--------|--------------|---|-------|
+| Con. | DIGITL | Pinheader 9p | 1 |       |
 
 ### To stack multiple cards
 
 To stack multiple cards, you can do one of the following options.
 
 * Use spacer. _Pineapple IIc_ has four M2 holes at each corners ((3, 3), (88, 3) (88, 52), (3, 52) mm).
-* Use pinheads of Vcc (bottom left), 3V3 (bottom right), _Pogo_ (top right), Vcc (top left) and perhaps GND (next to the Vcc at top left).
+* Use Pinheaders of Vcc (bottom left), 3V3 (bottom right), _Pogo_ (top right), Vcc (top left) and perhaps GND (next to the Vcc at top left).
 
 ## Technical notes
 
