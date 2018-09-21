@@ -5563,7 +5563,7 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="-5" y1="-15" x2="-3" y2="-15" width="0.127" layer="21"/>
 <wire x1="-4.5" y1="-15.5" x2="-3.5" y2="-15.5" width="0.127" layer="21"/>
 <wire x1="-4.25" y1="-16" x2="-3.75" y2="-16" width="0.127" layer="21"/>
-<text x="0" y="1" size="0.8" layer="21" align="center">*Install pull-down resistors</text>
+<text x="0" y="1" size="0.8" layer="21" align="center">*Install RN2</text>
 <text x="-3" y="-6" size="1" layer="21" align="center-left">Vcc</text>
 <text x="-3" y="-12" size="1" layer="21" align="center-left">GND</text>
 <text x="3" y="-3" size="1" layer="21" align="center">1</text>
@@ -31577,7 +31577,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY26" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="R7" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0204/5" package3d_urn="urn:adsk.eagle:package:25955/1" value="6.8k"/>
 <part name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0204/5" package3d_urn="urn:adsk.eagle:package:25955/1" value="6.8k"/>
-<part name="PWR2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="JST-PTH-2" package3d_urn="urn:adsk.eagle:package:38053/1"/>
+<part name="PWR2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="-JST-2-PTH-NO_SILK" package3d_urn="urn:adsk.eagle:package:38056/1"/>
 <part name="VDD3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 <part name="U$5" library="pineapple" deviceset="HELP_P2C" device=""/>
 </parts>

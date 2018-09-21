@@ -8,15 +8,15 @@
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
@@ -34,9 +34,9 @@
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
@@ -190,9 +190,9 @@ Con. DC: DC Jack
 Con. MIDI: DIN 5p
 Further info at https://pineapple.cc/card</text>
 <text x="8.89" y="53.34" size="0.8" layer="25" align="center">Vin</text>
-<text x="33.02" y="19.685" size="1" layer="25" align="center">D7</text>
-<text x="35.56" y="19.685" size="1" layer="25" align="center">D13</text>
-<text x="30.48" y="19.685" size="1" layer="25" align="center">D2</text>
+<text x="33.02" y="19.685" size="0.8" layer="25" align="center">D7</text>
+<text x="35.56" y="19.685" size="0.8" layer="25" align="center">D13</text>
+<text x="30.48" y="19.685" size="0.8" layer="25" align="center">D2</text>
 <circle x="27.94" y="12.7" radius="0.254" width="0.508" layer="21"/>
 <circle x="30.48" y="12.7" radius="0.254" width="0.508" layer="21"/>
 <circle x="33.02" y="12.7" radius="0.254" width="0.508" layer="21"/>
@@ -5652,7 +5652,7 @@ Further info at https://pineapple.cc/card</text>
 <wire x1="-5" y1="-15" x2="-3" y2="-15" width="0.127" layer="21"/>
 <wire x1="-4.5" y1="-15.5" x2="-3.5" y2="-15.5" width="0.127" layer="21"/>
 <wire x1="-4.25" y1="-16" x2="-3.75" y2="-16" width="0.127" layer="21"/>
-<text x="0" y="1" size="0.8" layer="21" align="center">*Install pull-down resistors</text>
+<text x="0" y="1" size="0.8" layer="21" align="center">*Install RN2</text>
 <text x="-3" y="-6" size="1" layer="21" align="center-left">Vcc</text>
 <text x="-3" y="-12" size="1" layer="21" align="center-left">GND</text>
 <text x="3" y="-3" size="1" layer="21" align="center">1</text>
@@ -6214,6 +6214,32 @@ Extended soldering pads.
 <text x="3.5052" y="2.159" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="3.175" y="1.143" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
+<package name="JST-2-PTH-NS" urn="urn:adsk.eagle:footprint:37671/1" library_version="1">
+<description>&lt;h3&gt;JST 2 Pin Right Angle Plated Through  Hole- No Silk&lt;/h3&gt;
+tDocu indicate polarity for connections that match SparkFun LiPo battery terminations. 
+&lt;br&gt; No silk outline of connector. 
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
+&lt;li&gt;Pin pitch:2mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=”https://www.sparkfun.com/datasheets/Prototyping/Connectors/JST%282%29-01548.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CONN_02&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="-2" y1="0" x2="-2" y2="-1.8" width="0.2032" layer="51"/>
+<wire x1="-2" y1="-1.8" x2="-3" y2="-1.8" width="0.2032" layer="51"/>
+<wire x1="-3" y1="-1.8" x2="-3" y2="6" width="0.2032" layer="51"/>
+<wire x1="-3" y1="6" x2="3" y2="6" width="0.2032" layer="51"/>
+<wire x1="3" y1="6" x2="3" y2="-1.8" width="0.2032" layer="51"/>
+<wire x1="3" y1="-1.8" x2="2" y2="-1.8" width="0.2032" layer="51"/>
+<wire x1="2" y1="-1.8" x2="2" y2="0" width="0.2032" layer="51"/>
+<pad name="1" x="-1" y="0" drill="0.7" diameter="1.6"/>
+<pad name="2" x="1" y="0" drill="0.7" diameter="1.6"/>
+<text x="-1.27" y="5.27" size="0.6096" layer="25" font="vector" ratio="20">&gt;Name</text>
+<text x="-1.27" y="4" size="0.6096" layer="27" font="vector" ratio="20">&gt;Value</text>
+<text x="0.6" y="0.7" size="1.27" layer="51">+</text>
+<text x="-1.4" y="0.7" size="1.27" layer="51">-</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="DIN5-RA-PTH" urn="urn:adsk.eagle:package:38294/1" type="box" library_version="1">
@@ -6363,6 +6389,22 @@ POWER_JACK
 </description>
 <packageinstances>
 <packageinstance name="POWER_JACK_SLOT"/>
+</packageinstances>
+</package3d>
+<package3d name="JST-2-PTH-NS" urn="urn:adsk.eagle:package:38056/1" type="box" library_version="1">
+<description>JST 2 Pin Right Angle Plated Through  Hole- No Silk
+tDocu indicate polarity for connections that match SparkFun LiPo battery terminations. 
+ No silk outline of connector. 
+Specifications:
+Pin count: 2
+Pin pitch:2mm
+
+Datasheet referenced for footprint
+Example device(s):
+CONN_02
+</description>
+<packageinstances>
+<packageinstance name="JST-2-PTH-NS"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -8724,10 +8766,8 @@ design rules under a new name.</description>
 <attribute name="NAME" x="15.875" y="11.43" size="0.8" layer="25" ratio="10" align="center"/>
 <attribute name="VALUE" x="18.1864" y="9.1186" size="0.9906" layer="27" ratio="10"/>
 </element>
-<element name="PWR2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="JST-2-PTH" package3d_urn="urn:adsk.eagle:package:38053/1" value="" x="6" y="8" smashed="yes" rot="MR270">
+<element name="PWR2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="JST-2-PTH-NS" package3d_urn="urn:adsk.eagle:package:38056/1" value="" x="6" y="8" smashed="yes" rot="MR270">
 <attribute name="NAME" x="10" y="8" size="0.8" layer="26" font="vector" ratio="20" rot="MR270" align="center"/>
-<attribute name="PROD_ID" value="CONN-09863" x="6" y="8" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="SKU" value="PRT-09914" x="6" y="8" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="3.27" y="9.27" size="0.6096" layer="28" font="vector" ratio="20" rot="MR270"/>
 </element>
 <element name="U$5" library="pineapple" package="HELP_P2C" value="HELP_P2C" x="48" y="36" rot="MR0"/>
