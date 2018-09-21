@@ -31495,7 +31495,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <class number="2" name="power1" width="0.3048" drill="0.3048">
 <clearance class="2" value="0.1524"/>
 </class>
-<class number="3" name="power2" width="0.3048" drill="0.3048">
+<class number="3" name="power2" width="0.4572" drill="0.3048">
 <clearance class="3" value="0.1524"/>
 </class>
 </classes>
@@ -31633,7 +31633,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="SUPPLY15" gate="GND" x="22.86" y="15.24"/>
 <instance part="SUPPLY18" gate="GND" x="104.14" y="106.68"/>
 <instance part="DC12V" gate="G$1" x="17.78" y="53.34"/>
-<instance part="SUPPLY19" gate="G$1" x="81.28" y="48.26"/>
+<instance part="SUPPLY19" gate="G$1" x="81.28" y="50.8"/>
 <instance part="SUPPLY20" gate="GND" x="93.98" y="15.24"/>
 <instance part="R5" gate="G$1" x="55.88" y="139.7"/>
 <instance part="T1" gate="G$1" x="43.18" y="139.7" rot="MR0"/>
@@ -31663,7 +31663,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="I2C" gate="G$1" x="50.8" y="25.4" rot="MR180"/>
 <instance part="SUPPLY25" gate="GND" x="60.96" y="15.24"/>
 <instance part="VDD1" gate="G$1" x="25.4" y="99.06"/>
-<instance part="VDD2" gate="G$1" x="76.2" y="35.56"/>
+<instance part="VDD2" gate="G$1" x="81.28" y="33.02"/>
 <instance part="NC" gate="G$1" x="12.7" y="167.64"/>
 <instance part="PWR1" gate="G$1" x="10.16" y="43.18" rot="MR180"/>
 <instance part="SUPPLY26" gate="G$1" x="73.66" y="147.32"/>
@@ -32021,7 +32021,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="SUPPLY19" gate="G$1" pin="VCC"/>
 <pinref part="A" gate="A" pin="1"/>
+<wire x1="81.28" y1="48.26" x2="81.28" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="45.72" x2="81.28" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="45.72" x2="76.2" y2="45.72" width="0.1524" layer="91"/>
+<junction x="81.28" y="45.72"/>
+<wire x1="76.2" y1="45.72" x2="76.2" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="33.02" x2="76.2" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="I2C" gate="G$1" pin="1"/>
+<wire x1="76.2" y1="30.48" x2="58.42" y2="30.48" width="0.1524" layer="91"/>
+<label x="58.42" y="30.48" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="66.04" y1="139.7" x2="73.66" y2="139.7" width="0.1524" layer="91"/>
@@ -32239,17 +32247,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="VDD" class="0">
 <segment>
-<wire x1="58.42" y1="30.48" x2="76.2" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="B" gate="A" pin="4"/>
-<wire x1="76.2" y1="30.48" x2="81.28" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="30.48" x2="81.28" y2="17.78" width="0.1524" layer="91"/>
-<label x="58.42" y="30.48" size="1.778" layer="95"/>
-<pinref part="I2C" gate="G$1" pin="1"/>
-<pinref part="VDD2" gate="G$1" pin="VDD"/>
-<wire x1="76.2" y1="33.02" x2="76.2" y2="30.48" width="0.1524" layer="91"/>
-<junction x="76.2" y="30.48"/>
-</segment>
-<segment>
 <pinref part="U$2" gate="G$1" pin="3V"/>
 <wire x1="40.64" y1="93.98" x2="25.4" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="VDD1" gate="G$1" pin="VDD"/>
@@ -32260,6 +32257,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="104.14" y1="134.62" x2="104.14" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="DIGITAL" gate="G$1" pin="1"/>
 <wire x1="104.14" y1="132.08" x2="101.6" y2="132.08" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="B" gate="A" pin="4"/>
+<wire x1="81.28" y1="30.48" x2="81.28" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="VDD2" gate="G$1" pin="VDD"/>
 </segment>
 </net>
 <net name="X1" class="0">
@@ -32783,7 +32785,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <approved hash="113,1,83.5939,40.4029,A,,,,,"/>
 <approved hash="113,1,86.5861,17.5429,B,,,,,"/>
 <approved hash="113,1,106.454,26.7123,JP1,,,,,"/>
-<approved hash="113,1,191.607,47.5827,MIDI,,,,,"/>
+<approved hash="113,1,191.607,47.5827,ALTMIDI,,,,,"/>
 <approved hash="113,1,190.5,160.183,GND,,,,,"/>
 <approved hash="113,1,98.3827,120.487,DIGITAL,,,,,"/>
 <approved hash="113,1,240.623,95.0874,XOUT,,,,,"/>
