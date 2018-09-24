@@ -31577,7 +31577,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY26" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="R7" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0204/5" package3d_urn="urn:adsk.eagle:package:25955/1" value="6.8k"/>
 <part name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0204/5" package3d_urn="urn:adsk.eagle:package:25955/1" value="6.8k"/>
-<part name="PWR2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="-JST-2-PTH-NO_SILK" package3d_urn="urn:adsk.eagle:package:38056/1"/>
 <part name="VDD3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 <part name="U$5" library="pineapple" deviceset="HELP_P2C" device=""/>
 </parts>
@@ -31669,7 +31668,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="SUPPLY26" gate="G$1" x="73.66" y="147.32"/>
 <instance part="R7" gate="G$1" x="73.66" y="132.08" rot="R90"/>
 <instance part="R6" gate="G$1" x="66.04" y="132.08" rot="R90"/>
-<instance part="PWR2" gate="G$1" x="10.16" y="30.48" rot="MR180"/>
 <instance part="VDD3" gate="G$1" x="104.14" y="137.16"/>
 <instance part="U$5" gate="G$1" x="233.68" y="139.7"/>
 </instances>
@@ -31843,13 +31841,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="22.86" y1="55.88" x2="22.86" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="PWR1" gate="G$1" pin="2"/>
 <wire x1="22.86" y1="40.64" x2="17.78" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="PWR2" gate="G$1" pin="2"/>
-<wire x1="17.78" y1="27.94" x2="22.86" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="27.94" x2="22.86" y2="40.64" width="0.1524" layer="91"/>
 <junction x="22.86" y="40.64"/>
 <pinref part="SUPPLY15" gate="GND" pin="GND"/>
 <wire x1="22.86" y1="27.94" x2="22.86" y2="17.78" width="0.1524" layer="91"/>
-<junction x="22.86" y="27.94"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="2"/>
@@ -31939,10 +31934,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="17.78" y1="43.18" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="43.18" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
 <junction x="25.4" y="60.96"/>
-<pinref part="PWR2" gate="G$1" pin="1"/>
-<wire x1="17.78" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="30.48" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
-<junction x="25.4" y="43.18"/>
 </segment>
 </net>
 <net name="VCC" class="2">
