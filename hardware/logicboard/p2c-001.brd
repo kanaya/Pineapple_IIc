@@ -153,7 +153,7 @@
 <wire x1="89" y1="55" x2="2" y2="55" width="0" layer="20"/>
 <wire x1="2" y1="55" x2="0" y2="53" width="0" layer="20" curve="90"/>
 <hole x="3" y="3" drill="2.8"/>
-<text x="90" y="49" size="0.8" layer="26" rot="MR0" align="center-left">4-M3</text>
+<text x="90" y="49" size="0.8" layer="26" rot="MR0" align="center-left">4-M2.6</text>
 <hole x="3" y="52" drill="2.8"/>
 <hole x="88" y="52" drill="2.8"/>
 <hole x="88" y="3" drill="2.8"/>
