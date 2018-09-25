@@ -32724,7 +32724,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="104.14" y1="35.56" x2="104.14" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="D2" class="0">
+<net name="SW0" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="4"/>
 <wire x1="106.68" y1="22.86" x2="106.68" y2="15.24" width="0.1524" layer="91"/>
@@ -32734,7 +32734,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="134.62" y1="20.32" x2="137.16" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="D7" class="0">
+<net name="SW1" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="6"/>
 <wire x1="109.22" y1="22.86" x2="109.22" y2="17.78" width="0.1524" layer="91"/>
