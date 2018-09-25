@@ -17,6 +17,7 @@ Install the following components.
 | OK1         | TLP552            |                                   |
 | D1          | 1N4148            |                                   |
 | R1-3        | 220               |                                   |
+| R4          | 10k               |                                    |
 | RN1         | 330               |                                   |
 | RN2         | 10k               | Using pin sockets is recommended. |
 | C1          | 0.1u              |                                   |
