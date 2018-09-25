@@ -55,7 +55,7 @@ Install the following components as well as _Basic_ components.
 |-------------|------|------------|---|-------|
 | Transistor  | T1   | 2SC1815    | 1 |       |
 | Diode       | D2   | 1N4148     | 1 |       |
-| Resistor    | R4-5 | 10k        | 2 |       |
+| Resistor    | R5-6 | 10k        | 2 |       |
 | Relay       | K1   | G5V-1 DC5V | 1 |       |
 | Con.        | Relay | PH 3p     | 1 |       |
 
@@ -68,7 +68,7 @@ Install the following components as well as _Basic_ components.
 | Item                   | Name | Spec.      | # |  Note                       |
 |------------------------|------|------------|---|-----------------------------|
 | Signal level converter | IC2  | PCA9517ADP | 1 | Put A-side up, B-side down. |
-| Resistor               | R6-7 | 6.8k       | 2 |                             |
+| Resistor               | R7-8 | 6.8k       | 2 |                             |
 | Con.                   | I2C  | SH 5p      | 1 | D7 operates at **5V.**      |
 
 You need to **un-bridge 1-5, 2-6, 3-7 of JP1.** (D2/SDA and D7 are connected to SW1, and D3PWM/SCL is connected to PWM0 via JP1.)
