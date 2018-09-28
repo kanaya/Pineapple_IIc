@@ -17,7 +17,7 @@ Install the following components.
 | OK1         | TLP552            |                                   |
 | D1          | 1N4148            |                                   |
 | R1-3        | 220               |                                   |
-| R4          | 10k               |                                    |
+| R4          | 10k               |                                   |
 | RN1         | 330               |                                   |
 | RN2         | 10k               | Using pin sockets is recommended. |
 | C1          | 0.1u              |                                   |
@@ -122,10 +122,10 @@ Install the following components at back side as well as _Basic_ components.
 
 Install one of the following components as well as _Basic_ components.
 
-| Item | Name        | Spec.      | # |  Note |
-|------|-------------|------------|---|-------|
+| Item | Name        | Spec.        | # |  Note |
+|------|-------------|--------------|---|-------|
 | Con. | PWR1        | Pinheader 2p | 1 |       |
-| Con. | PWR2 (back) | PH 2p      | 1 |       |
+| Con. | PWR2 (back) | PH 2p        | 1 |       |
 
 ### To use XOUT
 

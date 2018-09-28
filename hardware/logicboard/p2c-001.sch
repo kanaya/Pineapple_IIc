@@ -31587,6 +31587,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
+<text x="218.44" y="20.32" size="1.778" layer="95">Pineapple IIc 1.5.0</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
