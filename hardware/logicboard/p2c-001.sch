@@ -5567,8 +5567,8 @@ DIN A4, landscape with location and doc. field</description>
 <text x="-3" y="-6" size="1" layer="21" align="center-left">Vcc</text>
 <text x="-3" y="-12" size="1" layer="21" align="center-left">GND</text>
 <text x="3" y="-3" size="1" layer="21" align="center">1</text>
-<text x="3" y="3" size="1" layer="21" align="center">3</text>
-<text x="3" y="-9" size="1" layer="21" align="center">3</text>
+<text x="3" y="3" size="1" layer="21" align="center">2</text>
+<text x="3" y="-9" size="1" layer="21" align="center">2</text>
 </package>
 </packages>
 <symbols>
