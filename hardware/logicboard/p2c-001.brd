@@ -153,7 +153,7 @@
 <wire x1="89" y1="55" x2="2" y2="55" width="0" layer="20"/>
 <wire x1="2" y1="55" x2="0" y2="53" width="0" layer="20" curve="90"/>
 <hole x="3" y="3" drill="2.8"/>
-<text x="90" y="49" size="0.8" layer="26" rot="MR0" align="center-left">4-M2.6</text>
+<text x="90" y="49" size="1" layer="26" rot="MR0" align="center-left">4-M2.6</text>
 <hole x="3" y="52" drill="2.8"/>
 <hole x="88" y="52" drill="2.8"/>
 <hole x="88" y="3" drill="2.8"/>
@@ -180,8 +180,8 @@ kanaya@pineapple.cc, @kanaya</text>
 <circle x="3" y="52" radius="2" width="0.2" layer="42"/>
 <circle x="3" y="3" radius="2" width="0.2" layer="42"/>
 <text x="45.5" y="32" size="1" layer="25" align="bottom-center">How to make</text>
-<text x="45" y="1" size="1" layer="25" align="bottom-center">MC1</text>
-<text x="90" y="48" size="0.8" layer="26" rot="MR0" align="center-left">91x55mm</text>
+<text x="45.5" y="1" size="1" layer="25" align="bottom-center">MC1</text>
+<text x="90" y="48" size="1" layer="26" rot="MR0" align="center-left">91x55mm</text>
 <polygon width="0.2" layer="41">
 <vertex x="13" y="52"/>
 <vertex x="13" y="42" curve="90"/>
@@ -254,6 +254,8 @@ kanaya@pineapple.cc, @kanaya</text>
 <vertex x="71" y="27"/>
 <vertex x="65" y="27"/>
 </polygon>
+<text x="1" y="45" size="1" layer="25">Pineapple IIc</text>
+<text x="1" y="43" size="1" layer="25">2.0.0-X</text>
 </plain>
 <libraries>
 <library name="pineapple">
@@ -7770,7 +7772,7 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="DIO-08378" x="64" y="9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="64" y="10.143" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-S_COPPER" value="OSHW-LOGOS-COPPER" x="3" y="48" smashed="yes"/>
+<element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-S_COPPER" value="OSHW-LOGOS-COPPER" x="45.5" y="49" smashed="yes"/>
 <element name="DC12V" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="POWER_JACK_SLOT" package3d_urn="urn:adsk.eagle:package:38222/1" value="POWER_JACKSLT" x="10" y="0" smashed="yes">
 <attribute name="NAME" x="8" y="3" size="1" layer="25" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="PRT-00119" x="10" y="0" size="1.778" layer="27" display="off"/>
