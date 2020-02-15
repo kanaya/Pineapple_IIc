@@ -28565,7 +28565,7 @@ Low profile connectors, straight&lt;p&gt;
 </instance>
 <instance part="LOGO1" gate="G$1" x="241.3" y="165.1" smashed="yes"/>
 <instance part="DC12V" gate="G$1" x="17.78" y="154.94" smashed="yes">
-<attribute name="NAME" x="7.62" y="157.48" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="NAME" x="7.62" y="157.48" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="U$4" gate="G$1" x="241.3" y="147.32" smashed="yes"/>
 <instance part="U$3" gate="G$1" x="187.96" y="5.08" smashed="yes"/>
@@ -28594,7 +28594,7 @@ Low profile connectors, straight&lt;p&gt;
 <instance part="SUPPLY9" gate="G$1" x="93.98" y="160.02" smashed="yes"/>
 <instance part="J1" gate="J1" x="124.46" y="86.36" smashed="yes" rot="R180">
 <attribute name="VALUE" x="129.54" y="91.694" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
-<attribute name="NAME" x="129.54" y="78.486" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="NAME" x="129.54" y="78.486" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="SUPPLY10" gate="GND" x="114.3" y="76.2" smashed="yes"/>
 <instance part="VDD1" gate="G$1" x="119.38" y="160.02" smashed="yes">
@@ -28766,7 +28766,7 @@ Low profile connectors, straight&lt;p&gt;
 <instance part="SUPPLY21" gate="GND" x="22.86" y="114.3" smashed="yes"/>
 <instance part="J4" gate="J1" x="175.26" y="86.36" smashed="yes" rot="R180">
 <attribute name="VALUE" x="180.34" y="91.694" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
-<attribute name="NAME" x="180.34" y="78.486" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="NAME" x="180.34" y="78.486" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="Q3" gate="NMOS" x="147.32" y="86.36" smashed="yes" rot="MR270">
 <attribute name="NAME" x="147.32" y="78.74" size="1.778" layer="95" rot="MR270"/>
