@@ -246,7 +246,7 @@ kanaya@pineapple.cc, @kanaya</text>
 <text x="36" y="9" size="1" layer="25" rot="R90" align="center">10u</text>
 <text x="69" y="29.5" size="1" layer="25" rot="R90" align="center">4-220</text>
 <text x="28" y="11" size="1" layer="25" align="center">4-0.1u</text>
-<text x="45.5" y="50.5" size="1" layer="26" rot="MR0" align="bottom-center">JST-ZH</text>
+<text x="45.5" y="50.5" size="1" layer="26" rot="MR0" align="bottom-center">JST-SH</text>
 <text x="45.5" y="36.5" size="1" layer="26" rot="MR0" align="bottom-center">4-1k</text>
 <text x="45.5" y="35" size="1" layer="26" rot="MR0" align="bottom-center">2-NchFET</text>
 <text x="57" y="21" size="1" layer="25" align="bottom-center">4.7k</text>
