@@ -32442,7 +32442,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <part name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1" value="220"/>
 <part name="SUPPLY23" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="D2" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE" device="-1N4148" package3d_urn="urn:adsk.eagle:package:38452/1" value=""/>
-<part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="JST-PTH" package3d_urn="urn:adsk.eagle:package:38069/1"/>
+<part name="RELAY" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="JST-PTH" package3d_urn="urn:adsk.eagle:package:38069/1"/>
 <part name="SUPPLY24" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -32544,11 +32544,11 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 </instance>
 <instance part="DISP" gate="G$1" x="55.88" y="38.1" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="53.34" y="48.006" size="1.778" layer="96" font="vector" rot="MR180"/>
-<attribute name="NAME" x="53.34" y="29.972" size="1.778" layer="95" font="vector" rot="MR180"/>
+<attribute name="NAME" x="53.34" y="29.972" size="1.778" layer="95" rot="MR180"/>
 </instance>
 <instance part="PWR" gate="G$1" x="55.88" y="22.86" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="53.34" y="27.686" size="1.778" layer="96" font="vector" rot="MR180"/>
-<attribute name="NAME" x="53.34" y="17.272" size="1.778" layer="95" font="vector" rot="MR180"/>
+<attribute name="NAME" x="53.34" y="17.272" size="1.778" layer="95" rot="MR180"/>
 </instance>
 <instance part="RN1" gate="1" x="101.6" y="17.78" smashed="yes" rot="MR0">
 <attribute name="NAME" x="104.14" y="20.32" size="1.778" layer="95" rot="MR0"/>
@@ -32747,9 +32747,9 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <attribute name="NAME" x="37.592" y="81.28" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="41.148" y="78.74" size="1.778" layer="96" font="vector" rot="MR90" align="top-left"/>
 </instance>
-<instance part="J2" gate="J$1" x="10.16" y="101.6" smashed="yes" rot="MR180">
+<instance part="RELAY" gate="J$1" x="10.16" y="101.6" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="7.62" y="108.966" size="1.778" layer="96" font="vector" rot="MR180"/>
-<attribute name="NAME" x="7.62" y="96.012" size="1.778" layer="95" font="vector" rot="MR180"/>
+<attribute name="NAME" x="7.62" y="96.012" size="1.778" layer="95" rot="MR180"/>
 </instance>
 <instance part="SUPPLY24" gate="GND" x="119.38" y="5.08" smashed="yes"/>
 </instances>
@@ -33585,7 +33585,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="J2" gate="J$1" pin="1"/>
+<pinref part="RELAY" gate="J$1" pin="1"/>
 <wire x1="17.78" y1="104.14" x2="30.48" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="104.14" x2="30.48" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="K1" gate="2" pin="S"/>
@@ -33594,7 +33594,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="J2" gate="J$1" pin="3"/>
+<pinref part="RELAY" gate="J$1" pin="3"/>
 <wire x1="17.78" y1="99.06" x2="22.86" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="99.06" x2="22.86" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="93.98" x2="12.7" y2="93.98" width="0.1524" layer="91"/>
@@ -33605,7 +33605,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="J2" gate="J$1" pin="2"/>
+<pinref part="RELAY" gate="J$1" pin="2"/>
 <wire x1="17.78" y1="101.6" x2="20.32" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="101.6" x2="20.32" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="91.44" x2="10.16" y2="91.44" width="0.1524" layer="91"/>
