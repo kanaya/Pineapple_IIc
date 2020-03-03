@@ -31222,10 +31222,10 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="SUPPLY17" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
-<part name="R13" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2"/>
-<part name="R11" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2"/>
-<part name="R14" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2"/>
 <part name="R12" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2"/>
+<part name="R14" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2"/>
+<part name="R11" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2"/>
+<part name="R13" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2"/>
 <part name="Q1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="MOSFET-NCH" device="-BSS138" package3d_urn="urn:adsk.eagle:package:38446/1" value="220mA/50V/3.5Ω"/>
 <part name="Q2" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="MOSFET-NCH" device="-BSS138" package3d_urn="urn:adsk.eagle:package:38446/1" value="220mA/50V/3.5Ω"/>
 <part name="SUPPLY18" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
@@ -31472,19 +31472,19 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <instance part="SUPPLY14" gate="GND" x="228.6" y="93.98" smashed="yes"/>
 <instance part="SUPPLY15" gate="G$1" x="236.22" y="111.76" smashed="yes"/>
 <instance part="SUPPLY17" gate="G$1" x="228.6" y="111.76" smashed="yes"/>
-<instance part="R13" gate="G$1" x="86.36" y="93.98" smashed="yes" rot="R90">
+<instance part="R12" gate="G$1" x="86.36" y="93.98" smashed="yes" rot="R90">
 <attribute name="NAME" x="84.8614" y="90.17" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="89.662" y="90.17" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R11" gate="G$1" x="101.6" y="93.98" smashed="yes" rot="R90">
+<instance part="R14" gate="G$1" x="101.6" y="93.98" smashed="yes" rot="R90">
 <attribute name="NAME" x="100.1014" y="90.17" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="104.902" y="90.17" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R14" gate="G$1" x="86.36" y="68.58" smashed="yes" rot="R90">
+<instance part="R11" gate="G$1" x="86.36" y="68.58" smashed="yes" rot="R90">
 <attribute name="NAME" x="84.8614" y="64.77" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="89.662" y="64.77" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R12" gate="G$1" x="101.6" y="68.58" smashed="yes" rot="R90">
+<instance part="R13" gate="G$1" x="101.6" y="68.58" smashed="yes" rot="R90">
 <attribute name="NAME" x="100.1014" y="64.77" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="104.902" y="64.77" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -31806,12 +31806,12 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 </segment>
 <segment>
 <pinref part="SUPPLY18" gate="G$1" pin="VCC"/>
-<pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="R12" gate="G$1" pin="2"/>
 <wire x1="86.36" y1="101.6" x2="86.36" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY19" gate="G$1" pin="VCC"/>
-<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="86.36" y1="76.2" x2="86.36" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -31926,7 +31926,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <pinref part="Q2" gate="NMOS" pin="G"/>
 <wire x1="96.52" y1="93.98" x2="96.52" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="101.6" x2="101.6" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="101.6" x2="101.6" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="VDD3" gate="G$1" pin="VDD"/>
 <wire x1="101.6" y1="104.14" x2="101.6" y2="101.6" width="0.1524" layer="91"/>
@@ -31936,7 +31936,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <pinref part="Q1" gate="NMOS" pin="G"/>
 <wire x1="96.52" y1="68.58" x2="96.52" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="76.2" x2="101.6" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="R12" gate="G$1" pin="2"/>
+<pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="76.2" x2="101.6" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="VDD4" gate="G$1" pin="VDD"/>
 <wire x1="101.6" y1="78.74" x2="101.6" y2="76.2" width="0.1524" layer="91"/>
@@ -32182,7 +32182,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <pinref part="Q2" gate="NMOS" pin="D"/>
 <wire x1="73.66" y1="88.9" x2="76.2" y2="86.36" width="0.1524" layer="91" curve="90"/>
 <label x="76.2" y="86.36" size="1.778" layer="95"/>
-<pinref part="R13" gate="G$1" pin="1"/>
+<pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="76.2" y1="86.36" x2="86.36" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="86.36" x2="88.9" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="88.9" x2="86.36" y2="86.36" width="0.1524" layer="91"/>
@@ -32207,7 +32207,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <wire x1="73.66" y1="63.5" x2="76.2" y2="60.96" width="0.1524" layer="91" curve="90"/>
 <wire x1="76.2" y1="60.96" x2="86.36" y2="60.96" width="0.1524" layer="91"/>
 <label x="76.2" y="60.96" size="1.778" layer="95"/>
-<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="86.36" y1="60.96" x2="88.9" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="63.5" x2="86.36" y2="60.96" width="0.1524" layer="91"/>
 <junction x="86.36" y="60.96"/>
@@ -32299,7 +32299,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 </net>
 <net name="SDA3V3" class="0">
 <segment>
-<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="R14" gate="G$1" pin="1"/>
 <wire x1="101.6" y1="88.9" x2="101.6" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="Q2" gate="NMOS" pin="S"/>
 <wire x1="101.6" y1="86.36" x2="99.06" y2="86.36" width="0.1524" layer="91"/>
@@ -32310,7 +32310,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 </net>
 <net name="SCL3V3" class="0">
 <segment>
-<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="R13" gate="G$1" pin="1"/>
 <wire x1="101.6" y1="63.5" x2="101.6" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="NMOS" pin="S"/>
 <wire x1="101.6" y1="60.96" x2="99.06" y2="60.96" width="0.1524" layer="91"/>
