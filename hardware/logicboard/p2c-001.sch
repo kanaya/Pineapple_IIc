@@ -32475,9 +32475,9 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <approved hash="101,1,251.46,58.42,IC1D,O,,,,"/>
 <approved hash="101,1,251.46,45.72,IC1E,O,,,,"/>
 <approved hash="101,1,251.46,33.02,IC1F,O,,,,"/>
-<approved hash="104,1,116.84,86.36,J1,VCC,VDD,,,"/>
-<approved hash="104,1,25.4,53.34,U1,VDD,VCC,,,"/>
-<approved hash="106,1,121.92,152.4,LED0,,,,,"/>
+<approved hash="104,1,116.84,88.9,J1,VCC,VDD,,,"/>
+<approved hash="104,1,25.4,55.88,U1,VDD,VCC,,,"/>
+<approved hash="106,1,121.92,154.94,LED0,,,,,"/>
 <approved hash="113,1,130.071,89.431,FRAME1,,,,,"/>
 </errors>
 </schematic>
