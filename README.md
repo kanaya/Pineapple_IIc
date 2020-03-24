@@ -1,8 +1,10 @@
 # Pineapple IIc
 
+Edition 2.0.0 for Pineapple IIc 2.0.0
+
 ## Congratulations!
 
-You’ve got the latest version of Pineapple Computer named _Pineapple IIc._ But what is Pineapple Computer? Well, it is a MIDI computer that can covert analog signals to MIDI (digital) signal. Now you may want to ask, I guess, what is it for? The Pineapple Computer is an artist-friendly super-easy-to-use computer! You plug power, sensor, MIDI instrument, and boom! Everything is set up.
+You’ve got the latest version of Pineapple Computer named _Pineapple IIc._ But what is Pineapple Computer? Well, it is a MIDI computer that can convert analog signals to MIDI (digital) signal. Now you may want to ask, I guess, what is it for? The Pineapple Computer is an artist-friendly super-easy-to-use computer! You plug power, sensor, MIDI instrument, and boom! Everything is set up.
 
 ## How to set up (Hardware)
 
@@ -12,23 +14,22 @@ Install the following components.
 
 | Name        | Component         | Note                              |
 |-------------|-------------------|-----------------------------------|
-| MC1         | Arduino Micro 5V  | Using pin sockets is recommended. |
-| IC1         | 74LS07            |                                   |
-| OK1         | TLP552            |                                   |
+| C1          | 47u               |                                   |
+| C2          | 10u               |                                   |
+| C3-6        | 0.1u              |                                   |
 | D1          | 1N4148            |                                   |
-| R1-3        | 220               |                                   |
-| R4          | 10k               |                                   |
+| DC12V       | DC Jack           |                                   |
+| IC1         | 74LS07            |                                   |
+| JP2         | Pinheader 1x3p    | **Bridge top and mid pins**       |
+| LED1        | Vf=2.2 If=20m     |                                   |
+| MC1         | Arduino Micro 5V  |                                   |
+| MIDI-OUT    | DIN 5p            |                                   |
+| OK1         | TLP552            |                                   |
+| R3-6        | 220               |                                   |
 | RN1         | 330               |                                   |
 | RN2         | 10k               | Using pin sockets is recommended. |
-| C1          | 0.1u              |                                   |
-| C2-3        | 0.01u             |                                   |
-| L1-7        | Vf=2.2 If=20m     |                                   |
-| L8 (RCV)    | Vf=2.2 If=20m     |                                   |
-| SW1         | HEX Complementary |                                   |
-| JP1         | Pinheader 2x4p    | **Bridge 1-2, 3-4, 5-6.**         |
-| Con. Analog | ML 14p            |                                   |
-| Con. DC     | DC Jack           |                                   |
-| Con. MIDI   | DIN 5p            |                                   |
+| SV1         | ML 16p            |                                   |
+| VREG1       | 12V to 5V         |                                   |
 
 ### Non-basic usage
 
