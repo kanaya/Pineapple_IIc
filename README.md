@@ -31,6 +31,8 @@ Install the following components.
 | SV1         | ML 16p            |                                   |
 | VREG1       | 12V to 5V         |                                   |
 
+...To be re-written.
+
 ### Non-basic usage
 
 You can drive a relay, I2C devices, and TLC5940 PWM driver by installing some other components on Pineapple IIc. Also you can replace some connectors so that you can use panel mounted connectors and install Pineapple IIc board in a case. For more detail, please read _Extending Pineapple IIc_.

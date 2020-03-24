@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -31972,10 +31972,10 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <label x="81.28" y="154.94" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="DISP" gate="G$1" pin="2"/>
-<wire x1="73.66" y1="78.74" x2="71.12" y2="76.2" width="0.1524" layer="91" curve="-90"/>
-<wire x1="71.12" y1="76.2" x2="63.5" y2="76.2" width="0.1524" layer="91"/>
-<label x="63.5" y="76.2" size="1.778" layer="95"/>
+<pinref part="DISP" gate="G$1" pin="5"/>
+<wire x1="73.66" y1="71.12" x2="71.12" y2="68.58" width="0.1524" layer="91" curve="-90"/>
+<wire x1="71.12" y1="68.58" x2="63.5" y2="68.58" width="0.1524" layer="91"/>
+<label x="63.5" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -31986,10 +31986,10 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <label x="81.28" y="119.38" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="DISP" gate="G$1" pin="1"/>
-<wire x1="73.66" y1="81.28" x2="71.12" y2="78.74" width="0.1524" layer="91" curve="-90"/>
-<wire x1="71.12" y1="78.74" x2="63.5" y2="78.74" width="0.1524" layer="91"/>
-<label x="63.5" y="78.74" size="1.778" layer="95"/>
+<pinref part="DISP" gate="G$1" pin="4"/>
+<wire x1="73.66" y1="73.66" x2="71.12" y2="71.12" width="0.1524" layer="91" curve="-90"/>
+<wire x1="71.12" y1="71.12" x2="63.5" y2="71.12" width="0.1524" layer="91"/>
+<label x="63.5" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TX" class="0">
@@ -32242,16 +32242,16 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <label x="104.14" y="119.38" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="DISP" gate="G$1" pin="3"/>
-<wire x1="73.66" y1="76.2" x2="71.12" y2="73.66" width="0.1524" layer="91" curve="-90"/>
-<wire x1="71.12" y1="73.66" x2="63.5" y2="73.66" width="0.1524" layer="91"/>
-<label x="63.5" y="73.66" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="S1" gate="1" pin="1"/>
 <wire x1="114.3" y1="53.34" x2="116.84" y2="50.8" width="0.1524" layer="91" curve="-90"/>
 <wire x1="116.84" y1="50.8" x2="116.84" y2="38.1" width="0.1524" layer="91"/>
 <label x="116.84" y="40.64" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="DISP" gate="G$1" pin="1"/>
+<wire x1="73.66" y1="81.28" x2="71.12" y2="78.74" width="0.1524" layer="91" curve="-90"/>
+<wire x1="71.12" y1="78.74" x2="63.5" y2="78.74" width="0.1524" layer="91"/>
+<label x="63.5" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DISP2" class="0">
@@ -32262,16 +32262,16 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <label x="109.22" y="119.38" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="DISP" gate="G$1" pin="4"/>
-<wire x1="73.66" y1="73.66" x2="71.12" y2="71.12" width="0.1524" layer="91" curve="-90"/>
-<wire x1="71.12" y1="71.12" x2="63.5" y2="71.12" width="0.1524" layer="91"/>
-<label x="63.5" y="71.12" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="S1" gate="1" pin="2"/>
 <wire x1="116.84" y1="53.34" x2="119.38" y2="50.8" width="0.1524" layer="91" curve="-90"/>
 <wire x1="119.38" y1="50.8" x2="119.38" y2="38.1" width="0.1524" layer="91"/>
 <label x="119.38" y="40.64" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="DISP" gate="G$1" pin="2"/>
+<wire x1="73.66" y1="78.74" x2="71.12" y2="76.2" width="0.1524" layer="91" curve="-90"/>
+<wire x1="71.12" y1="76.2" x2="63.5" y2="76.2" width="0.1524" layer="91"/>
+<label x="63.5" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DISP3" class="0">
@@ -32282,16 +32282,16 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <label x="111.76" y="119.38" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="DISP" gate="G$1" pin="5"/>
-<wire x1="73.66" y1="71.12" x2="71.12" y2="68.58" width="0.1524" layer="91" curve="-90"/>
-<wire x1="71.12" y1="68.58" x2="63.5" y2="68.58" width="0.1524" layer="91"/>
-<label x="63.5" y="68.58" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="S1" gate="1" pin="4"/>
 <wire x1="119.38" y1="53.34" x2="121.92" y2="50.8" width="0.1524" layer="91" curve="-90"/>
 <wire x1="121.92" y1="50.8" x2="121.92" y2="38.1" width="0.1524" layer="91"/>
 <label x="121.92" y="40.64" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="DISP" gate="G$1" pin="3"/>
+<wire x1="73.66" y1="76.2" x2="71.12" y2="73.66" width="0.1524" layer="91" curve="-90"/>
+<wire x1="71.12" y1="73.66" x2="63.5" y2="73.66" width="0.1524" layer="91"/>
+<label x="63.5" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+5V" class="2">
