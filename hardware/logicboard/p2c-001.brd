@@ -268,9 +268,9 @@ kanaya@pineapple.cc, @kanaya</text>
 <text x="1" y="45" size="1" layer="25" rot="R90" align="top-center">JST-PH</text>
 <rectangle x1="35.5" y1="13.165" x2="36" y2="14.435" layer="21"/>
 <rectangle x1="55" y1="18.245" x2="55.5" y2="19.515" layer="21"/>
-<text x="61" y="1" size="1" layer="26" rot="MR90" align="center-left">D8</text>
+<text x="61" y="1" size="1" layer="26" rot="MR90" align="center-left">D8/A8</text>
 <text x="63" y="1" size="1" layer="26" rot="MR90" align="center-left">D7</text>
-<text x="65" y="1" size="1" layer="26" rot="MR90" align="center-left">D5</text>
+<text x="65" y="1" size="1" layer="26" rot="MR90" align="center-left">D5~</text>
 <text x="57" y="1" size="1" layer="26" rot="MR90" align="center-left">SCLK</text>
 <text x="59" y="1" size="1" layer="26" rot="MR90" align="center-left">MOSI</text>
 <text x="69" y="1" size="1" layer="26" rot="MR90" align="center-left">GND</text>
