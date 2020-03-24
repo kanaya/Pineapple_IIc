@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -31240,7 +31240,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <part name="SUPPLY25" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="SUPPLY26" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1" value="220"/>
-<part name="PWRLED" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
+<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
 <part name="SUPPLY27" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="S1" library="switch-dil" library_urn="urn:adsk.eagle:library:375" deviceset="A1353HEX" device="" package3d_urn="urn:adsk.eagle:package:27207/1"/>
 <part name="K1" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="G5V1" device="" package3d_urn="urn:adsk.eagle:package:24341/1"/>
@@ -31527,7 +31527,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <attribute name="NAME" x="24.13" y="128.4986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="24.13" y="123.698" size="1.778" layer="96"/>
 </instance>
-<instance part="PWRLED" gate="G$1" x="38.1" y="127" smashed="yes" rot="R90">
+<instance part="LED1" gate="G$1" x="38.1" y="127" smashed="yes" rot="R90">
 <attribute name="NAME" x="42.672" y="130.556" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="42.672" y="132.715" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -31738,7 +31738,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <wire x1="27.94" y1="58.42" x2="27.94" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="PWRLED" gate="G$1" pin="C"/>
+<pinref part="LED1" gate="G$1" pin="C"/>
 <wire x1="43.18" y1="127" x2="45.72" y2="127" width="0.1524" layer="91"/>
 <pinref part="SUPPLY27" gate="GND" pin="GND"/>
 <wire x1="45.72" y1="127" x2="45.72" y2="124.46" width="0.1524" layer="91"/>
@@ -32370,7 +32370,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <net name="N$1" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
-<pinref part="PWRLED" gate="G$1" pin="A"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
 <wire x1="35.56" y1="127" x2="33.02" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
