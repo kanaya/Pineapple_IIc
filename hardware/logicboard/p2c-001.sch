@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -31183,7 +31183,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <part name="OK1" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="6N137" device="" package3d_urn="urn:adsk.eagle:package:21941/1"/>
 <part name="D1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE" device="-1N4148" package3d_urn="urn:adsk.eagle:package:38452/1" value=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S-COPPER" value="OSHW-LOGOS-COPPER"/>
-<part name="DC12V" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="POWER_JACK" device="SLT" package3d_urn="urn:adsk.eagle:package:38222/1" value="POWER_JACKSLT"/>
+<part name="12V" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="POWER_JACK" device="SLT" package3d_urn="urn:adsk.eagle:package:38222/1" value="POWER_JACKSLT"/>
 <part name="U$4" library="pineapple" deviceset="CARDQRCODE450_SILK" device=""/>
 <part name="U$3" library="pineapple" deviceset="KANAYA768_SILK" device=""/>
 <part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -31258,6 +31258,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <part name="SUPPLY30" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R7" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1" value="1k"/>
 <part name="SUPPLY31" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
+<part name="D3" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE" device="-1N4148" package3d_urn="urn:adsk.eagle:package:38452/1" value=""/>
 </parts>
 <sheets>
 <sheet>
@@ -31317,7 +31318,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <attribute name="VALUE" x="185.42" y="157.988" size="1.778" layer="96" font="vector" rot="MR0" align="top-left"/>
 </instance>
 <instance part="LOGO1" gate="G$1" x="241.3" y="165.1" smashed="yes"/>
-<instance part="DC12V" gate="G$1" x="180.34" y="38.1" smashed="yes">
+<instance part="12V" gate="G$1" x="180.34" y="38.1" smashed="yes">
 <attribute name="NAME" x="170.18" y="40.64" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="U$4" gate="G$1" x="241.3" y="147.32" smashed="yes"/>
@@ -31578,6 +31579,10 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <attribute name="VALUE" x="158.75" y="138.938" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY31" gate="G$1" x="154.94" y="147.32" smashed="yes"/>
+<instance part="D3" gate="G$1" x="205.74" y="53.34" smashed="yes" rot="MR0">
+<attribute name="NAME" x="205.74" y="57.912" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="208.28" y="51.308" size="1.778" layer="96" font="vector" rot="MR0" align="top-left"/>
+</instance>
 </instances>
 <busses>
 <bus name="UB:A4,ANLG1,ANLG2,ANLG3,ANLG4,AUX,DISP1,DISP2,DISP3,DTCT1,DTCT2,DTCT3,DTCT4,LED0,MOSI,PDN,RLY,RX,SCL,SCLK,SDA,THS,TX">
@@ -31653,11 +31658,11 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <pinref part="VREG1" gate="1" pin="GND"/>
 <wire x1="205.74" y1="38.1" x2="205.74" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="SUPPLY7" gate="GND" pin="GND"/>
-<pinref part="DC12V" gate="G$1" pin="GNDBREAK"/>
+<pinref part="12V" gate="G$1" pin="GNDBREAK"/>
 <wire x1="205.74" y1="33.02" x2="205.74" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="43.18" x2="185.42" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="43.18" x2="185.42" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="DC12V" gate="G$1" pin="GND"/>
+<pinref part="12V" gate="G$1" pin="GND"/>
 <wire x1="182.88" y1="40.64" x2="185.42" y2="40.64" width="0.1524" layer="91"/>
 <junction x="185.42" y="40.64"/>
 <wire x1="185.42" y1="40.64" x2="185.42" y2="33.02" width="0.1524" layer="91"/>
@@ -31911,7 +31916,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <segment>
 <pinref part="P+1" gate="1" pin="+12V"/>
 <wire x1="185.42" y1="50.8" x2="185.42" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="DC12V" gate="G$1" pin="PWR"/>
+<pinref part="12V" gate="G$1" pin="PWR"/>
 <wire x1="185.42" y1="45.72" x2="182.88" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="VREG1" gate="1" pin="IN"/>
 <wire x1="198.12" y1="45.72" x2="195.58" y2="45.72" width="0.1524" layer="91"/>
@@ -31924,6 +31929,9 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="195.58" y1="43.18" x2="195.58" y2="45.72" width="0.1524" layer="91"/>
 <junction x="195.58" y="45.72"/>
+<pinref part="D3" gate="G$1" pin="C"/>
+<wire x1="203.2" y1="53.34" x2="195.58" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="53.34" x2="195.58" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="9V"/>
@@ -32307,6 +32315,9 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <pinref part="P+3" gate="1" pin="+5V"/>
 <wire x1="220.98" y1="50.8" x2="220.98" y2="45.72" width="0.1524" layer="91"/>
 <junction x="220.98" y="45.72"/>
+<pinref part="D3" gate="G$1" pin="A"/>
+<wire x1="208.28" y1="53.34" x2="215.9" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="53.34" x2="215.9" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+4" gate="1" pin="+5V"/>
