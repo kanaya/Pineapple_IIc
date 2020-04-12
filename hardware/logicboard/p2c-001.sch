@@ -31263,7 +31263,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <sheets>
 <sheet>
 <plain>
-<text x="218.44" y="20.32" size="1.778" layer="95">Pineapple IIc 1.6.0</text>
+<text x="218.44" y="20.32" size="1.778" layer="95">Pineapple IIc 2.0.1-A</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
