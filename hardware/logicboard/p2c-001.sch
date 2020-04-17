@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -31205,9 +31205,9 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <part name="RN1" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="RN04" device="" package3d_urn="urn:adsk.eagle:package:24976/1" value="10k"/>
 <part name="V1" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="78XXS" device="" package3d_urn="urn:adsk.eagle:package:30342/1" value="L7805"/>
 <part name="SV1" library="con-ml" library_urn="urn:adsk.eagle:library:164" deviceset="ML16LE" device="" package3d_urn="urn:adsk.eagle:package:8682/1"/>
-<part name="C1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1" value="10u"/>
+<part name="C2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1" value="10u"/>
 <part name="C3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1" value="0.1u"/>
-<part name="C2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1" value="47u"/>
+<part name="C1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1" value="47u"/>
 <part name="C4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1" value="0.1u"/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -31437,7 +31437,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <attribute name="NAME" x="58.42" y="88.138" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="61.214" y="85.979" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="C1" gate="G$1" x="190.5" y="40.64" smashed="yes">
+<instance part="C2" gate="G$1" x="190.5" y="40.64" smashed="yes">
 <attribute name="NAME" x="192.024" y="41.021" size="1.778" layer="95"/>
 <attribute name="VALUE" x="192.024" y="35.941" size="1.778" layer="96"/>
 </instance>
@@ -31445,7 +31445,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <attribute name="NAME" x="197.104" y="41.021" size="1.778" layer="95"/>
 <attribute name="VALUE" x="197.104" y="35.941" size="1.778" layer="96"/>
 </instance>
-<instance part="C2" gate="G$1" x="215.9" y="40.64" smashed="yes">
+<instance part="C1" gate="G$1" x="215.9" y="40.64" smashed="yes">
 <attribute name="NAME" x="217.424" y="41.021" size="1.778" layer="95"/>
 <attribute name="VALUE" x="217.424" y="35.941" size="1.778" layer="96"/>
 </instance>
@@ -31674,13 +31674,13 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="33.02" x2="220.98" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="33.02" x2="220.98" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="35.56" x2="215.9" y2="33.02" width="0.1524" layer="91"/>
 <junction x="215.9" y="33.02"/>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="195.58" y1="35.56" x2="195.58" y2="33.02" width="0.1524" layer="91"/>
 <junction x="195.58" y="33.02"/>
-<pinref part="C1" gate="G$1" pin="2"/>
+<pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="190.5" y1="35.56" x2="190.5" y2="33.02" width="0.1524" layer="91"/>
 <junction x="190.5" y="33.02"/>
 </segment>
@@ -31921,7 +31921,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <pinref part="V1" gate="1" pin="IN"/>
 <wire x1="198.12" y1="45.72" x2="195.58" y2="45.72" width="0.1524" layer="91"/>
 <junction x="185.42" y="45.72"/>
-<pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="195.58" y1="45.72" x2="190.5" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="45.72" x2="185.42" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="43.18" x2="190.5" y2="45.72" width="0.1524" layer="91"/>
@@ -32309,7 +32309,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="45.72" x2="220.98" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="45.72" x2="220.98" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="43.18" x2="215.9" y2="45.72" width="0.1524" layer="91"/>
 <junction x="215.9" y="45.72"/>
 <pinref part="P+3" gate="1" pin="+5V"/>
