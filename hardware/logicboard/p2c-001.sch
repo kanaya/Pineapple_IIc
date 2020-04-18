@@ -36151,6 +36151,35 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="wirepad" urn="urn:adsk.eagle:library:412">
+<description>&lt;b&gt;Single Pads&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="PAD-N" urn="urn:adsk.eagle:symbol:30819/1" library_version="2">
+<wire x1="-1.016" y1="1.016" x2="1.016" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-1.016" x2="1.016" y2="1.016" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PAD-N" urn="urn:adsk.eagle:component:30837/2" prefix="X" uservalue="yes" library_version="2">
+<description>&lt;b&gt;PAD SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="PAD-N" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -36263,6 +36292,11 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <part name="RZ2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2" value="Inf"/>
 <part name="RZ1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2" value="Inf"/>
 <part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="SCHOTTKY-DIODE" device="DO35-7" package3d_urn="urn:adsk.eagle:package:43339/2"/>
+<part name="X1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="PAD-N" device=""/>
+<part name="X2" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="PAD-N" device=""/>
+<part name="X3" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="PAD-N" device=""/>
+<part name="X4" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="PAD-N" device=""/>
+<part name="X5" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="PAD-N" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -36599,6 +36633,11 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <attribute name="NAME" x="78.486" y="34.925" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="78.486" y="29.591" size="1.778" layer="96" rot="MR0"/>
 </instance>
+<instance part="X1" gate="G$1" x="251.46" y="83.82" smashed="yes"/>
+<instance part="X2" gate="G$1" x="251.46" y="71.12" smashed="yes"/>
+<instance part="X3" gate="G$1" x="251.46" y="58.42" smashed="yes"/>
+<instance part="X4" gate="G$1" x="251.46" y="45.72" smashed="yes"/>
+<instance part="X5" gate="G$1" x="251.46" y="33.02" smashed="yes"/>
 </instances>
 <busses>
 <bus name="UB:A4,ANLG1,ANLG2,ANLG3,ANLG4,AUX,DISP1,DISP2,DISP3,DTCT1,DTCT2,DTCT3,DTCT4,LED0,MOSI,PDN,RLY,RX,SCL,SCLK,SDA,THS,TX">
