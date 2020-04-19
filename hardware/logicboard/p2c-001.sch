@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -36237,7 +36237,6 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <part name="VDD3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 <part name="VDD4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 <part name="RN2" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="RN08" device="" package3d_urn="urn:adsk.eagle:package:24977/1" value="4.7k"/>
-<part name="SUPPLY20" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2" value="GNDPIN"/>
 <part name="SUPPLY21" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="U1" library="SparkFun-Sensors" deviceset="DS18B20" device=""/>
@@ -36276,6 +36275,8 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <part name="SUPPLY34" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="SUPPLY35" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+9V" device=""/>
 <part name="SUPPLY36" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+9V" device=""/>
+<part name="SUPPLY20" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
+<part name="SUPPLY37" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -36362,9 +36363,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <attribute name="NAME" x="129.54" y="81.026" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="SUPPLY10" gate="GND" x="114.3" y="78.74" smashed="yes"/>
-<instance part="VDD1" gate="G$1" x="119.38" y="162.56" smashed="yes">
-<attribute name="VALUE" x="116.84" y="160.02" size="1.778" layer="96" rot="R90"/>
-</instance>
+<instance part="VDD1" gate="G$1" x="119.38" y="162.56" smashed="yes"/>
 <instance part="VDD2" gate="G$1" x="111.76" y="96.52" smashed="yes">
 <attribute name="VALUE" x="109.22" y="93.98" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -36515,7 +36514,6 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <attribute name="NAME" x="180.34" y="68.58" size="1.778" layer="95"/>
 <attribute name="VALUE" x="180.34" y="61.722" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY20" gate="G$1" x="175.26" y="73.66" smashed="yes"/>
 <instance part="JP1" gate="G$1" x="12.7" y="45.72" smashed="yes" rot="MR0">
 <attribute name="NAME" x="19.05" y="48.895" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="19.05" y="40.64" size="1.778" layer="96" rot="MR0"/>
@@ -36609,12 +36607,12 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <instance part="SUPPLY35" gate="G$1" x="27.94" y="33.02" smashed="yes">
 <attribute name="VALUE" x="26.035" y="36.195" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY36" gate="G$1" x="86.36" y="162.56" smashed="yes">
-<attribute name="VALUE" x="84.455" y="165.735" size="1.778" layer="96"/>
-</instance>
+<instance part="SUPPLY36" gate="G$1" x="86.36" y="162.56" smashed="yes"/>
+<instance part="SUPPLY20" gate="G$1" x="175.26" y="71.12" smashed="yes"/>
+<instance part="SUPPLY37" gate="G$1" x="116.84" y="162.56" smashed="yes"/>
 </instances>
 <busses>
-<bus name="UB:A4,ANLG1,ANLG2,ANLG3,ANLG4,AUX,DISP1,DISP2,DISP3,DTCT1,DTCT2,DTCT3,DTCT4,LED0,MOSI,PDN,RLY,RX,SCL,SCLK,SDA,THS,TX">
+<bus name="UB:A4,ANLG1,ANLG2,ANLG3,ANLG4,AREF,AUX,DISP1,DISP2,DISP3,DTCT1,DTCT2,DTCT3,DTCT4,LED0,MOSI,PDN,RLY,RX,SCL,SCLK,SDA,THS,TX">
 <segment>
 <wire x1="78.74" y1="167.64" x2="129.54" y2="167.64" width="0.762" layer="92"/>
 <wire x1="129.54" y1="167.64" x2="132.08" y2="165.1" width="0.762" layer="92" curve="-90"/>
@@ -36862,12 +36860,6 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <wire x1="86.36" y1="76.2" x2="86.36" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SUPPLY20" gate="G$1" pin="VCC"/>
-<wire x1="175.26" y1="71.12" x2="175.26" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="RN2" gate="1" pin="1"/>
-<wire x1="175.26" y1="66.04" x2="177.8" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="SUPPLY23" gate="G$1" pin="VCC"/>
 <pinref part="K1" gate="1" pin="1"/>
 <wire x1="35.56" y1="83.82" x2="35.56" y2="81.28" width="0.1524" layer="91"/>
@@ -36938,6 +36930,17 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <pinref part="SUPPLY29" gate="G$1" pin="VCC"/>
 <wire x1="66.04" y1="160.02" x2="66.04" y2="157.48" width="0.1524" layer="91"/>
 <junction x="66.04" y="157.48"/>
+</segment>
+<segment>
+<pinref part="SUPPLY20" gate="G$1" pin="VCC"/>
+<wire x1="175.26" y1="68.58" x2="175.26" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="RN2" gate="1" pin="1"/>
+<wire x1="175.26" y1="66.04" x2="177.8" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY37" gate="G$1" pin="VCC"/>
+<pinref part="U$2" gate="G$1" pin="AREF"/>
+<wire x1="116.84" y1="160.02" x2="116.84" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="OUT-" class="0">
