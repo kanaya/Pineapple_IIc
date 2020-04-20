@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -37079,10 +37079,10 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <label x="134.62" y="160.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="RN2" gate="1" pin="8"/>
-<wire x1="215.9" y1="53.34" x2="218.44" y2="55.88" width="0.1524" layer="91" curve="90"/>
-<wire x1="218.44" y1="55.88" x2="218.44" y2="66.04" width="0.1524" layer="91"/>
-<label x="218.44" y="55.88" size="1.778" layer="95" rot="R90"/>
+<pinref part="RN2" gate="1" pin="2"/>
+<wire x1="185.42" y1="53.34" x2="187.96" y2="55.88" width="0.1524" layer="91" curve="90"/>
+<wire x1="187.96" y1="55.88" x2="187.96" y2="66.04" width="0.1524" layer="91"/>
+<label x="187.96" y="55.88" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="ANLG1" class="0">
@@ -37173,16 +37173,16 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <label x="106.68" y="119.38" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="RN2" gate="1" pin="2"/>
-<wire x1="185.42" y1="53.34" x2="187.96" y2="55.88" width="0.1524" layer="91" curve="90"/>
-<wire x1="187.96" y1="55.88" x2="187.96" y2="66.04" width="0.1524" layer="91"/>
-<label x="187.96" y="55.88" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
 <pinref part="SV1" gate="-3" pin="S"/>
 <wire x1="73.66" y1="111.76" x2="71.12" y2="109.22" width="0.1524" layer="91" curve="-90"/>
 <wire x1="71.12" y1="109.22" x2="63.5" y2="109.22" width="0.1524" layer="91"/>
 <label x="63.5" y="109.22" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="RN2" gate="1" pin="8"/>
+<wire x1="215.9" y1="53.34" x2="218.44" y2="55.88" width="0.1524" layer="91" curve="90"/>
+<wire x1="218.44" y1="55.88" x2="218.44" y2="66.04" width="0.1524" layer="91"/>
+<label x="218.44" y="55.88" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="DTCT2" class="0">
@@ -37193,16 +37193,16 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <label x="114.3" y="119.38" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="RN2" gate="1" pin="3"/>
-<wire x1="190.5" y1="53.34" x2="193.04" y2="55.88" width="0.1524" layer="91" curve="90"/>
-<wire x1="193.04" y1="55.88" x2="193.04" y2="66.04" width="0.1524" layer="91"/>
-<label x="193.04" y="55.88" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
 <pinref part="SV1" gate="-7" pin="S"/>
 <wire x1="73.66" y1="109.22" x2="71.12" y2="106.68" width="0.1524" layer="91" curve="-90"/>
 <wire x1="71.12" y1="106.68" x2="63.5" y2="106.68" width="0.1524" layer="91"/>
 <label x="63.5" y="106.68" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="RN2" gate="1" pin="7"/>
+<wire x1="210.82" y1="53.34" x2="213.36" y2="55.88" width="0.1524" layer="91" curve="90"/>
+<wire x1="213.36" y1="55.88" x2="213.36" y2="66.04" width="0.1524" layer="91"/>
+<label x="213.36" y="55.88" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="DTCT3" class="0">
@@ -37213,16 +37213,16 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <label x="116.84" y="119.38" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="RN2" gate="1" pin="4"/>
-<wire x1="195.58" y1="53.34" x2="198.12" y2="55.88" width="0.1524" layer="91" curve="90"/>
-<wire x1="198.12" y1="55.88" x2="198.12" y2="66.04" width="0.1524" layer="91"/>
-<label x="198.12" y="55.88" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
 <pinref part="SV1" gate="-11" pin="S"/>
 <wire x1="73.66" y1="106.68" x2="71.12" y2="104.14" width="0.1524" layer="91" curve="-90"/>
 <wire x1="71.12" y1="104.14" x2="63.5" y2="104.14" width="0.1524" layer="91"/>
 <label x="63.5" y="104.14" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="RN2" gate="1" pin="6"/>
+<wire x1="205.74" y1="53.34" x2="208.28" y2="55.88" width="0.1524" layer="91" curve="90"/>
+<wire x1="208.28" y1="55.88" x2="208.28" y2="66.04" width="0.1524" layer="91"/>
+<label x="208.28" y="55.88" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="DTCT4" class="0">
@@ -37266,10 +37266,10 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <wire x1="86.36" y1="83.82" x2="88.9" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="RN2" gate="1" pin="6"/>
-<wire x1="205.74" y1="53.34" x2="208.28" y2="55.88" width="0.1524" layer="91" curve="90"/>
-<wire x1="208.28" y1="55.88" x2="208.28" y2="66.04" width="0.1524" layer="91"/>
-<label x="208.28" y="55.88" size="1.778" layer="95" rot="R90"/>
+<pinref part="RN2" gate="1" pin="3"/>
+<wire x1="190.5" y1="53.34" x2="193.04" y2="55.88" width="0.1524" layer="91" curve="90"/>
+<wire x1="193.04" y1="55.88" x2="193.04" y2="66.04" width="0.1524" layer="91"/>
+<label x="193.04" y="55.88" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -37293,10 +37293,10 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <wire x1="86.36" y1="58.42" x2="88.9" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="RN2" gate="1" pin="7"/>
-<wire x1="210.82" y1="53.34" x2="213.36" y2="55.88" width="0.1524" layer="91" curve="90"/>
-<wire x1="213.36" y1="55.88" x2="213.36" y2="66.04" width="0.1524" layer="91"/>
-<label x="213.36" y="55.88" size="1.778" layer="95" rot="R90"/>
+<pinref part="RN2" gate="1" pin="4"/>
+<wire x1="195.58" y1="53.34" x2="198.12" y2="55.88" width="0.1524" layer="91" curve="90"/>
+<wire x1="198.12" y1="55.88" x2="198.12" y2="66.04" width="0.1524" layer="91"/>
+<label x="198.12" y="55.88" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="DISP1" class="0">
