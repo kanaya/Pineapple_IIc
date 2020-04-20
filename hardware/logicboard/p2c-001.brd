@@ -433,18 +433,18 @@ kanaya@pineapple.cc, @kanaya</text>
 <circle x="55.2" y="32.46" radius="0.1" width="0.2" layer="21"/>
 <circle x="55.2" y="29.92" radius="0.1" width="0.2" layer="21"/>
 <circle x="55.2" y="27.38" radius="0.1" width="0.2" layer="21"/>
-<text x="2" y="9" size="1" layer="26" rot="MR90">*Cut marked pins 6-8 of RN2 to use D6, D9, D10 for output</text>
+<text x="3" y="9" size="1" layer="26" rot="MR90" align="center-left">*Cut marked pins 6-8 of RN2 to use D6, D9, D10 for output</text>
 <circle x="55" y="32.46" radius="0.1" width="0.2" layer="22"/>
 <circle x="55" y="29.92" radius="0.1" width="0.2" layer="22"/>
 <circle x="55" y="27.38" radius="0.1" width="0.2" layer="22"/>
-<text x="57" y="23.5" size="1" layer="26" rot="MR0" align="top-center">RN2</text>
+<text x="57" y="46.5" size="1" layer="26" rot="MR0" align="bottom-center">RN2</text>
+<wire x1="55" y1="35" x2="55" y2="47" width="0.15" layer="22"/>
+<wire x1="55" y1="47" x2="55.5" y2="47" width="0.15" layer="22"/>
 <polygon width="0.15" layer="22">
-<vertex x="55" y="26"/>
-<vertex x="54.5" y="25"/>
-<vertex x="55.5" y="25"/>
+<vertex x="54.5" y="35"/>
+<vertex x="55.5" y="35"/>
+<vertex x="55" y="34"/>
 </polygon>
-<wire x1="55" y1="25" x2="55" y2="23" width="0.15" layer="22"/>
-<wire x1="55" y1="23" x2="55.5" y2="23" width="0.15" layer="22"/>
 </plain>
 <libraries>
 <library name="pineapple">
