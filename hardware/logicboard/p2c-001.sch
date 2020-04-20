@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -36282,6 +36282,10 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <sheet>
 <plain>
 <text x="218.44" y="20.32" size="1.778" layer="95">Pineapple IIc 2.0.1-A</text>
+<text x="119.38" y="38.1" size="1.778" layer="97" align="bottom-right">8</text>
+<text x="116.84" y="38.1" size="1.778" layer="97" align="bottom-right">1</text>
+<text x="121.92" y="38.1" size="1.778" layer="97" align="bottom-right">2</text>
+<text x="124.46" y="38.1" size="1.778" layer="97" align="bottom-right">4</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
@@ -37343,16 +37347,16 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <label x="111.76" y="119.38" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="SW1" gate="1" pin="2"/>
-<wire x1="116.84" y1="53.34" x2="119.38" y2="50.8" width="0.1524" layer="91" curve="-90"/>
-<wire x1="119.38" y1="50.8" x2="119.38" y2="38.1" width="0.1524" layer="91"/>
-<label x="119.38" y="40.64" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
 <pinref part="J3" gate="G$1" pin="3"/>
 <wire x1="157.48" y1="53.34" x2="160.02" y2="55.88" width="0.1524" layer="91" curve="90"/>
 <wire x1="160.02" y1="55.88" x2="160.02" y2="66.04" width="0.1524" layer="91"/>
 <label x="160.02" y="55.88" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="SW1" gate="1" pin="8"/>
+<wire x1="121.92" y1="53.34" x2="124.46" y2="50.8" width="0.1524" layer="91" curve="-90"/>
+<wire x1="124.46" y1="50.8" x2="124.46" y2="38.1" width="0.1524" layer="91"/>
+<label x="124.46" y="40.64" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="SDA3V3" class="0">
@@ -37503,10 +37507,10 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <label x="104.14" y="154.94" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="SW1" gate="1" pin="8"/>
-<wire x1="121.92" y1="53.34" x2="124.46" y2="50.8" width="0.1524" layer="91" curve="-90"/>
-<wire x1="124.46" y1="50.8" x2="124.46" y2="38.1" width="0.1524" layer="91"/>
-<label x="124.46" y="40.64" size="1.778" layer="95" rot="R90"/>
+<pinref part="SW1" gate="1" pin="2"/>
+<wire x1="116.84" y1="53.34" x2="119.38" y2="50.8" width="0.1524" layer="91" curve="-90"/>
+<wire x1="119.38" y1="50.8" x2="119.38" y2="38.1" width="0.1524" layer="91"/>
+<label x="119.38" y="40.64" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="LED0A" class="0">
