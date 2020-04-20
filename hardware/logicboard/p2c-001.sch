@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -27883,45 +27883,12 @@ Source: AVX .. aphvc.pdf</description>
 <text x="-3.81" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="-3.81" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 </package>
-<package name="RN-9" urn="urn:adsk.eagle:footprint:24956/1" library_version="2">
-<description>&lt;b&gt;RESISTOR NETWORK&lt;/b&gt;</description>
-<wire x1="11.43" y1="-1.27" x2="11.43" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-11.43" y1="1.27" x2="-11.43" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-11.43" y1="-1.27" x2="-10.795" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-11.43" y1="1.27" x2="-10.795" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-8.89" y1="1.27" x2="-9.525" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="11.43" y1="1.27" x2="-8.89" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-8.89" y1="-1.27" x2="-9.525" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-11.43" y1="-1.27" x2="-8.89" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-8.89" y1="1.27" x2="-8.89" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-8.89" y1="1.27" x2="-11.43" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-8.89" y1="-1.27" x2="11.43" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-10.7696" y1="0.6096" x2="-9.5504" y2="-0.6096" width="0.1524" layer="51"/>
-<wire x1="-10.7696" y1="-0.6096" x2="-9.5504" y2="0.6096" width="0.1524" layer="51"/>
-<pad name="1" x="-10.16" y="0" drill="0.8128" shape="long" rot="R90"/>
-<pad name="2" x="-7.62" y="0" drill="0.8128" shape="long" rot="R90"/>
-<pad name="3" x="-5.08" y="0" drill="0.8128" shape="long" rot="R90"/>
-<pad name="4" x="-2.54" y="0" drill="0.8128" shape="long" rot="R90"/>
-<pad name="5" x="0" y="0" drill="0.8128" shape="long" rot="R90"/>
-<pad name="6" x="2.54" y="0" drill="0.8128" shape="long" rot="R90"/>
-<pad name="7" x="5.08" y="0" drill="0.8128" shape="long" rot="R90"/>
-<pad name="8" x="7.62" y="0" drill="0.8128" shape="long" rot="R90"/>
-<pad name="9" x="10.16" y="0" drill="0.8128" shape="long" rot="R90"/>
-<text x="-8.89" y="-3.175" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-8.89" y="1.905" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-</package>
 </packages>
 <packages3d>
 <package3d name="RN-5" urn="urn:adsk.eagle:package:24976/1" type="box" library_version="2">
 <description>RESISTOR NETWORK</description>
 <packageinstances>
 <packageinstance name="RN-5"/>
-</packageinstances>
-</package3d>
-<package3d name="RN-9" urn="urn:adsk.eagle:package:24977/1" type="box" library_version="2">
-<description>RESISTOR NETWORK</description>
-<packageinstances>
-<packageinstance name="RN-9"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -27938,23 +27905,6 @@ Source: AVX .. aphvc.pdf</description>
 <pin name="3" x="10.16" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="4" x="15.24" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="5" x="20.32" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
-<symbol name="RN08" urn="urn:adsk.eagle:symbol:24955/1" library_version="2">
-<wire x1="-2.54" y1="1.27" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-1.27" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-1.27" x2="2.54" y2="1.27" width="0.254" layer="94"/>
-<wire x1="2.54" y1="1.27" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
-<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-4.318" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
-<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="3" x="10.16" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="4" x="15.24" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="5" x="20.32" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="6" x="25.4" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="7" x="30.48" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="8" x="35.56" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="9" x="40.64" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -27982,39 +27932,6 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
 <attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="RN08" urn="urn:adsk.eagle:component:25000/2" prefix="RN" uservalue="yes" library_version="2">
-<description>&lt;b&gt;RESISTOR NETWORK&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="RN08" x="5.08" y="0"/>
-</gates>
-<devices>
-<device name="" package="RN-9">
-<connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
-<connect gate="1" pin="3" pad="3"/>
-<connect gate="1" pin="4" pad="4"/>
-<connect gate="1" pin="5" pad="5"/>
-<connect gate="1" pin="6" pad="6"/>
-<connect gate="1" pin="7" pad="7"/>
-<connect gate="1" pin="8" pad="8"/>
-<connect gate="1" pin="9" pad="9"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24977/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-<attribute name="POPULARITY" value="1" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36236,7 +36153,6 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <part name="SUPPLY19" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="VDD3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 <part name="VDD4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
-<part name="RN2" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="RN08" device="" package3d_urn="urn:adsk.eagle:package:24977/1" value="4.7k"/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2" value="GNDPIN"/>
 <part name="SUPPLY21" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="U1" library="SparkFun-Sensors" deviceset="DS18B20" device=""/>
@@ -36277,6 +36193,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <part name="SUPPLY36" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+9V" device=""/>
 <part name="SUPPLY20" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="SUPPLY37" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
+<part name="RN2" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="RN04" device="" package3d_urn="urn:adsk.eagle:package:24976/1" value="4.7k"/>
 </parts>
 <sheets>
 <sheet>
@@ -36514,10 +36431,6 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <instance part="VDD4" gate="G$1" x="101.6" y="81.28" smashed="yes">
 <attribute name="VALUE" x="99.06" y="78.74" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="RN2" gate="1" x="182.88" y="66.04" smashed="yes">
-<attribute name="NAME" x="180.34" y="68.58" size="1.778" layer="95"/>
-<attribute name="VALUE" x="180.34" y="61.722" size="1.778" layer="96"/>
-</instance>
 <instance part="JP1" gate="G$1" x="12.7" y="45.72" smashed="yes" rot="MR0">
 <attribute name="NAME" x="19.05" y="48.895" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="19.05" y="40.64" size="1.778" layer="96" rot="MR0"/>
@@ -36614,6 +36527,10 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <instance part="SUPPLY36" gate="G$1" x="86.36" y="162.56" smashed="yes"/>
 <instance part="SUPPLY20" gate="G$1" x="175.26" y="71.12" smashed="yes"/>
 <instance part="SUPPLY37" gate="G$1" x="116.84" y="162.56" smashed="yes"/>
+<instance part="RN2" gate="1" x="182.88" y="66.04" smashed="yes">
+<attribute name="NAME" x="180.34" y="68.58" size="1.778" layer="95"/>
+<attribute name="VALUE" x="180.34" y="61.722" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 <bus name="UB:A4,ANLG1,ANLG2,ANLG3,ANLG4,AREF,AUX,DISP1,DISP2,DISP3,DTCT1,DTCT2,DTCT3,DTCT4,LED0,MOSI,PDN,RLY,RX,SCL,SCLK,SDA,THS,TX">
@@ -36627,7 +36544,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <wire x1="73.66" y1="114.3" x2="73.66" y2="55.88" width="0.762" layer="92"/>
 <label x="81.28" y="170.18" size="1.778" layer="95"/>
 <wire x1="73.66" y1="55.88" x2="76.2" y2="53.34" width="0.762" layer="92" curve="90"/>
-<wire x1="76.2" y1="53.34" x2="223.52" y2="53.34" width="0.762" layer="92"/>
+<wire x1="76.2" y1="53.34" x2="203.2" y2="53.34" width="0.762" layer="92"/>
 </segment>
 </bus>
 </busses>
@@ -36938,8 +36855,8 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <segment>
 <pinref part="SUPPLY20" gate="G$1" pin="VCC"/>
 <wire x1="175.26" y1="68.58" x2="175.26" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="RN2" gate="1" pin="1"/>
 <wire x1="175.26" y1="66.04" x2="177.8" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="RN2" gate="1" pin="1"/>
 </segment>
 <segment>
 <pinref part="SUPPLY37" gate="G$1" pin="VCC"/>
@@ -37079,10 +36996,10 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <label x="134.62" y="160.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="RN2" gate="1" pin="2"/>
 <wire x1="185.42" y1="53.34" x2="187.96" y2="55.88" width="0.1524" layer="91" curve="90"/>
 <wire x1="187.96" y1="55.88" x2="187.96" y2="66.04" width="0.1524" layer="91"/>
 <label x="187.96" y="55.88" size="1.778" layer="95" rot="R90"/>
+<pinref part="RN2" gate="1" pin="2"/>
 </segment>
 </net>
 <net name="ANLG1" class="0">
@@ -37178,12 +37095,6 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <wire x1="71.12" y1="109.22" x2="63.5" y2="109.22" width="0.1524" layer="91"/>
 <label x="63.5" y="109.22" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="RN2" gate="1" pin="8"/>
-<wire x1="215.9" y1="53.34" x2="218.44" y2="55.88" width="0.1524" layer="91" curve="90"/>
-<wire x1="218.44" y1="55.88" x2="218.44" y2="66.04" width="0.1524" layer="91"/>
-<label x="218.44" y="55.88" size="1.778" layer="95" rot="R90"/>
-</segment>
 </net>
 <net name="DTCT2" class="0">
 <segment>
@@ -37197,12 +37108,6 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <wire x1="73.66" y1="109.22" x2="71.12" y2="106.68" width="0.1524" layer="91" curve="-90"/>
 <wire x1="71.12" y1="106.68" x2="63.5" y2="106.68" width="0.1524" layer="91"/>
 <label x="63.5" y="106.68" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="RN2" gate="1" pin="7"/>
-<wire x1="210.82" y1="53.34" x2="213.36" y2="55.88" width="0.1524" layer="91" curve="90"/>
-<wire x1="213.36" y1="55.88" x2="213.36" y2="66.04" width="0.1524" layer="91"/>
-<label x="213.36" y="55.88" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="DTCT3" class="0">
@@ -37218,12 +37123,6 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <wire x1="71.12" y1="104.14" x2="63.5" y2="104.14" width="0.1524" layer="91"/>
 <label x="63.5" y="104.14" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="RN2" gate="1" pin="6"/>
-<wire x1="205.74" y1="53.34" x2="208.28" y2="55.88" width="0.1524" layer="91" curve="90"/>
-<wire x1="208.28" y1="55.88" x2="208.28" y2="66.04" width="0.1524" layer="91"/>
-<label x="208.28" y="55.88" size="1.778" layer="95" rot="R90"/>
-</segment>
 </net>
 <net name="DTCT4" class="0">
 <segment>
@@ -37231,12 +37130,6 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <wire x1="119.38" y1="116.84" x2="121.92" y2="119.38" width="0.1524" layer="91" curve="90"/>
 <wire x1="121.92" y1="119.38" x2="121.92" y2="129.54" width="0.1524" layer="91"/>
 <label x="121.92" y="119.38" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="RN2" gate="1" pin="5"/>
-<wire x1="200.66" y1="53.34" x2="203.2" y2="55.88" width="0.1524" layer="91" curve="90"/>
-<wire x1="203.2" y1="55.88" x2="203.2" y2="66.04" width="0.1524" layer="91"/>
-<label x="203.2" y="55.88" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="SV1" gate="-15" pin="S"/>
@@ -37266,10 +37159,10 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <wire x1="86.36" y1="83.82" x2="88.9" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="RN2" gate="1" pin="3"/>
 <wire x1="190.5" y1="53.34" x2="193.04" y2="55.88" width="0.1524" layer="91" curve="90"/>
 <wire x1="193.04" y1="55.88" x2="193.04" y2="66.04" width="0.1524" layer="91"/>
 <label x="193.04" y="55.88" size="1.778" layer="95" rot="R90"/>
+<pinref part="RN2" gate="1" pin="3"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -37293,10 +37186,10 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <wire x1="86.36" y1="58.42" x2="88.9" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="RN2" gate="1" pin="4"/>
 <wire x1="195.58" y1="53.34" x2="198.12" y2="55.88" width="0.1524" layer="91" curve="90"/>
 <wire x1="198.12" y1="55.88" x2="198.12" y2="66.04" width="0.1524" layer="91"/>
 <label x="198.12" y="55.88" size="1.778" layer="95" rot="R90"/>
+<pinref part="RN2" gate="1" pin="4"/>
 </segment>
 </net>
 <net name="DISP1" class="0">
@@ -37399,10 +37292,10 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 </net>
 <net name="THS" class="0">
 <segment>
-<pinref part="RN2" gate="1" pin="9"/>
-<wire x1="220.98" y1="53.34" x2="223.52" y2="55.88" width="0.1524" layer="91" curve="90"/>
-<wire x1="223.52" y1="55.88" x2="223.52" y2="66.04" width="0.1524" layer="91"/>
-<label x="223.52" y="55.88" size="1.778" layer="95" rot="R90"/>
+<wire x1="200.66" y1="53.34" x2="203.2" y2="55.88" width="0.1524" layer="91" curve="90"/>
+<wire x1="203.2" y1="55.88" x2="203.2" y2="66.04" width="0.1524" layer="91"/>
+<label x="203.2" y="55.88" size="1.778" layer="95" rot="R90"/>
+<pinref part="RN2" gate="1" pin="5"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="A5"/>
