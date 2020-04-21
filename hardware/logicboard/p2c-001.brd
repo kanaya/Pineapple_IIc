@@ -429,6 +429,13 @@ kanaya@pineapple.cc, @kanaya</text>
 <text x="61" y="3" size="1" layer="25" align="bottom-center">Shared w/ SW1</text>
 <text x="12.28" y="16.5" size="1" layer="26" rot="MR0" align="top-center">1</text>
 <text x="9.72" y="16.5" size="1" layer="26" rot="MR0" align="top-center">2</text>
+<polygon width="0.15" layer="21">
+<vertex x="79.91" y="49.91"/>
+<vertex x="78.15" y="48.85"/>
+<vertex x="78.85" y="48.15"/>
+</polygon>
+<text x="77.5" y="47.9" size="1" layer="25" align="center-right">Power</text>
+<text x="77.5" y="49.1" size="1" layer="25" align="center-right">Sensor</text>
 </plain>
 <libraries>
 <library name="pineapple">
