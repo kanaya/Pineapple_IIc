@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -36119,7 +36119,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
-<part name="J7" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="QWIIC_CONNECTOR" device="JS-1MM" package3d_urn="urn:adsk.eagle:package:38096/1" value="Qwiic"/>
+<part name="JQ1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="QWIIC_CONNECTOR" device="JS-1MM" package3d_urn="urn:adsk.eagle:package:38096/1" value="Qwiic"/>
 <part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="VDD1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 <part name="VDD2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
@@ -36277,7 +36277,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <instance part="SUPPLY5" gate="GND" x="228.6" y="27.94" smashed="yes"/>
 <instance part="SUPPLY6" gate="GND" x="93.98" y="121.92" smashed="yes"/>
 <instance part="SUPPLY9" gate="G$1" x="93.98" y="162.56" smashed="yes"/>
-<instance part="J7" gate="J1" x="124.46" y="88.9" smashed="yes" rot="R180">
+<instance part="JQ1" gate="J1" x="124.46" y="88.9" smashed="yes" rot="R180">
 <attribute name="VALUE" x="129.54" y="94.234" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 <attribute name="NAME" x="129.54" y="81.026" size="1.778" layer="95" rot="R180"/>
 </instance>
@@ -36666,7 +36666,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <wire x1="213.36" y1="33.02" x2="213.36" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J7" gate="J1" pin="GND"/>
+<pinref part="JQ1" gate="J1" pin="GND"/>
 <pinref part="SUPPLY10" gate="GND" pin="GND"/>
 <wire x1="116.84" y1="91.44" x2="114.3" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="91.44" x2="114.3" y2="81.28" width="0.1524" layer="91"/>
@@ -36921,7 +36921,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <junction x="101.6" y="76.2"/>
 </segment>
 <segment>
-<pinref part="J7" gate="J1" pin="VCC"/>
+<pinref part="JQ1" gate="J1" pin="VCC"/>
 <wire x1="116.84" y1="88.9" x2="111.76" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="VDD2" gate="G$1" pin="VDD"/>
 <wire x1="111.76" y1="88.9" x2="111.76" y2="93.98" width="0.1524" layer="91"/>
@@ -37245,7 +37245,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <wire x1="101.6" y1="88.9" x2="101.6" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="Q2" gate="NMOS" pin="S"/>
 <wire x1="101.6" y1="86.36" x2="99.06" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="J7" gate="J1" pin="SDA"/>
+<pinref part="JQ1" gate="J1" pin="SDA"/>
 <wire x1="116.84" y1="86.36" x2="101.6" y2="86.36" width="0.1524" layer="91"/>
 <junction x="101.6" y="86.36"/>
 <pinref part="RZ2" gate="G$1" pin="2"/>
@@ -37259,7 +37259,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <wire x1="101.6" y1="63.5" x2="101.6" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="NMOS" pin="S"/>
 <wire x1="101.6" y1="60.96" x2="99.06" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="J7" gate="J1" pin="SCL"/>
+<pinref part="JQ1" gate="J1" pin="SCL"/>
 <wire x1="116.84" y1="83.82" x2="106.68" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="83.82" x2="106.68" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="60.96" x2="101.6" y2="60.96" width="0.1524" layer="91"/>
