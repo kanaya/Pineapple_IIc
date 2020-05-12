@@ -16189,21 +16189,13 @@ CONN_03
 </sheet>
 </sheets>
 <errors>
-<approved hash="101,1,251.46,83.82,IC1B,O,,,,"/>
-<approved hash="101,1,251.46,71.12,IC1C,O,,,,"/>
-<approved hash="101,1,251.46,58.42,IC1D,O,,,,"/>
-<approved hash="101,1,251.46,45.72,IC1E,O,,,,"/>
-<approved hash="101,1,251.46,33.02,IC1F,O,,,,"/>
-<approved hash="104,1,116.84,88.9,J7,VCC,VDD,,,"/>
-<approved hash="104,1,139.7,43.18,U1,VDD,VCC,,,"/>
-<approved hash="106,1,121.92,154.94,LED0,,,,,"/>
 <approved hash="113,1,130.071,89.431,FRAME1,,,,,"/>
 <approved hash="113,1,59.288,121.92,SV1,,,,,"/>
-<approved hash="113,1,251.46,83.82,X1,,,,,"/>
-<approved hash="113,1,251.46,71.12,X2,,,,,"/>
-<approved hash="113,1,251.46,58.42,X3,,,,,"/>
-<approved hash="113,1,251.46,45.72,X4,,,,,"/>
-<approved hash="113,1,251.46,33.02,X5,,,,,"/>
+<approved hash="113,1,89.0626,130.217,J1,,,,,"/>
+<approved hash="113,1,106.843,130.217,J2,,,,,"/>
+<approved hash="113,1,124.623,130.217,J3,,,,,"/>
+<approved hash="113,1,142.403,130.217,J4,,,,,"/>
+<approved hash="113,1,150.537,79.8474,JP1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
