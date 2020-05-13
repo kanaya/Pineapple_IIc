@@ -25079,22 +25079,14 @@ Source: AVX .. aphvc.pdf</description>
 <nets>
 <net name="GND" class="1">
 <segment>
+<pinref part="SUPPLY12" gate="GND" pin="GND"/>
 <pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="20.32" y1="157.48" x2="22.86" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="SUPPLY12" gate="GND" pin="GND"/>
 <wire x1="22.86" y1="157.48" x2="22.86" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="GND"/>
-<wire x1="60.96" y1="149.86" x2="55.88" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="149.86" x2="55.88" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="157.48" x2="22.86" y2="157.48" width="0.1524" layer="91"/>
-<junction x="22.86" y="157.48"/>
-<pinref part="IC1" gate="G$1" pin="DCPRG"/>
-<wire x1="60.96" y1="137.16" x2="55.88" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="137.16" x2="55.88" y2="149.86" width="0.1524" layer="91"/>
-<junction x="55.88" y="149.86"/>
-<label x="25.4" y="157.48" size="1.778" layer="95"/>
 </segment>
 <segment>
+<pinref part="IC1" gate="G$1" pin="GND"/>
+<wire x1="60.96" y1="149.86" x2="43.18" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="114.3" x2="45.72" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
@@ -25104,6 +25096,8 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="43.18" y1="139.7" x2="43.18" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="114.3" x2="45.72" y2="114.3" width="0.1524" layer="91"/>
 <junction x="45.72" y="114.3"/>
+<wire x1="43.18" y1="149.86" x2="43.18" y2="139.7" width="0.1524" layer="91"/>
+<junction x="43.18" y="139.7"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
@@ -25193,6 +25187,10 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="58.42" y1="152.4" x2="58.42" y2="165.1" width="0.1524" layer="91"/>
 <junction x="58.42" y="165.1"/>
 <label x="25.4" y="165.1" size="1.778" layer="95"/>
+<wire x1="58.42" y1="152.4" x2="58.42" y2="137.16" width="0.1524" layer="91"/>
+<junction x="58.42" y="152.4"/>
+<pinref part="IC1" gate="G$1" pin="DCPRG"/>
+<wire x1="58.42" y1="137.16" x2="60.96" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY4" gate="G$1" pin="VCC"/>
