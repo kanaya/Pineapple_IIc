@@ -36820,7 +36820,6 @@ Source: AVX .. aphvc.pdf</description>
 <part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="SUPPLY12" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1" value="0.01u"/>
 <part name="C5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1" value="0.01u"/>
 <part name="SUPPLY13" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -36855,7 +36854,6 @@ Source: AVX .. aphvc.pdf</description>
 <part name="D1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE" device="-1N4148" package3d_urn="urn:adsk.eagle:package:38452/1" value=""/>
 <part name="SUPPLY24" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="JST-PTH-2" package3d_urn="urn:adsk.eagle:package:38053/1" value="RLY"/>
-<part name="SUPPLY28" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="SUPPLY29" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2" value="PWRSEL"/>
 <part name="SUPPLY30" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -36879,8 +36877,12 @@ Source: AVX .. aphvc.pdf</description>
 <part name="D3" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE" device="-1N4148" package3d_urn="urn:adsk.eagle:package:38452/1" value=""/>
 <part name="SUPPLY31" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="SUPPLY38" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="JST-PTH" package3d_urn="urn:adsk.eagle:package:38069/1"/>
+<part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="JST-PTH" package3d_urn="urn:adsk.eagle:package:38069/1" value="DISP"/>
 <part name="SUPPLY11" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="X6" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="PAD-N" device=""/>
+<part name="X7" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="PAD-N" device=""/>
+<part name="X8" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="PAD-N" device=""/>
+<part name="X9" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="PAD-N" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -36975,9 +36977,9 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="VDD2" gate="G$1" x="111.76" y="96.52" smashed="yes">
 <attribute name="VALUE" x="109.22" y="93.98" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="J3" gate="G$1" x="160.02" y="73.66" smashed="yes" rot="R270">
-<attribute name="VALUE" x="150.114" y="76.2" size="1.778" layer="96" font="vector" rot="R270"/>
-<attribute name="NAME" x="168.148" y="76.2" size="1.778" layer="95" rot="R270"/>
+<instance part="J3" gate="G$1" x="142.24" y="73.66" smashed="yes" rot="R270">
+<attribute name="VALUE" x="132.334" y="76.2" size="1.778" layer="96" font="vector" rot="R270"/>
+<attribute name="NAME" x="150.368" y="76.2" size="1.778" layer="95" rot="R270"/>
 </instance>
 <instance part="RN1" gate="1" x="101.6" y="38.1" smashed="yes" rot="MR0">
 <attribute name="NAME" x="104.14" y="40.64" size="1.778" layer="95" rot="MR0"/>
@@ -37070,7 +37072,6 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="SUPPLY7" gate="GND" x="76.2" y="7.62" smashed="yes"/>
 <instance part="SUPPLY3" gate="GND" x="66.04" y="71.12" smashed="yes"/>
 <instance part="SUPPLY8" gate="GND" x="109.22" y="7.62" smashed="yes"/>
-<instance part="SUPPLY12" gate="GND" x="50.8" y="147.32" smashed="yes"/>
 <instance part="C6" gate="G$1" x="213.36" y="38.1" smashed="yes">
 <attribute name="NAME" x="214.884" y="38.481" size="1.778" layer="95"/>
 <attribute name="VALUE" x="214.884" y="33.401" size="1.778" layer="96"/>
@@ -37167,7 +37168,6 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="VALUE" x="10.16" y="84.074" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="10.16" y="94.488" size="1.778" layer="95"/>
 </instance>
-<instance part="SUPPLY28" gate="G$1" x="215.9" y="170.18" smashed="yes"/>
 <instance part="SUPPLY29" gate="G$1" x="66.04" y="162.56" smashed="yes"/>
 <instance part="JP2" gate="A" x="38.1" y="35.56" smashed="yes" rot="MR90">
 <attribute name="NAME" x="43.815" y="29.21" size="1.778" layer="95" rot="MR90"/>
@@ -37212,16 +37212,20 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="NAME" x="76.2" y="27.432" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="78.74" y="30.988" size="1.778" layer="96" font="vector" rot="MR0" align="top-left"/>
 </instance>
-<instance part="SUPPLY31" gate="G$1" x="147.32" y="71.12" smashed="yes"/>
-<instance part="SUPPLY38" gate="GND" x="165.1" y="58.42" smashed="yes"/>
-<instance part="J4" gate="J$1" x="129.54" y="73.66" smashed="yes" rot="R270">
-<attribute name="VALUE" x="122.174" y="76.2" size="1.778" layer="96" font="vector" rot="R270"/>
-<attribute name="NAME" x="135.128" y="76.2" size="1.778" layer="95" font="vector" rot="R270"/>
+<instance part="SUPPLY31" gate="G$1" x="154.94" y="71.12" smashed="yes"/>
+<instance part="SUPPLY38" gate="GND" x="137.16" y="58.42" smashed="yes"/>
+<instance part="J4" gate="J$1" x="127" y="73.66" smashed="yes" rot="R270">
+<attribute name="VALUE" x="119.634" y="76.2" size="1.778" layer="96" font="vector" rot="R270"/>
+<attribute name="NAME" x="132.588" y="76.2" size="1.778" layer="95" font="vector" rot="R270"/>
 </instance>
-<instance part="SUPPLY11" gate="GND" x="132.08" y="58.42" smashed="yes"/>
+<instance part="SUPPLY11" gate="GND" x="124.46" y="58.42" smashed="yes"/>
+<instance part="X6" gate="G$1" x="205.74" y="152.4" smashed="yes"/>
+<instance part="X7" gate="G$1" x="185.42" y="152.4" smashed="yes"/>
+<instance part="X8" gate="G$1" x="185.42" y="127" smashed="yes"/>
+<instance part="X9" gate="G$1" x="205.74" y="127" smashed="yes"/>
 </instances>
 <busses>
-<bus name="UB:A4,ANLG1,ANLG2,ANLG3,ANLG4,AREF,AUX,D7,DISP1,DISP2,DTCT1,DTCT2,DTCT3,DTCT4,LED0,LED1,MOSI,PDN,RLY,RX,SCL,SCLK,SDA,THS,TX">
+<bus name="UB:A4,ANLG1,ANLG2,ANLG3,ANLG4,AREF,AUX,D7,DISP1,DISP2,DTCT1,DTCT2,DTCT3,DTCT4,LED0,LED1,PDN,RLY,RX,SCL,SDA,THS,TX">
 <segment>
 <wire x1="78.74" y1="167.64" x2="129.54" y2="167.64" width="0.762" layer="92"/>
 <wire x1="129.54" y1="167.64" x2="132.08" y2="165.1" width="0.762" layer="92" curve="-90"/>
@@ -37345,11 +37349,6 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="109.22" y1="38.1" x2="109.22" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="48.26" y1="152.4" x2="50.8" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="SUPPLY12" gate="GND" pin="GND"/>
-<wire x1="50.8" y1="152.4" x2="50.8" y2="149.86" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="C5" gate="G$1" pin="2"/>
 <pinref part="SUPPLY14" gate="GND" pin="GND"/>
 <wire x1="205.74" y1="33.02" x2="205.74" y2="30.48" width="0.1524" layer="91"/>
@@ -37416,14 +37415,14 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="167.64" y1="121.92" x2="167.64" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="5"/>
-<pinref part="SUPPLY38" gate="GND" pin="GND"/>
-<wire x1="165.1" y1="66.04" x2="165.1" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="J4" gate="J$1" pin="1"/>
+<pinref part="SUPPLY11" gate="GND" pin="GND"/>
+<wire x1="124.46" y1="66.04" x2="124.46" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J4" gate="J$1" pin="3"/>
-<pinref part="SUPPLY11" gate="GND" pin="GND"/>
-<wire x1="132.08" y1="66.04" x2="132.08" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="1"/>
+<pinref part="SUPPLY38" gate="GND" pin="GND"/>
+<wire x1="137.16" y1="66.04" x2="137.16" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MIDIOUTC" class="0">
@@ -37495,12 +37494,6 @@ Source: AVX .. aphvc.pdf</description>
 <junction x="35.56" y="81.28"/>
 </segment>
 <segment>
-<pinref part="SUPPLY28" gate="G$1" pin="VCC"/>
-<wire x1="215.9" y1="167.64" x2="215.9" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="J5" gate="G$1" pin="1"/>
-<wire x1="215.9" y1="152.4" x2="205.74" y2="152.4" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="SUPPLY25" gate="G$1" pin="VCC"/>
 <wire x1="137.16" y1="45.72" x2="137.16" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="VDD"/>
@@ -37557,11 +37550,11 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="116.84" y1="160.02" x2="116.84" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
+<pinref part="J3" gate="G$1" pin="5"/>
+<wire x1="147.32" y1="66.04" x2="147.32" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="SUPPLY31" gate="G$1" pin="VCC"/>
-<wire x1="147.32" y1="68.58" x2="147.32" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="1"/>
-<wire x1="147.32" y1="63.5" x2="154.94" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="63.5" x2="154.94" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="60.96" x2="154.94" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="60.96" x2="154.94" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="OUT-" class="0">
@@ -37638,22 +37631,6 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="116.84" y1="88.9" x2="111.76" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="VDD2" gate="G$1" pin="VDD"/>
 <wire x1="111.76" y1="88.9" x2="111.76" y2="93.98" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="SCLK" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="SCK"/>
-<wire x1="83.82" y1="167.64" x2="81.28" y2="165.1" width="0.1524" layer="91" curve="90"/>
-<wire x1="81.28" y1="165.1" x2="81.28" y2="154.94" width="0.1524" layer="91"/>
-<label x="81.28" y="154.94" size="1.778" layer="95" rot="R90"/>
-</segment>
-</net>
-<net name="MOSI" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="MOSI"/>
-<wire x1="78.74" y1="116.84" x2="81.28" y2="119.38" width="0.1524" layer="91" curve="90"/>
-<wire x1="81.28" y1="119.38" x2="81.28" y2="129.54" width="0.1524" layer="91"/>
-<label x="81.28" y="119.38" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="TX" class="0">
@@ -37853,10 +37830,10 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="RN2" gate="1" pin="3"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="4"/>
-<wire x1="160.02" y1="53.34" x2="162.56" y2="55.88" width="0.1524" layer="91" curve="90"/>
-<wire x1="162.56" y1="55.88" x2="162.56" y2="66.04" width="0.1524" layer="91"/>
-<label x="162.56" y="58.42" size="1.778" layer="95" rot="R90"/>
+<pinref part="J3" gate="G$1" pin="2"/>
+<wire x1="137.16" y1="53.34" x2="139.7" y2="55.88" width="0.1524" layer="91" curve="90"/>
+<wire x1="139.7" y1="55.88" x2="139.7" y2="66.04" width="0.1524" layer="91"/>
+<label x="139.7" y="55.88" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -37887,9 +37864,9 @@ Source: AVX .. aphvc.pdf</description>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="3"/>
-<wire x1="157.48" y1="53.34" x2="160.02" y2="55.88" width="0.1524" layer="91" curve="90"/>
-<wire x1="160.02" y1="55.88" x2="160.02" y2="66.04" width="0.1524" layer="91"/>
-<label x="160.02" y="58.42" size="1.778" layer="95" rot="R90"/>
+<wire x1="139.7" y1="53.34" x2="142.24" y2="55.88" width="0.1524" layer="91" curve="90"/>
+<wire x1="142.24" y1="55.88" x2="142.24" y2="66.04" width="0.1524" layer="91"/>
+<label x="142.24" y="55.88" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="DISP1" class="0">
@@ -37906,10 +37883,10 @@ Source: AVX .. aphvc.pdf</description>
 <label x="116.84" y="40.64" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="J4" gate="J$1" pin="1"/>
-<wire x1="124.46" y1="53.34" x2="127" y2="55.88" width="0.1524" layer="91" curve="90"/>
-<wire x1="127" y1="55.88" x2="127" y2="66.04" width="0.1524" layer="91"/>
-<label x="127" y="58.42" size="1.778" layer="95" rot="R90"/>
+<pinref part="J4" gate="J$1" pin="3"/>
+<wire x1="127" y1="53.34" x2="129.54" y2="55.88" width="0.1524" layer="91" curve="90"/>
+<wire x1="129.54" y1="55.88" x2="129.54" y2="66.04" width="0.1524" layer="91"/>
+<label x="129.54" y="55.88" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="SDA3V3" class="0">
@@ -38123,10 +38100,10 @@ Source: AVX .. aphvc.pdf</description>
 <label x="121.92" y="40.64" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="2"/>
-<wire x1="154.94" y1="53.34" x2="157.48" y2="55.88" width="0.1524" layer="91" curve="90"/>
-<wire x1="157.48" y1="55.88" x2="157.48" y2="66.04" width="0.1524" layer="91"/>
-<label x="157.48" y="58.42" size="1.778" layer="95" rot="R90"/>
+<pinref part="J3" gate="G$1" pin="4"/>
+<wire x1="142.24" y1="53.34" x2="144.78" y2="55.88" width="0.1524" layer="91" curve="90"/>
+<wire x1="144.78" y1="55.88" x2="144.78" y2="66.04" width="0.1524" layer="91"/>
+<label x="144.78" y="55.88" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="DISP2" class="0">
@@ -38144,9 +38121,9 @@ Source: AVX .. aphvc.pdf</description>
 </segment>
 <segment>
 <pinref part="J4" gate="J$1" pin="2"/>
-<wire x1="127" y1="53.34" x2="129.54" y2="55.88" width="0.1524" layer="91" curve="90"/>
-<wire x1="129.54" y1="55.88" x2="129.54" y2="66.04" width="0.1524" layer="91"/>
-<label x="129.54" y="58.42" size="1.778" layer="95" rot="R90"/>
+<wire x1="124.46" y1="53.34" x2="127" y2="55.88" width="0.1524" layer="91" curve="90"/>
+<wire x1="127" y1="55.88" x2="127" y2="66.04" width="0.1524" layer="91"/>
+<label x="127" y="55.88" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 </nets>
@@ -38161,6 +38138,8 @@ Source: AVX .. aphvc.pdf</description>
 <approved hash="104,1,116.84,88.9,JQ1,VCC,VDD,,,"/>
 <approved hash="104,1,139.7,43.18,U1,VDD,VCC,,,"/>
 <approved hash="106,1,121.92,154.94,LED0,,,,,"/>
+<approved hash="106,1,81.28,129.54,MOSI,,,,,"/>
+<approved hash="106,1,81.28,154.94,SCLK,,,,,"/>
 <approved hash="113,1,130.071,89.431,FRAME1,,,,,"/>
 <approved hash="113,1,59.288,121.92,SV1,,,,,"/>
 <approved hash="113,1,251.46,83.82,X1,,,,,"/>
