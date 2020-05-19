@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -36762,7 +36762,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1" value="220"/>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="JQ1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="QWIIC_CONNECTOR" device="JS-1MM" package3d_urn="urn:adsk.eagle:package:38096/1" value="Qwiic"/>
-<part name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_05" device="JST" package3d_urn="urn:adsk.eagle:package:38120/1" value="I2C"/>
+<part name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_05" device="JST" package3d_urn="urn:adsk.eagle:package:38120/1" value="MKR"/>
 <part name="RN1" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="RN04" device="" package3d_urn="urn:adsk.eagle:package:24976/1" value="10k"/>
 <part name="V1" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="78XXS" device="" package3d_urn="urn:adsk.eagle:package:30342/1" value="L7805"/>
 <part name="SV1" library="con-ml" library_urn="urn:adsk.eagle:library:164" deviceset="ML16LE" device="" package3d_urn="urn:adsk.eagle:package:8682/1"/>
@@ -36813,7 +36813,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="RN2" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="RN04" device="" package3d_urn="urn:adsk.eagle:package:24976/1" value="4.7k"/>
 <part name="JP3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="" package3d_urn="urn:adsk.eagle:package:38063/1" value="GNDPINS"/>
 <part name="D3" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE" device="-1N4148" package3d_urn="urn:adsk.eagle:package:38452/1" value=""/>
-<part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="JST-PTH" package3d_urn="urn:adsk.eagle:package:38069/1" value="DISP"/>
+<part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="JST-PTH" package3d_urn="urn:adsk.eagle:package:38069/1" value="GPIO"/>
 <part name="X6" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="PAD-N" device=""/>
 <part name="X7" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="PAD-N" device=""/>
 <part name="X8" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="PAD-N" device=""/>
@@ -37272,6 +37272,8 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="JP3" gate="J$1" pin="2"/>
 <wire x1="187.96" y1="45.72" x2="185.42" y2="45.72" width="0.1524" layer="91"/>
 <junction x="185.42" y="45.72"/>
+<wire x1="185.42" y1="33.02" x2="182.88" y2="33.02" width="0.1524" layer="91"/>
+<label x="182.88" y="33.02" size="1.778" layer="95" rot="MR0" xref="yes"/>
 </segment>
 <segment>
 <pinref part="T1" gate="G$1" pin="E"/>
