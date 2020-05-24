@@ -37330,7 +37330,7 @@ Source: AVX .. aphvc.pdf</description>
 <label x="20.32" y="71.12" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MIDIOUTC" class="0">
+<net name="MOC" class="0">
 <segment>
 <pinref part="IC1" gate="A" pin="O"/>
 <wire x1="149.86" y1="134.62" x2="147.32" y2="134.62" width="0.1524" layer="91"/>
@@ -37455,7 +37455,7 @@ Source: AVX .. aphvc.pdf</description>
 <label x="20.32" y="73.66" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MIDIINA" class="0">
+<net name="MIA" class="0">
 <segment>
 <pinref part="OK1" gate="A" pin="A"/>
 <wire x1="149.86" y1="162.56" x2="147.32" y2="162.56" width="0.1524" layer="91"/>
@@ -37516,7 +37516,7 @@ Source: AVX .. aphvc.pdf</description>
 <label x="116.84" y="114.3" size="0.8128" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="RLYQ" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="T1" gate="G$1" pin="B"/>
@@ -37527,7 +37527,7 @@ Source: AVX .. aphvc.pdf</description>
 <junction x="86.36" y="139.7"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="RLYC" class="0">
 <segment>
 <pinref part="K1" gate="1" pin="2"/>
 <pinref part="T1" gate="G$1" pin="C"/>
@@ -37984,7 +37984,7 @@ Source: AVX .. aphvc.pdf</description>
 <label x="190.5" y="132.08" size="0.8128" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="LED1A" class="0">
 <segment>
 <pinref part="L1" gate="G$1" pin="A"/>
 <pinref part="R6" gate="G$1" pin="1"/>
