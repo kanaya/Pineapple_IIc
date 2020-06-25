@@ -36288,11 +36288,6 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
 <wire x1="205.74" y1="147.32" x2="218.44" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="147.32" x2="218.44" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="2"/>
-<wire x1="205.74" y1="170.18" x2="205.74" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="172.72" x2="218.44" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="172.72" x2="218.44" y2="147.32" width="0.1524" layer="91"/>
-<junction x="218.44" y="147.32"/>
 </segment>
 <segment>
 <pinref part="OK1" gate="A" pin="GND"/>
