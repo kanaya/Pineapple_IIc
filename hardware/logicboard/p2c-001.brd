@@ -14,12 +14,12 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -218,7 +218,7 @@ kanaya@pineapple.cc, @kanaya</text>
 <text x="8" y="29.31" size="1" layer="26" rot="MR0" align="center-left">A2</text>
 <text x="8" y="24.23" size="1" layer="26" rot="MR0" align="center-left">A1</text>
 <text x="8" y="19.15" size="1" layer="26" rot="MR0" align="center-left">A0</text>
-<text x="14" y="29.31" size="1" layer="26" rot="MR0" align="center-right">D10</text>
+<text x="16" y="29.31" size="1" layer="26" rot="MR0" align="center-right">D10</text>
 <text x="14" y="24.23" size="1" layer="26" rot="MR0" align="center-right">D9</text>
 <text x="14" y="19.15" size="1" layer="26" rot="MR0" align="center-right">D6</text>
 <wire x1="8.5" y1="36" x2="13.5" y2="36" width="0.2" layer="22"/>
@@ -394,8 +394,8 @@ on this side</text>
 <text x="65" y="2.5" size="1" layer="26" rot="MR0" align="center">JST-PH</text>
 <rectangle x1="76" y1="5.75" x2="78" y2="6.25" layer="21"/>
 <text x="5" y="11" size="1" layer="26" rot="MR0" align="bottom-center">Vo</text>
-<text x="5" y="5" size="1" layer="26" rot="MR0" align="top-center">Vcc</text>
-<text x="2.46" y="5" size="1" layer="26" rot="MR0" align="top-center">V+</text>
+<text x="6" y="3.5" size="1" layer="26" rot="MR0" align="top-center">Vcc</text>
+<text x="1.46" y="5" size="1" layer="26" rot="MR0" align="top-center">V+</text>
 <text x="7.54" y="5" size="1" layer="26" rot="MR0" align="top-center">V/2</text>
 <text x="2.46" y="11" size="1" layer="26" rot="MR0" align="bottom-center">Vi</text>
 <polygon width="0.15" layer="22">
@@ -484,6 +484,17 @@ on this side</text>
 <text x="17.145" y="34.29" size="1" layer="26" rot="MR90" align="center-left">SDA</text>
 <text x="15.24" y="34.925" size="1" layer="25" align="center-left">SparkFun RTC 12708</text>
 <text x="75.065" y="0.45" size="1" layer="25" align="bottom-center">Pineapple IIc 2.0.4-A</text>
+<rectangle x1="34.75" y1="12" x2="35.25" y2="14" layer="22"/>
+<rectangle x1="53.75" y1="17.08" x2="54.25" y2="19.08" layer="22"/>
+<rectangle x1="77" y1="45" x2="79" y2="45.5" layer="21"/>
+<rectangle x1="77" y1="45" x2="79" y2="45.5" layer="22"/>
+<rectangle x1="16.75" y1="10" x2="17.25" y2="12" layer="22"/>
+<rectangle x1="13" y1="6" x2="15" y2="6.5" layer="22"/>
+<wire x1="5" y1="6.5" x2="5" y2="4.5" width="0.15" layer="22"/>
+<wire x1="5" y1="4.5" x2="6" y2="3.5" width="0.15" layer="22"/>
+<rectangle x1="9.25" y1="42.46" x2="9.75" y2="44.46" layer="22"/>
+<hole x="17.145" y="47.625" drill="1"/>
+<circle x="17.145" y="47.625" radius="2.8" width="0.2" layer="42"/>
 </plain>
 <libraries>
 <library name="pineapple">
@@ -9767,9 +9778,6 @@ design rules under a new name.</description>
 </element>
 <element name="U$5" library="SparkFun-Hardware" package="STAND-OFF" value="" x="31.115" y="33.655" smashed="yes">
 <attribute name="VALUE" x="31.115" y="31.623" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
-</element>
-<element name="U$6" library="SparkFun-Hardware" package="STAND-OFF" value="" x="17.145" y="47.625" smashed="yes">
-<attribute name="VALUE" x="17.145" y="45.593" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 </elements>
 <signals>
