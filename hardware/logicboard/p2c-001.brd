@@ -6,20 +6,20 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -365,7 +365,7 @@ kanaya@pineapple.cc, @kanaya</text>
 <rectangle x1="66.25" y1="27.405" x2="66.75" y2="28.676" layer="22"/>
 <rectangle x1="66.25" y1="22.325" x2="66.75" y2="23.596" layer="22"/>
 <text x="18.5" y="29" size="1" layer="25" align="center">1S3</text>
-<text x="6.065" y="39.95" size="1" layer="25" align="bottom-center">DS18B20
+<text x="3" y="41" size="1" layer="25" align="center-left">DS18B20
 or LM35*</text>
 <text x="44.5" y="0.5" size="1" layer="25" align="bottom-center">SC</text>
 <text x="46.5" y="0.5" size="1" layer="25" align="bottom-center">D7</text>
@@ -393,71 +393,71 @@ on this side</text>
 <text x="58" y="2.5" size="1" layer="26" rot="MR0" align="center">JST-PH</text>
 <text x="65" y="2.5" size="1" layer="26" rot="MR0" align="center">JST-PH</text>
 <rectangle x1="76" y1="5.75" x2="78" y2="6.25" layer="21"/>
-<text x="5" y="11" size="1" layer="26" rot="MR0" align="bottom-center">Vo</text>
+<text x="5" y="12.5" size="1" layer="26" rot="MR0" align="bottom-center">Vout</text>
 <text x="6" y="3.5" size="1" layer="26" rot="MR0" align="top-center">Vcc</text>
 <text x="1.46" y="5" size="1" layer="26" rot="MR0" align="top-center">V+</text>
 <text x="7.54" y="5" size="1" layer="26" rot="MR0" align="top-center">V/2</text>
-<text x="2.46" y="11" size="1" layer="26" rot="MR0" align="bottom-center">Vi</text>
+<text x="2.46" y="11" size="1" layer="26" rot="MR0" align="bottom-center">Vin</text>
 <polygon width="0.15" layer="22">
-<vertex x="2.25" y="12.75"/>
-<vertex x="2.25" y="14.25"/>
-<vertex x="1.75" y="14.25"/>
-<vertex x="1.75" y="12.75"/>
+<vertex x="2.25" y="18.25"/>
+<vertex x="2.25" y="19.75"/>
+<vertex x="1.75" y="19.75"/>
+<vertex x="1.75" y="18.25"/>
 </polygon>
 <polygon width="0.15" layer="22">
-<vertex x="4.25" y="12.75"/>
-<vertex x="4.25" y="14.25"/>
-<vertex x="3.75" y="14.25"/>
-<vertex x="3.75" y="12.75"/>
+<vertex x="4.25" y="18.25"/>
+<vertex x="4.25" y="19.75"/>
+<vertex x="3.75" y="19.75"/>
+<vertex x="3.75" y="18.25"/>
 </polygon>
-<text x="3" y="14.5" size="1" layer="26" rot="MR90" align="center-left">Dual</text>
-<text x="3" y="26.5" size="1" layer="26" rot="MR90" align="center-left">Ard.</text>
-<wire x1="2.75" y1="26.25" x2="4.25" y2="26.25" width="0.15" layer="22"/>
-<wire x1="4.25" y1="26.25" x2="4.25" y2="25.75" width="0.15" layer="22"/>
-<wire x1="4.25" y1="25.75" x2="2.75" y2="25.75" width="0.15" layer="22"/>
-<wire x1="2.75" y1="25.75" x2="2.75" y2="26.25" width="0.15" layer="22"/>
+<text x="3" y="20" size="1" layer="26" rot="MR90" align="center-left">Dual</text>
+<text x="3" y="32" size="1" layer="26" rot="MR90" align="center-left">Ard.</text>
+<wire x1="2.75" y1="31.75" x2="4.25" y2="31.75" width="0.15" layer="22"/>
+<wire x1="4.25" y1="31.75" x2="4.25" y2="31.25" width="0.15" layer="22"/>
+<wire x1="4.25" y1="31.25" x2="2.75" y2="31.25" width="0.15" layer="22"/>
+<wire x1="2.75" y1="31.25" x2="2.75" y2="31.75" width="0.15" layer="22"/>
 <polygon width="0.15" layer="22">
-<vertex x="1.75" y="26.25"/>
-<vertex x="1.75" y="24.75"/>
-<vertex x="2.25" y="24.75"/>
-<vertex x="2.25" y="26.25"/>
+<vertex x="1.75" y="31.75"/>
+<vertex x="1.75" y="30.25"/>
+<vertex x="2.25" y="30.25"/>
+<vertex x="2.25" y="31.75"/>
 </polygon>
 <polygon width="0.15" layer="22">
-<vertex x="2.75" y="25.25"/>
-<vertex x="4.25" y="25.25"/>
-<vertex x="4.25" y="24.75"/>
-<vertex x="2.75" y="24.75"/>
-</polygon>
-<wire x1="1.75" y1="32.25" x2="1.75" y2="31.75" width="0.15" layer="22"/>
-<wire x1="1.75" y1="31.75" x2="4.25" y2="31.75" width="0.15" layer="22"/>
-<wire x1="4.25" y1="31.75" x2="4.25" y2="32.25" width="0.15" layer="22"/>
-<wire x1="4.25" y1="32.25" x2="1.75" y2="32.25" width="0.15" layer="22"/>
-<text x="3" y="20.5" size="1" layer="26" rot="MR90" align="center-left">Single</text>
-<text x="3" y="32.5" size="1" layer="26" rot="MR90" align="center-left">Direct 5V</text>
-<polygon width="0.15" layer="22">
-<vertex x="1.75" y="31.25"/>
-<vertex x="4.25" y="31.25"/>
+<vertex x="2.75" y="30.75"/>
 <vertex x="4.25" y="30.75"/>
-<vertex x="1.75" y="30.75"/>
+<vertex x="4.25" y="30.25"/>
+<vertex x="2.75" y="30.25"/>
+</polygon>
+<wire x1="1.75" y1="37.75" x2="1.75" y2="37.25" width="0.15" layer="22"/>
+<wire x1="1.75" y1="37.25" x2="4.25" y2="37.25" width="0.15" layer="22"/>
+<wire x1="4.25" y1="37.25" x2="4.25" y2="37.75" width="0.15" layer="22"/>
+<wire x1="4.25" y1="37.75" x2="1.75" y2="37.75" width="0.15" layer="22"/>
+<text x="3" y="26" size="1" layer="26" rot="MR90" align="center-left">Single</text>
+<text x="3" y="38" size="1" layer="26" rot="MR90" align="center-left">Direct 5V</text>
+<polygon width="0.15" layer="22">
+<vertex x="1.75" y="36.75"/>
+<vertex x="4.25" y="36.75"/>
+<vertex x="4.25" y="36.25"/>
+<vertex x="1.75" y="36.25"/>
 </polygon>
 <polygon width="0.15" layer="22">
-<vertex x="4.25" y="18.75"/>
-<vertex x="4.25" y="20.25"/>
-<vertex x="3.75" y="20.25"/>
-<vertex x="3.75" y="18.75"/>
+<vertex x="4.25" y="24.25"/>
+<vertex x="4.25" y="25.75"/>
+<vertex x="3.75" y="25.75"/>
+<vertex x="3.75" y="24.25"/>
 </polygon>
 <polygon width="0.15" layer="22">
-<vertex x="3.25" y="18.75"/>
-<vertex x="3.25" y="20.25"/>
-<vertex x="2.75" y="20.25"/>
-<vertex x="2.75" y="18.75"/>
+<vertex x="3.25" y="24.25"/>
+<vertex x="3.25" y="25.75"/>
+<vertex x="2.75" y="25.75"/>
+<vertex x="2.75" y="24.25"/>
 </polygon>
-<wire x1="1.75" y1="20.25" x2="1.75" y2="18.75" width="0.15" layer="22"/>
-<wire x1="2.25" y1="20.25" x2="1.75" y2="20.25" width="0.15" layer="22"/>
-<wire x1="2.25" y1="18.75" x2="2.25" y2="20.25" width="0.15" layer="22"/>
-<wire x1="1.75" y1="18.75" x2="2.25" y2="18.75" width="0.15" layer="22"/>
-<text x="7.54" y="11" size="1" layer="26" rot="MR0" align="bottom-center">Vo</text>
-<text x="14" y="12" size="1" layer="26" rot="MR0" align="center">V+</text>
+<wire x1="1.75" y1="25.75" x2="1.75" y2="24.25" width="0.15" layer="22"/>
+<wire x1="2.25" y1="25.75" x2="1.75" y2="25.75" width="0.15" layer="22"/>
+<wire x1="2.25" y1="24.25" x2="2.25" y2="25.75" width="0.15" layer="22"/>
+<wire x1="1.75" y1="24.25" x2="2.25" y2="24.25" width="0.15" layer="22"/>
+<text x="7.54" y="11" size="1" layer="26" rot="MR0" align="bottom-center">Vout</text>
+<text x="14" y="11" size="1" layer="26" rot="MR0" align="center">V+</text>
 <text x="22.5" y="4.5" size="1" layer="26" rot="MR270" align="bottom-center">Vout</text>
 <text x="33.5" y="4.5" size="1" layer="26" rot="MR270" align="top-center">V+</text>
 <text x="33" y="16" size="1" layer="26" rot="MR0" align="center-left">Vcc</text>
@@ -468,10 +468,10 @@ on this side</text>
 <text x="40.5" y="12" size="1" layer="26" rot="MR0" align="center-right">Vin</text>
 <wire x1="22.5" y1="4.5" x2="25.5" y2="4.5" width="0.15" layer="22"/>
 <wire x1="30.5" y1="4.5" x2="33.5" y2="4.5" width="0.15" layer="22"/>
-<wire x1="2.75" y1="14.25" x2="3.25" y2="14.25" width="0.15" layer="22"/>
-<wire x1="3.25" y1="14.25" x2="3.25" y2="12.75" width="0.15" layer="22"/>
-<wire x1="3.25" y1="12.75" x2="2.75" y2="12.75" width="0.15" layer="22"/>
-<wire x1="2.75" y1="12.75" x2="2.75" y2="14.25" width="0.15" layer="22"/>
+<wire x1="2.75" y1="19.75" x2="3.25" y2="19.75" width="0.15" layer="22"/>
+<wire x1="3.25" y1="19.75" x2="3.25" y2="18.25" width="0.15" layer="22"/>
+<wire x1="3.25" y1="18.25" x2="2.75" y2="18.25" width="0.15" layer="22"/>
+<wire x1="2.75" y1="18.25" x2="2.75" y2="19.75" width="0.15" layer="22"/>
 <wire x1="1" y1="5.5" x2="9" y2="5.5" width="0.15" layer="22"/>
 <wire x1="9" y1="5.5" x2="9" y2="10.5" width="0.15" layer="22"/>
 <wire x1="9" y1="10.5" x2="1" y2="10.5" width="0.15" layer="22"/>
@@ -495,6 +495,12 @@ on this side</text>
 <rectangle x1="9.25" y1="42.46" x2="9.75" y2="44.46" layer="22"/>
 <hole x="17.145" y="47.625" drill="1"/>
 <circle x="17.145" y="47.625" radius="2.8" width="0.2" layer="42"/>
+<rectangle x1="76" y1="0.75" x2="78" y2="1.25" layer="22"/>
+<wire x1="5" y1="9.5" x2="5" y2="12" width="0.15" layer="22"/>
+<wire x1="14" y1="14" x2="14" y2="12" width="0.15" layer="22"/>
+<wire x1="3" y1="17.5" x2="3" y2="14" width="0.2" layer="22"/>
+<wire x1="2" y1="15" x2="3" y2="14" width="0.2" layer="22"/>
+<wire x1="4" y1="15" x2="3" y2="14" width="0.2" layer="22"/>
 </plain>
 <libraries>
 <library name="pineapple">
@@ -9723,7 +9729,7 @@ design rules under a new name.</description>
 <attribute name="SF_ID" value="PRT-09915" x="58" y="6" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="56.349" y="3.46" size="0.6096" layer="28" font="vector" ratio="20" rot="MR180"/>
 </element>
-<element name="5V" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="SMD1,27-2,54" package3d_urn="urn:adsk.eagle:package:30839/1" value="" x="69" y="3" smashed="yes">
+<element name="VCC" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="SMD1,27-2,54" package3d_urn="urn:adsk.eagle:package:30839/1" value="" x="69" y="3" smashed="yes">
 <attribute name="NAME" x="69" y="4.5" size="1" layer="25" rot="R90" align="center-left"/>
 <attribute name="POPULARITY" value="15" x="69" y="3" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="69" y="3" size="0.0254" layer="27"/>
@@ -9999,15 +10005,15 @@ design rules under a new name.</description>
 <via x="65.0748" y="16.5354" extent="1-16" drill="0.3048"/>
 <polygon width="0.2" layer="1">
 <vertex x="-1" y="-1"/>
-<vertex x="-1" y="52"/>
-<vertex x="90" y="52"/>
 <vertex x="90" y="-1"/>
+<vertex x="90" y="52"/>
+<vertex x="-1" y="52"/>
 </polygon>
 <polygon width="0.2" layer="16">
 <vertex x="-2" y="-2"/>
-<vertex x="-2" y="53"/>
-<vertex x="91" y="53"/>
 <vertex x="91" y="-2"/>
+<vertex x="91" y="53"/>
+<vertex x="-2" y="53"/>
 </polygon>
 </signal>
 <signal name="VCC" class="2">
@@ -10026,7 +10032,7 @@ design rules under a new name.</description>
 <contactref element="U1" pad="3"/>
 <contactref element="RN2" pad="1"/>
 <contactref element="IC1" pad="14"/>
-<contactref element="5V" pad="1"/>
+<contactref element="VCC" pad="1"/>
 <contactref element="JP1" pad="3"/>
 <contactref element="J8" pad="1"/>
 <wire x1="4.953" y1="7.5438" x2="4.953" y2="6.7818" width="0.6096" layer="1"/>
