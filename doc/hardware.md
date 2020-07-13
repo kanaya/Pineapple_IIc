@@ -73,3 +73,50 @@ Table. Working mode of Pineapple II
 | A5                   | Thermal sensor, ID |
 
 
+# Components
+
+| Kind             | Symbol | Specification   |
+|------------------|--------|-----------------|
+| Capacitor        | C1     | 474             |
+|                  | C2     | 105             |
+|                  | C3     | 104             |
+|                  | C4     | 22u             |
+|                  | C5     | 103             |
+|                  | C6     | 103             |
+|                  | C7     | 104             |
+| Diode            | D1     | 1S3             |
+|                  | D2     | 1S3             |
+|                  | D3     | 1S3             |
+| IC               | IC1    | 74LS07N         |
+| Connector        | J1     | DC Jack         |
+|                  | J2     | DIN 5p          |
+|                  | J3     | DIN 5p          |
+|                  | J4     | JST PH 2p       |
+|                  | J5     | JST PH 3p       |
+|                  | J6     | JST PH 5p       |
+|                  | J7     | Pinheader 1x5   |
+|                  | J11    | JST SH 4p       |
+| Jumper           | JP1    | Pinheader 2x3   |
+|                  | JP2    | Pinheader 1x3   |
+| Relay            | K1     | G5V-1           |
+| LED              | L1     | Any             |
+| Optocoupler      | OK1    | TLP552          |
+| FET              | Q11    | BSS138          |
+|                  | Q12    | BSS138          |
+| Resistor         | R1     | 473             |
+|                  | R2     | 102             |
+|                  | R3     | 221             |
+|                  | R4     | 221             |
+|                  | R5     | 221             |
+|                  | R6     | 221             |
+|                  | R11    | 102 (2012)      |
+|                  | R12    | 102 (2012)      |
+|                  | R13    | 102 (2012)      |
+|                  | R14    | 102 (2012)      |
+| Resistor Net     | RN1    | 10k 4-elements  |
+|                  | RN2    | 4.7k 4-elements |
+| Connector ML     | SV1    | 16p             |
+| Transistor       | T1     | 2SC1815Y        |
+| Micro Controller | MC1    | Arduino Micro   |
+| Thermal Sensor   | U1     | DS18B20         |
+| V. Regulator     | V1     | L7805           |
