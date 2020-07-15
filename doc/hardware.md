@@ -100,6 +100,7 @@ Table. Working mode of Pineapple II
 |                  | JP2    | Pinheader 1x3   |
 | Relay            | K1     | G5V-1           |
 | LED              | L1     | Any             |
+| Micro Controller | MC1    | Arduino Micro   |
 | Optocoupler      | OK1    | TLP552          |
 | FET              | Q11    | BSS138          |
 |                  | Q12    | BSS138          |
@@ -117,6 +118,5 @@ Table. Working mode of Pineapple II
 |                  | RN2    | 4.7k 4-elements |
 | Connector ML     | SV1    | 16p             |
 | Transistor       | T1     | 2SC1815Y        |
-| Micro Controller | MC1    | Arduino Micro   |
 | Thermal Sensor   | U1     | DS18B20         |
 | V. Regulator     | V1     | L7805           |
