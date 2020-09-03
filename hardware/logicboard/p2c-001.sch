@@ -36780,14 +36780,14 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <label x="40.64" y="157.48" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J5" gate="J$1" pin="2"/>
-<wire x1="43.18" y1="81.28" x2="45.72" y2="81.28" width="0.1524" layer="91"/>
-<label x="45.72" y="81.28" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="G2" gate="1" pin="P"/>
 <wire x1="66.04" y1="53.34" x2="68.58" y2="53.34" width="0.1524" layer="91"/>
 <label x="68.58" y="53.34" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J5" gate="J$1" pin="3"/>
+<wire x1="43.18" y1="83.82" x2="45.72" y2="83.82" width="0.1524" layer="91"/>
+<label x="45.72" y="83.82" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="D7" class="0">
@@ -36826,14 +36826,14 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <label x="40.64" y="149.86" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J5" gate="J$1" pin="3"/>
-<wire x1="43.18" y1="83.82" x2="45.72" y2="83.82" width="0.1524" layer="91"/>
-<label x="45.72" y="83.82" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="G1" gate="1" pin="P"/>
 <wire x1="66.04" y1="58.42" x2="68.58" y2="58.42" width="0.1524" layer="91"/>
 <label x="68.58" y="58.42" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J5" gate="J$1" pin="2"/>
+<wire x1="43.18" y1="81.28" x2="45.72" y2="81.28" width="0.1524" layer="91"/>
+<label x="45.72" y="81.28" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RLY" class="0">
