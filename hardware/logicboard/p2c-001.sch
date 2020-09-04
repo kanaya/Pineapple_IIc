@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -37246,41 +37246,43 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 </sheet>
 </sheets>
 <errors>
-<approved hash="101,1,241.3,83.82,IC1B,O,,,,"/>
-<approved hash="101,1,241.3,71.12,IC1C,O,,,,"/>
-<approved hash="101,1,241.3,58.42,IC1D,O,,,,"/>
-<approved hash="101,1,241.3,45.72,IC1E,O,,,,"/>
-<approved hash="101,1,241.3,33.02,IC1F,O,,,,"/>
-<approved hash="104,1,43.18,109.22,J7,VCC,VDD,,,"/>
-<approved hash="104,1,81.28,109.22,U1,VDD,VCC,,,"/>
-<approved hash="106,1,12.7,149.86,A4,,,,,"/>
+<approved hash="101,1,208.28,109.22,IC1B,O,,,,"/>
+<approved hash="101,1,208.28,96.52,IC1C,O,,,,"/>
+<approved hash="101,1,208.28,83.82,IC1D,O,,,,"/>
+<approved hash="101,1,208.28,71.12,IC1E,O,,,,"/>
+<approved hash="101,1,208.28,58.42,IC1F,O,,,,"/>
+<approved hash="104,1,96.52,60.96,J11,VCC,VDD,,,"/>
+<approved hash="104,1,160.02,106.68,U1,VDD,VCC,,,"/>
+<approved hash="106,1,17.78,147.32,A4,,,,,"/>
 <approved hash="113,1,130.071,89.431,FRAME1,,,,,"/>
-<approved hash="113,1,13.568,111.76,SV1,,,,,"/>
-<approved hash="113,1,241.3,83.82,X1,,,,,"/>
-<approved hash="113,1,241.3,71.12,X2,,,,,"/>
-<approved hash="113,1,241.3,58.42,X3,,,,,"/>
-<approved hash="113,1,241.3,45.72,X4,,,,,"/>
-<approved hash="113,1,241.3,33.02,X5,,,,,"/>
-<approved hash="113,1,215.9,160.02,X6,,,,,"/>
-<approved hash="113,1,195.58,160.02,X7,,,,,"/>
-<approved hash="113,1,195.58,134.62,X8,,,,,"/>
-<approved hash="113,1,215.9,134.62,X9,,,,,"/>
-<approved hash="113,1,12.7,167.64,X10,,,,,"/>
-<approved hash="113,1,12.7,144.78,X11,,,,,"/>
-<approved hash="113,1,12.7,142.24,X12,,,,,"/>
-<approved hash="113,1,12.7,137.16,X13,,,,,"/>
-<approved hash="113,1,12.7,129.54,X14,,,,,"/>
-<approved hash="113,1,12.7,127,X15,,,,,"/>
-<approved hash="113,1,38.1,129.54,X16,,,,,"/>
-<approved hash="113,1,38.1,127,X17,,,,,"/>
-<approved hash="113,1,38.1,137.16,X18,,,,,"/>
-<approved hash="113,1,65.7606,85.0875,5V,,,,,"/>
-<approved hash="113,1,65.7606,80.0075,D7,,,,,"/>
-<approved hash="113,1,65.7606,74.9275,SC,,,,,"/>
-<approved hash="113,1,65.7606,69.8475,SD,,,,,"/>
-<approved hash="113,1,65.7606,64.7675,G,,,,,"/>
-<approved hash="113,1,65.7606,59.6875,G1,,,,,"/>
-<approved hash="113,1,65.7606,54.6075,G2,,,,,"/>
+<approved hash="113,1,18.648,99.06,SV1,,,,,"/>
+<approved hash="113,1,208.28,109.22,X1,,,,,"/>
+<approved hash="113,1,208.28,96.52,X2,,,,,"/>
+<approved hash="113,1,208.28,83.82,X3,,,,,"/>
+<approved hash="113,1,208.28,71.12,X4,,,,,"/>
+<approved hash="113,1,208.28,58.42,X5,,,,,"/>
+<approved hash="113,1,200.66,157.48,X6,,,,,"/>
+<approved hash="113,1,180.34,157.48,X7,,,,,"/>
+<approved hash="113,1,180.34,132.08,X8,,,,,"/>
+<approved hash="113,1,200.66,132.08,X9,,,,,"/>
+<approved hash="113,1,17.78,165.1,X10,,,,,"/>
+<approved hash="113,1,17.78,142.24,X11,,,,,"/>
+<approved hash="113,1,17.78,139.7,X12,,,,,"/>
+<approved hash="113,1,17.78,134.62,X13,,,,,"/>
+<approved hash="113,1,17.78,127,X14,,,,,"/>
+<approved hash="113,1,17.78,124.46,X15,,,,,"/>
+<approved hash="113,1,43.18,127,X16,,,,,"/>
+<approved hash="113,1,43.18,124.46,X17,,,,,"/>
+<approved hash="113,1,43.18,134.62,X18,,,,,"/>
+<approved hash="113,1,91.1606,44.4475,VCC,,,,,"/>
+<approved hash="113,1,91.1606,39.3675,D7,,,,,"/>
+<approved hash="113,1,91.1606,34.2875,SC,,,,,"/>
+<approved hash="113,1,91.1606,29.2075,SD,,,,,"/>
+<approved hash="113,1,91.1606,24.1275,G,,,,,"/>
+<approved hash="113,1,91.1606,19.0475,G1,,,,,"/>
+<approved hash="113,1,91.1606,13.9675,G2,,,,,"/>
+<approved hash="113,1,190.5,167.64,X19,,,,,"/>
+<approved hash="113,1,58.42,63.5,X20,,,,,"/>
 </errors>
 </schematic>
 </drawing>
