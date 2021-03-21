@@ -536,11 +536,70 @@ DS18B20*</text>
 <vertex x="78" y="47.5"/>
 </polygon>
 <text x="7" y="46" size="1" layer="25" rot="R90" align="center">4.7k</text>
-<text x="61.5" y="20.92" size="0.8" layer="25" align="center">RX</text>
+<text x="60" y="21" size="0.8" layer="25" align="center-right">IN</text>
 <rectangle x1="67" y1="20.75" x2="69" y2="21.25" layer="21"/>
-<wire x1="60.5" y1="20.92" x2="56" y2="20.92" width="0.15" layer="21"/>
-<wire x1="61.5" y1="22" x2="61.5" y2="21.5" width="0.15" layer="21"/>
 <wire x1="58" y1="12" x2="68" y2="12" width="0.15" layer="21"/>
+<polygon width="0.15" layer="21">
+<vertex x="57.8" y="23.46"/>
+<vertex x="57.3" y="22.96"/>
+<vertex x="57.8" y="22.46"/>
+<vertex x="58.3" y="22.96"/>
+</polygon>
+<polygon width="0.15" layer="21">
+<vertex x="54.2" y="21.42"/>
+<vertex x="53.7" y="20.92"/>
+<vertex x="54.2" y="20.42"/>
+<vertex x="54.7" y="20.92"/>
+</polygon>
+<text x="63" y="21" size="0.8" layer="25" align="center-left">OUT</text>
+<wire x1="54.2" y1="23.96" x2="53.7" y2="23.46" width="0.15" layer="21"/>
+<wire x1="53.7" y1="23.46" x2="54.2" y2="22.96" width="0.15" layer="21"/>
+<wire x1="54.2" y1="22.96" x2="54.7" y2="23.46" width="0.15" layer="21"/>
+<wire x1="54.7" y1="23.46" x2="54.2" y2="23.96" width="0.15" layer="21"/>
+<wire x1="57.8" y1="26" x2="57.3" y2="25.5" width="0.15" layer="21"/>
+<wire x1="57.3" y1="25.5" x2="57.8" y2="25" width="0.15" layer="21"/>
+<wire x1="57.8" y1="25" x2="58.3" y2="25.5" width="0.15" layer="21"/>
+<wire x1="58.3" y1="25.5" x2="57.8" y2="26" width="0.15" layer="21"/>
+<wire x1="57.8" y1="28.54" x2="57.3" y2="28.04" width="0.15" layer="21"/>
+<wire x1="57.3" y1="28.04" x2="57.8" y2="27.54" width="0.15" layer="21"/>
+<wire x1="57.8" y1="27.54" x2="58.3" y2="28.04" width="0.15" layer="21"/>
+<wire x1="58.3" y1="28.04" x2="57.8" y2="28.54" width="0.15" layer="21"/>
+<wire x1="62" y1="21.5" x2="61.5" y2="21" width="0.15" layer="21"/>
+<wire x1="61.5" y1="21" x2="62" y2="20.5" width="0.15" layer="21"/>
+<wire x1="62" y1="20.5" x2="62.5" y2="21" width="0.15" layer="21"/>
+<wire x1="62.5" y1="21" x2="62" y2="21.5" width="0.15" layer="21"/>
+<polygon width="0.15" layer="21">
+<vertex x="61" y="21.5"/>
+<vertex x="60.5" y="21"/>
+<vertex x="61" y="20.5"/>
+<vertex x="61.5" y="21"/>
+</polygon>
+<polygon width="0.15" layer="21">
+<vertex x="63" y="16"/>
+<vertex x="62.5" y="15.5"/>
+<vertex x="63" y="15"/>
+<vertex x="63.5" y="15.5"/>
+</polygon>
+<wire x1="61.5" y1="41.5" x2="61" y2="41" width="0.15" layer="21"/>
+<wire x1="61" y1="41" x2="61.5" y2="40.5" width="0.15" layer="21"/>
+<wire x1="61.5" y1="40.5" x2="62" y2="41" width="0.15" layer="21"/>
+<wire x1="62" y1="41" x2="61.5" y2="41.5" width="0.15" layer="21"/>
+<polygon width="0.15" layer="21">
+<vertex x="57.5" y="38.5"/>
+<vertex x="57" y="38"/>
+<vertex x="57.5" y="37.5"/>
+<vertex x="58" y="38"/>
+</polygon>
+<polygon width="0.15" layer="21">
+<vertex x="85" y="16.25"/>
+<vertex x="84.5" y="15.75"/>
+<vertex x="85" y="15.25"/>
+<vertex x="85.5" y="15.75"/>
+</polygon>
+<wire x1="85" y1="35.75" x2="84.5" y2="35.25" width="0.15" layer="21"/>
+<wire x1="84.5" y1="35.25" x2="85" y2="34.75" width="0.15" layer="21"/>
+<wire x1="85" y1="34.75" x2="85.5" y2="35.25" width="0.15" layer="21"/>
+<wire x1="85.5" y1="35.25" x2="85" y2="35.75" width="0.15" layer="21"/>
 </plain>
 <libraries>
 <library name="pineapple">
