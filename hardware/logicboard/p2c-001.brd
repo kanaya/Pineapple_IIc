@@ -14,12 +14,12 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -367,7 +367,7 @@ DS18B20*</text>
 <text x="56" y="0.5" size="1" layer="25" align="bottom-center">G</text>
 <text x="58" y="0.5" size="1" layer="25" align="bottom-center">G1</text>
 <text x="60" y="0.5" size="1" layer="25" align="bottom-center">G2</text>
-<text x="65" y="0.5" size="1" layer="25" align="bottom-center">RLY</text>
+<text x="65" y="3.5" size="1" layer="25" align="bottom-center">RLY</text>
 <wire x1="39" y1="0" x2="39" y2="8" width="0.2" layer="21"/>
 <wire x1="39" y1="8" x2="50" y2="8" width="0.2" layer="21"/>
 <wire x1="50" y1="8" x2="50" y2="0" width="0.2" layer="21"/>
@@ -469,7 +469,7 @@ DS18B20*</text>
 <text x="28.575" y="33.655" size="1" layer="26" rot="MR90" align="center-left">SCL</text>
 <text x="31.115" y="33.655" size="1" layer="26" rot="MR90" align="center-left">SDA</text>
 <text x="19.685" y="34.925" size="1" layer="25" align="center-left">SparkFun RTC 12708</text>
-<text x="28" y="0.5" size="1" layer="25" align="bottom-center">Pineapple IIc 2.1.0-R</text>
+<text x="28" y="0.5" size="1" layer="25" align="bottom-center">Pineapple IIc 2.2.0-RC</text>
 <rectangle x1="34.75" y1="12" x2="35.25" y2="14" layer="22"/>
 <rectangle x1="53.75" y1="17.08" x2="54.25" y2="19.08" layer="22"/>
 <rectangle x1="77" y1="45" x2="79" y2="45.5" layer="21"/>
