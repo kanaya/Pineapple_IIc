@@ -35963,7 +35963,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <part name="U1" library="SparkFun-Sensors" deviceset="DS18B20" device=""/>
 <part name="SUPPLY26" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1" value="220"/>
-<part name="L1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1" value="Green"/>
+<part name="L2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1" value="Green"/>
 <part name="SUPPLY27" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="K1" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="G5V1" device="" package3d_urn="urn:adsk.eagle:package:24341/1"/>
 <part name="T1" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="2SC1815" device="" package3d_urn="urn:adsk.eagle:package:29929/2"/>
@@ -36301,7 +36301,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <attribute name="NAME" x="107.7214" y="29.21" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="112.522" y="29.21" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="L1" gate="G$1" x="109.22" y="22.86" smashed="yes">
+<instance part="L2" gate="G$1" x="109.22" y="22.86" smashed="yes">
 <attribute name="NAME" x="112.776" y="18.288" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="114.935" y="18.288" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -36530,7 +36530,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <label x="15.24" y="132.08" size="0.8128" layer="95" rot="MR0" xref="yes"/>
 </segment>
 <segment>
-<pinref part="L1" gate="G$1" pin="C"/>
+<pinref part="L2" gate="G$1" pin="C"/>
 <pinref part="SUPPLY27" gate="GND" pin="GND"/>
 <wire x1="109.22" y1="15.24" x2="109.22" y2="17.78" width="0.1524" layer="91"/>
 </segment>
@@ -36901,7 +36901,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <label x="25.4" y="55.88" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="LED1" class="0">
+<net name="LED2" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="11"/>
 <wire x1="43.18" y1="162.56" x2="45.72" y2="162.56" width="0.1524" layer="91"/>
@@ -37201,7 +37201,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 </net>
 <net name="LED1A" class="0">
 <segment>
-<pinref part="L1" gate="G$1" pin="A"/>
+<pinref part="L2" gate="G$1" pin="A"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="109.22" y1="27.94" x2="109.22" y2="25.4" width="0.1524" layer="91"/>
 </segment>
