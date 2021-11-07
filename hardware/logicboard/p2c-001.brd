@@ -9763,7 +9763,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="69.5" y="44" size="1" layer="25" ratio="10" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="74.1336" y="48.3114" size="0.9906" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="L1" library="led" library_urn="urn:adsk.eagle:library:259" package="LED3MM" package3d_urn="urn:adsk.eagle:package:15797/1" value="Green" x="78" y="48" smashed="yes" rot="R270">
+<element name="L2" library="led" library_urn="urn:adsk.eagle:library:259" package="LED3MM" package3d_urn="urn:adsk.eagle:package:15797/1" value="Green" x="78" y="48" smashed="yes" rot="R270">
 <attribute name="NAME" x="80.5" y="48" size="1" layer="25" ratio="10" align="center-left"/>
 <attribute name="POPULARITY" value="97" x="78" y="48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="76.349" y="46.095" size="1.27" layer="27" ratio="10" rot="R270"/>
@@ -9904,7 +9904,7 @@ design rules under a new name.</description>
 <contactref element="JP0" pad="3"/>
 <contactref element="JP0" pad="2"/>
 <contactref element="U$2" pad="P$12"/>
-<contactref element="L1" pad="K"/>
+<contactref element="L2" pad="K"/>
 <contactref element="RN2" pad="1"/>
 <contactref element="U$2" pad="P$21"/>
 <contactref element="J11" pad="1"/>
@@ -10494,7 +10494,7 @@ design rules under a new name.</description>
 <wire x1="12.3444" y1="34.4424" x2="12.27" y2="34.39" width="0.1524" layer="16"/>
 <wire x1="52.0446" y1="46.0248" x2="52.12" y2="46.02" width="0.1524" layer="16"/>
 </signal>
-<signal name="LED1">
+<signal name="LED2">
 <contactref element="U$2" pad="P$2"/>
 <contactref element="R5" pad="2"/>
 <wire x1="68.6562" y1="45.9486" x2="69.4182" y2="45.9486" width="0.1524" layer="1"/>
@@ -10875,7 +10875,7 @@ design rules under a new name.</description>
 <wire x1="73.9902" y1="30.1752" x2="74" y2="30.25" width="0.1524" layer="1"/>
 </signal>
 <signal name="LED1A">
-<contactref element="L1" pad="A"/>
+<contactref element="L2" pad="A"/>
 <contactref element="R5" pad="1"/>
 <wire x1="74.7522" y1="46.0248" x2="74.5998" y2="46.0248" width="0.1524" layer="1"/>
 <wire x1="77.9526" y1="49.2252" x2="74.7522" y2="46.0248" width="0.1524" layer="1"/>
