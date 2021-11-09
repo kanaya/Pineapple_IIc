@@ -36865,7 +36865,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <label x="127" y="45.72" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="A4" class="0">
+<net name="MNTR" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="A4"/>
 <wire x1="17.78" y1="147.32" x2="15.24" y2="147.32" width="0.1524" layer="91"/>
@@ -36949,7 +36949,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <label x="60.96" y="111.76" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="D7" class="0">
+<net name="D7GATE" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="7"/>
 <wire x1="43.18" y1="152.4" x2="45.72" y2="152.4" width="0.1524" layer="91"/>
