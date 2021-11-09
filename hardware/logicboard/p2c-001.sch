@@ -35940,7 +35940,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="J11" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="QWIIC_CONNECTOR" device="JS-1MM" package3d_urn="urn:adsk.eagle:package:38096/1" value="Qwiic"/>
 <part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_05" device="JST" package3d_urn="urn:adsk.eagle:package:38120/1" value="MKR"/>
-<part name="RN2" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="RN04" device="" package3d_urn="urn:adsk.eagle:package:24976/1" value="10k"/>
+<part name="RN1" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="RN04" device="" package3d_urn="urn:adsk.eagle:package:24976/1" value="10k"/>
 <part name="V1" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="78XXS" device="" package3d_urn="urn:adsk.eagle:package:30342/1" value="L7805"/>
 <part name="SV1" library="con-ml" library_urn="urn:adsk.eagle:library:164" deviceset="ML16LE" device="" package3d_urn="urn:adsk.eagle:package:8682/1"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-050X050" package3d_urn="urn:adsk.eagle:package:23633/1" value="22u"/>
@@ -35981,7 +35981,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <part name="X3" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="PAD-N" device=""/>
 <part name="X4" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="PAD-N" device=""/>
 <part name="X5" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="PAD-N" device=""/>
-<part name="RN1" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="RN04" device="" package3d_urn="urn:adsk.eagle:package:24976/1" value="4.7k"/>
+<part name="RN2" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="RN04" device="" package3d_urn="urn:adsk.eagle:package:24976/1" value="4.7k"/>
 <part name="JP0" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="" package3d_urn="urn:adsk.eagle:package:38063/1" value="GNDPINS"/>
 <part name="D1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE" device="-1N4148" package3d_urn="urn:adsk.eagle:package:38452/1" value=""/>
 <part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="JST-PTH" package3d_urn="urn:adsk.eagle:package:38069/1" value="GPIO"/>
@@ -36169,7 +36169,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <attribute name="VALUE" x="45.72" y="88.9" size="1.778" layer="96" rot="R90" align="bottom-center"/>
 <attribute name="NAME" x="43.18" y="88.9" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 </instance>
-<instance part="RN2" gate="1" x="124.46" y="25.4" smashed="yes" rot="R90">
+<instance part="RN1" gate="1" x="124.46" y="25.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="121.92" y="22.86" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="128.778" y="22.86" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -36352,7 +36352,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <instance part="X3" gate="G$1" x="208.28" y="83.82" smashed="yes"/>
 <instance part="X4" gate="G$1" x="208.28" y="71.12" smashed="yes"/>
 <instance part="X5" gate="G$1" x="208.28" y="58.42" smashed="yes"/>
-<instance part="RN1" gate="1" x="139.7" y="35.56" smashed="yes" rot="R270">
+<instance part="RN2" gate="1" x="139.7" y="35.56" smashed="yes" rot="R270">
 <attribute name="NAME" x="142.24" y="38.1" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="135.382" y="38.1" size="1.778" layer="96" rot="R270"/>
 </instance>
@@ -36536,7 +36536,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 </segment>
 <segment>
 <pinref part="SUPPLY8" gate="GND" pin="GND"/>
-<pinref part="RN2" gate="1" pin="1"/>
+<pinref part="RN1" gate="1" pin="1"/>
 <wire x1="124.46" y1="20.32" x2="124.46" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -36670,7 +36670,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <label x="157.48" y="109.22" size="0.8128" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN1" gate="1" pin="1"/>
+<pinref part="RN2" gate="1" pin="1"/>
 <wire x1="139.7" y1="40.64" x2="139.7" y2="43.18" width="0.1524" layer="91"/>
 <label x="139.7" y="43.18" size="0.8128" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -36809,7 +36809,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <label x="25.4" y="91.44" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN2" gate="1" pin="2"/>
+<pinref part="RN1" gate="1" pin="2"/>
 <wire x1="124.46" y1="30.48" x2="127" y2="30.48" width="0.1524" layer="91"/>
 <label x="127" y="30.48" size="0.8128" layer="95" xref="yes"/>
 </segment>
@@ -36826,7 +36826,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <label x="25.4" y="78.74" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN2" gate="1" pin="3"/>
+<pinref part="RN1" gate="1" pin="3"/>
 <wire x1="124.46" y1="35.56" x2="127" y2="35.56" width="0.1524" layer="91"/>
 <label x="127" y="35.56" size="0.8128" layer="95" xref="yes"/>
 </segment>
@@ -36843,7 +36843,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <label x="25.4" y="66.04" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN2" gate="1" pin="4"/>
+<pinref part="RN1" gate="1" pin="4"/>
 <wire x1="124.46" y1="40.64" x2="127" y2="40.64" width="0.1524" layer="91"/>
 <label x="127" y="40.64" size="0.8128" layer="95" xref="yes"/>
 </segment>
@@ -36860,7 +36860,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <label x="25.4" y="53.34" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN2" gate="1" pin="5"/>
+<pinref part="RN1" gate="1" pin="5"/>
 <wire x1="124.46" y1="45.72" x2="127" y2="45.72" width="0.1524" layer="91"/>
 <label x="127" y="45.72" size="0.8128" layer="95" xref="yes"/>
 </segment>
@@ -37026,7 +37026,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <label x="63.5" y="66.04" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN1" gate="1" pin="3"/>
+<pinref part="RN2" gate="1" pin="3"/>
 <wire x1="139.7" y1="25.4" x2="142.24" y2="25.4" width="0.1524" layer="91"/>
 <label x="142.24" y="25.4" size="0.8128" layer="95" xref="yes"/>
 </segment>
@@ -37060,7 +37060,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <label x="63.5" y="68.58" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN1" gate="1" pin="2"/>
+<pinref part="RN2" gate="1" pin="2"/>
 <wire x1="139.7" y1="30.48" x2="142.24" y2="30.48" width="0.1524" layer="91"/>
 <label x="142.24" y="30.48" size="0.8128" layer="95" xref="yes"/>
 </segment>
@@ -37077,7 +37077,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <pinref part="OK1" gate="A" pin="VO1"/>
 </segment>
 <segment>
-<pinref part="RN1" gate="1" pin="5"/>
+<pinref part="RN2" gate="1" pin="5"/>
 <wire x1="139.7" y1="15.24" x2="142.24" y2="15.24" width="0.1524" layer="91"/>
 <label x="142.24" y="15.24" size="0.8128" layer="95" xref="yes"/>
 </segment>
@@ -37348,7 +37348,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <wire x1="142.24" y1="134.62" x2="124.46" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="RN1" gate="1" pin="4"/>
+<pinref part="RN2" gate="1" pin="4"/>
 <wire x1="139.7" y1="20.32" x2="142.24" y2="20.32" width="0.1524" layer="91"/>
 <label x="142.24" y="20.32" size="0.8128" layer="95" xref="yes"/>
 </segment>
