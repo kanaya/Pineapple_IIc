@@ -591,7 +591,7 @@ DS18B20*</text>
 <wire x1="84.5" y1="35.25" x2="85" y2="34.75" width="0.15" layer="21"/>
 <wire x1="85" y1="34.75" x2="85.5" y2="35.25" width="0.15" layer="21"/>
 <wire x1="85.5" y1="35.25" x2="85" y2="35.75" width="0.15" layer="21"/>
-<text x="49.5" y="14" size="1" layer="25" align="center">221</text>
+<text x="44.5" y="14" size="1" layer="25" align="center">221</text>
 <wire x1="66.81" y1="10.5" x2="66.81" y2="13" width="0.15" layer="21"/>
 <wire x1="66.81" y1="13" x2="65.04" y2="13" width="0.15" layer="21"/>
 <wire x1="65.04" y1="13" x2="64.27" y2="13" width="0.15" layer="21"/>
@@ -601,7 +601,7 @@ DS18B20*</text>
 <wire x1="66.04" y1="12.5" x2="65.04" y2="13" width="0.15" layer="21"/>
 <wire x1="65.04" y1="12.5" x2="65.04" y2="13.5" width="0.15" layer="21"/>
 <text x="65.54" y="15" size="1" layer="25" align="bottom-center">L00</text>
-<text x="49.5" y="11.5" size="1" layer="25" align="center">472</text>
+<text x="44.5" y="11.5" size="1" layer="25" align="center">472</text>
 <wire x1="62" y1="7" x2="62" y2="0" width="0.15" layer="22"/>
 <wire x1="68" y1="0" x2="68" y2="7" width="0.15" layer="22"/>
 <wire x1="68" y1="7" x2="54" y2="7" width="0.15" layer="22"/>
@@ -10127,6 +10127,18 @@ design rules under a new name.</description>
 <wire x1="59.8932" y1="6.096" x2="60" y2="6" width="0.3048" layer="16"/>
 <via x="44.196" y="46.6344" extent="1-16" drill="0.3048"/>
 <via x="50.8254" y="47.7774" extent="1-16" drill="0.3048"/>
+<polygon width="0.2" layer="1">
+<vertex x="-1" y="-1"/>
+<vertex x="90" y="-1"/>
+<vertex x="90" y="52"/>
+<vertex x="-1" y="52"/>
+</polygon>
+<polygon width="0.2" layer="16">
+<vertex x="-2" y="-2"/>
+<vertex x="91" y="-2"/>
+<vertex x="91" y="53"/>
+<vertex x="-2" y="53"/>
+</polygon>
 </signal>
 <signal name="VCC" class="2">
 <contactref element="U$2" pad="P$23"/>
