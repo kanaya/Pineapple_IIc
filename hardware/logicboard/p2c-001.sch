@@ -35908,17 +35908,23 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.1524" drill="0.3048">
+<class number="0" name="default" width="0.1524" drill="0.1524">
 <clearance class="0" value="0.1524"/>
 </class>
-<class number="1" name="ground" width="0.6096" drill="0.3048">
+<class number="1" name="ground" width="0.3048" drill="0.1524">
 <clearance class="1" value="0.1524"/>
 </class>
-<class number="2" name="power1" width="0.6096" drill="0.3048">
+<class number="2" name="power1" width="0.508" drill="0.1524">
 <clearance class="2" value="0.1524"/>
 </class>
-<class number="3" name="power2" width="0.3048" drill="0.3048">
+<class number="3" name="power2" width="1.016" drill="0.1524">
 <clearance class="3" value="0.1524"/>
+</class>
+<class number="4" name="analog" width="0.3048" drill="0.1524">
+<clearance class="4" value="0.1524"/>
+</class>
+<class number="5" name="external" width="0.1524" drill="0.1524">
+<clearance class="5" value="0.1524"/>
 </class>
 </classes>
 <parts>
@@ -36713,7 +36719,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <junction x="147.32" y="160.02"/>
 </segment>
 </net>
-<net name="MIRTN" class="0">
+<net name="MIRTN" class="5">
 <segment>
 <wire x1="144.78" y1="154.94" x2="160.02" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="D3" gate="G$1" pin="A"/>
@@ -36730,7 +36736,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <label x="180.34" y="162.56" size="0.8128" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
-<net name="VDD" class="3">
+<net name="VDD" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="3V"/>
 <wire x1="17.78" y1="162.56" x2="15.24" y2="162.56" width="0.1524" layer="91"/>
@@ -36785,7 +36791,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <junction x="81.28" y="149.86"/>
 </segment>
 </net>
-<net name="VIN" class="2">
+<net name="VIN" class="3">
 <segment>
 <pinref part="U$2" gate="G$1" pin="9V"/>
 <wire x1="17.78" y1="129.54" x2="15.24" y2="129.54" width="0.1524" layer="91"/>
@@ -36797,7 +36803,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <label x="88.9" y="109.22" size="0.8128" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="ANLG1" class="0">
+<net name="ANLG1" class="4">
 <segment>
 <pinref part="U$2" gate="G$1" pin="A0"/>
 <wire x1="17.78" y1="157.48" x2="15.24" y2="157.48" width="0.1524" layer="91"/>
@@ -36814,7 +36820,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <label x="127" y="30.48" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="ANLG2" class="0">
+<net name="ANLG2" class="4">
 <segment>
 <pinref part="U$2" gate="G$1" pin="A1"/>
 <wire x1="17.78" y1="154.94" x2="15.24" y2="154.94" width="0.1524" layer="91"/>
@@ -36831,7 +36837,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <label x="127" y="35.56" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="ANLG3" class="0">
+<net name="ANLG3" class="4">
 <segment>
 <pinref part="U$2" gate="G$1" pin="A2"/>
 <wire x1="17.78" y1="152.4" x2="15.24" y2="152.4" width="0.1524" layer="91"/>
@@ -36848,7 +36854,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <label x="127" y="40.64" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="ANLG4" class="0">
+<net name="ANLG4" class="4">
 <segment>
 <pinref part="U$2" gate="G$1" pin="A3"/>
 <wire x1="17.78" y1="149.86" x2="15.24" y2="149.86" width="0.1524" layer="91"/>
@@ -37163,7 +37169,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <label x="139.7" y="88.9" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MISND" class="0">
+<net name="MISND" class="5">
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="160.02" y1="162.56" x2="162.56" y2="162.56" width="0.1524" layer="91"/>
@@ -37206,7 +37212,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <wire x1="109.22" y1="27.94" x2="109.22" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="V+" class="2">
+<net name="V+" class="3">
 <segment>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="38.1" x2="48.26" y2="38.1" width="0.1524" layer="91"/>
@@ -37233,7 +37239,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <label x="88.9" y="86.36" size="0.8128" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
-<net name="VOUT" class="2">
+<net name="VOUT" class="3">
 <segment>
 <pinref part="V1" gate="1" pin="OUT"/>
 <wire x1="66.04" y1="30.48" x2="68.58" y2="30.48" width="0.1524" layer="91"/>
@@ -37261,7 +37267,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <label x="93.98" y="109.22" size="0.8128" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="VCC/2" class="2">
+<net name="VCC/2" class="3">
 <segment>
 <pinref part="U$2" gate="G$1" pin="AREF"/>
 <wire x1="17.78" y1="160.02" x2="15.24" y2="160.02" width="0.1524" layer="91"/>
