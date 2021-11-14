@@ -180,7 +180,7 @@ kanaya@pineapple.cc, @kanaya</text>
 <circle x="86" y="3" radius="2" width="0.2" layer="42"/>
 <circle x="3" y="48" radius="2" width="0.2" layer="42"/>
 <circle x="3" y="3" radius="2" width="0.2" layer="42"/>
-<text x="44.5" y="30" size="1" layer="25" align="bottom-center">How to make</text>
+<text x="44.5" y="30" size="1.2" layer="25" align="bottom-center">How to make</text>
 <text x="34.5" y="48" size="1" layer="25" rot="R90" align="bottom-center">MC1</text>
 <text x="9" y="1" size="1" layer="26" rot="MR0" align="bottom-center">89x51mm</text>
 <polygon width="0.2" layer="41">
@@ -618,6 +618,18 @@ DS18B20*</text>
 <text x="44.5" y="16" size="1" layer="26" rot="MR0" align="center">Vcc/2 monitoring</text>
 <text x="44.5" y="14" size="1" layer="26" rot="MR0" align="center">R10</text>
 <text x="44.5" y="11.5" size="1" layer="26" rot="MR0" align="center">R11</text>
+<polygon width="0.15" layer="21">
+<vertex x="78.5" y="28"/>
+<vertex x="79.5" y="28"/>
+<vertex x="79" y="27"/>
+</polygon>
+<text x="79" y="28.5" size="1.2" layer="25" rot="R90" align="center-left">MIDI-IN</text>
+<polygon width="0.15" layer="21">
+<vertex x="79" y="24"/>
+<vertex x="78.5" y="23"/>
+<vertex x="79.5" y="23"/>
+</polygon>
+<text x="79" y="22.5" size="1.2" layer="25" rot="R90" align="center-right">MIDI-OUT</text>
 </plain>
 <libraries>
 <library name="pineapple">
