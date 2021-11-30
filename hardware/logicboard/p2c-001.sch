@@ -37402,7 +37402,6 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <approved hash="101,1,208.28,58.42,IC1F,O,,,,"/>
 <approved hash="104,1,96.52,60.96,J11,VCC,VDD,,,"/>
 <approved hash="104,1,160.02,106.68,U1,VDD,VCC,,,"/>
-<approved hash="106,1,17.78,147.32,A4,,,,,"/>
 <approved hash="113,1,130.071,89.431,FRAME1,,,,,"/>
 <approved hash="113,1,18.648,99.06,SV1,,,,,"/>
 <approved hash="113,1,208.28,96.52,X2,,,,,"/>
