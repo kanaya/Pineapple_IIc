@@ -36017,7 +36017,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <sheets>
 <sheet>
 <plain>
-<text x="218.44" y="20.32" size="1.778" layer="95">Pineapple IIc 2.0.1-A</text>
+<text x="218.44" y="20.32" size="1.778" layer="95">Pineapple IIc 2.5.0-RC</text>
 <wire x1="7.62" y1="10.16" x2="83.82" y2="10.16" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="83.82" y1="10.16" x2="83.82" y2="48.26" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="83.82" y1="48.26" x2="7.62" y2="48.26" width="0.1524" layer="94" style="shortdash"/>
