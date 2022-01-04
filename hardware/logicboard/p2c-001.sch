@@ -36011,8 +36011,8 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <part name="R9*" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1" value="10k"/>
 <part name="OK1" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="HCPL2630" device="" package3d_urn="urn:adsk.eagle:package:21941/1"/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R10" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1" value="220"/>
-<part name="R11" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1" value="4.7k"/>
+<part name="R11" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1" value="220"/>
+<part name="R12" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1" value="4.7k"/>
 </parts>
 <sheets>
 <sheet>
@@ -36421,11 +36421,11 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <attribute name="VALUE" x="221.615" y="73.66" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY3" gate="GND" x="215.9" y="71.12" smashed="yes"/>
-<instance part="R10" gate="G$1" x="215.9" y="91.44" smashed="yes" rot="R90">
+<instance part="R11" gate="G$1" x="215.9" y="91.44" smashed="yes" rot="R90">
 <attribute name="NAME" x="214.4014" y="87.63" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="219.202" y="87.63" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R11" gate="G$1" x="246.38" y="88.9" smashed="yes" rot="R90">
+<instance part="R12" gate="G$1" x="246.38" y="88.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="244.8814" y="85.09" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="249.682" y="85.09" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -36712,7 +36712,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <label x="93.98" y="40.64" size="0.8128" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="R12" gate="G$1" pin="2"/>
 <wire x1="246.38" y1="93.98" x2="246.38" y2="96.52" width="0.1524" layer="91"/>
 <label x="246.38" y="96.52" size="0.8128" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -36892,7 +36892,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <pinref part="OK1" gate="B" pin="VO2"/>
 <wire x1="243.84" y1="81.28" x2="246.38" y2="81.28" width="0.1524" layer="91"/>
 <label x="248.92" y="81.28" size="0.8128" layer="95" xref="yes"/>
-<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="246.38" y1="81.28" x2="248.92" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="83.82" x2="246.38" y2="81.28" width="0.1524" layer="91"/>
 <junction x="246.38" y="81.28"/>
@@ -37299,7 +37299,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <label x="93.98" y="86.36" size="0.8128" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="96.52" x2="215.9" y2="99.06" width="0.1524" layer="91"/>
 <label x="215.9" y="99.06" size="0.8128" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -37388,7 +37388,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <segment>
 <pinref part="OK1" gate="B" pin="A2"/>
 <wire x1="218.44" y1="83.82" x2="215.9" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="83.82" x2="215.9" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
